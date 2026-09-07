@@ -8,6 +8,150 @@
     },
     "projects": [
         {
+            "pakku_id": "fNcbV2PbHA2DcjD1",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "2032-world-height"
+            },
+            "name": {
+                "modrinth": "2032 World Height"
+            },
+            "id": {
+                "modrinth": "JTNe4RSx"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "2032-world-height-1.0.jar",
+                    "mc_versions": [
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JTNe4RSx/versions/HPfnOa6G/2032-world-height-1.0.jar",
+                    "id": "HPfnOa6G",
+                    "parent_id": "JTNe4RSx",
+                    "hashes": {
+                        "sha512": "fd76b3147eaf5b8285c27677c1b8a8d8252884a6cfe897252f8cec3a1052b9b2379b68ce1519f48a8f46e7be435d722aa4f93077756925928f45e50ff61d2f63",
+                        "sha1": "277a5635888fc37657f1bb03ec31b7baa00f5b43"
+                    },
+                    "required_dependencies": [],
+                    "size": 6681,
+                    "date_published": "2024-09-25T14:09:03.552523Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CXSPWTO8RGWnPGiV",
+            "pakku_links": [
+                "FstuBWmb0LPNMcI5",
+                "mVvomdSEIzFEMAbK",
+                "WJr2exszBd7a62Eg"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ad-astra"
+            },
+            "name": {
+                "modrinth": "Ad Astra"
+            },
+            "id": {
+                "modrinth": "3ufwT9JF"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ad_astra-forge-1.20.1-1.15.20.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/3ufwT9JF/versions/Qf7QFXk2/ad_astra-forge-1.20.1-1.15.20.jar",
+                    "id": "Qf7QFXk2",
+                    "parent_id": "3ufwT9JF",
+                    "hashes": {
+                        "sha512": "c7337add217258cea0cb7d9f9136b5a7c8a17600bc2cc9c722321af838690b6c285628dcaebfccedb3e1274683591ef7a45a3514094e5a3bcd8fe1c1f25626bf",
+                        "sha1": "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7"
+                    },
+                    "required_dependencies": [
+                        "G1hIVOrD",
+                        "M1953qlQ",
+                        "2u6LRnMa"
+                    ],
+                    "size": 7508861,
+                    "date_published": "2025-03-04T01:59:42.652052Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3BnSkCHmntiiUqTR",
+            "pakku_links": [
+                "CXSPWTO8RGWnPGiV",
+                "7fMTpB7I9tkY57qE"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ad-astra-delight"
+            },
+            "name": {
+                "modrinth": "Ad Astra Delight"
+            },
+            "id": {
+                "modrinth": "8gylzbLw"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "adastradelight-1.1.0-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8gylzbLw/versions/386H8fJv/adastradelight-1.1.0-1.20.1.jar",
+                    "id": "386H8fJv",
+                    "parent_id": "8gylzbLw",
+                    "hashes": {
+                        "sha512": "ffb02eeb43d8808ac692ce8cdaf98edcfd0114b07558e84854aca78ab1397a0536b95d781d4e0c20019359e6adbec561290b76481f0aafaa217602ab724eb599",
+                        "sha1": "ca7147ed2b01b49d3f14dcf9110bf4a712d08412"
+                    },
+                    "required_dependencies": [
+                        "3ufwT9JF",
+                        "R2OftAxM"
+                    ],
+                    "size": 49002,
+                    "date_published": "2025-01-03T11:31:53.809625Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VXcAL8A29XhUXfJU",
             "type": "MOD",
             "side": "BOTH",
@@ -290,6 +434,44 @@
                     ],
                     "size": 868071,
                     "date_published": "2024-12-01T11:50:17.502004Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "WJr2exszBd7a62Eg",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "botarium"
+            },
+            "name": {
+                "modrinth": "Botarium"
+            },
+            "id": {
+                "modrinth": "2u6LRnMa"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "botarium-forge-1.20.1-2.3.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/2u6LRnMa/versions/O7D6FTfW/botarium-forge-1.20.1-2.3.4.jar",
+                    "id": "O7D6FTfW",
+                    "parent_id": "2u6LRnMa",
+                    "hashes": {
+                        "sha512": "aa3530dde50966e47958690b02a343c4de3782d32ae3b2cb75b2155eebb76e172a292768d846b8d14a97bc9ebe18f1f655eaa3469fce13b2b4b15b16af0aba01",
+                        "sha1": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
+                    },
+                    "required_dependencies": [],
+                    "size": 157633,
+                    "date_published": "2024-06-29T17:39:00.425265Z"
                 }
             ]
         },
@@ -802,6 +984,44 @@
                     "required_dependencies": [],
                     "size": 553487,
                     "date_published": "2026-07-21T11:08:31.396433Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TOGJk4Dqf28JjwhF",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "justenoughbreeding"
+            },
+            "name": {
+                "modrinth": "Just Enough Breeding (JEBr)"
+            },
+            "id": {
+                "modrinth": "9Pk89J3g"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "justenoughbreeding-forge-1.20.1-3.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9Pk89J3g/versions/g5N9RqqE/justenoughbreeding-forge-1.20.1-3.0.1.jar",
+                    "id": "g5N9RqqE",
+                    "parent_id": "9Pk89J3g",
+                    "hashes": {
+                        "sha512": "d367ad5d7a703936a0a52f5c55bc70ddf7338a4b790f92316d6f024fc26f402cf7c1a2ba446465160d6213f3b41c71ef16aff300d4cce10c7ccbe03c5c281774",
+                        "sha1": "9e8eb217468e8970c08d30c84f901e515f55279a"
+                    },
+                    "required_dependencies": [],
+                    "size": 597960,
+                    "date_published": "2026-05-23T17:30:36.792372Z"
                 }
             ]
         },
@@ -1721,6 +1941,204 @@
             ]
         },
         {
+            "pakku_id": "mVvomdSEIzFEMAbK",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "resourceful-config"
+            },
+            "name": {
+                "modrinth": "Resourceful Config"
+            },
+            "id": {
+                "modrinth": "M1953qlQ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/DERs8u7v/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+                    "id": "DERs8u7v",
+                    "parent_id": "M1953qlQ",
+                    "hashes": {
+                        "sha512": "2e05fe27529d00d7808a83dbe0c475a0fb96a20ebfd5c9767f4cc8dcd9a865e20a18de41fb9ed710e5cd2e0211c30303b43c1f22702af1d50ee7212ad83a54d3",
+                        "sha1": "597d40920dcc935f963842c817dcc4901862ab14"
+                    },
+                    "required_dependencies": [],
+                    "size": 136923,
+                    "date_published": "2025-02-24T20:12:39.956555Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "FstuBWmb0LPNMcI5",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "resourceful-lib"
+            },
+            "name": {
+                "modrinth": "Resourceful Lib"
+            },
+            "id": {
+                "modrinth": "G1hIVOrD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "resourcefullib-forge-1.20.1-2.1.29.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar",
+                    "id": "OhsHaCcW",
+                    "parent_id": "G1hIVOrD",
+                    "hashes": {
+                        "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820",
+                        "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
+                    },
+                    "required_dependencies": [],
+                    "size": 432753,
+                    "date_published": "2024-08-24T19:45:23.325509Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "f47iovNTwtz2AgNO",
+            "pakku_links": [
+                "nCRc4ZdIEAl6v02T"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "sophisticated-backpacks"
+            },
+            "name": {
+                "modrinth": "Sophisticated Backpacks"
+            },
+            "id": {
+                "modrinth": "TyCTlI4b"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.67.2109.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/as0tf712/sophisticatedbackpacks-1.20.1-3.24.67.2109.jar",
+                    "id": "as0tf712",
+                    "parent_id": "TyCTlI4b",
+                    "hashes": {
+                        "sha512": "11c2e8084686d3a2bd9c94a4a7d0a52773adc6ebd2ba0b28bba05975862240a57dc48e83b92029e266de3bcb2214d7a5dd8c1c9bdd314b6863eb8cbe1cff9c1b",
+                        "sha1": "2f0b40179699a9a93fb3953fcd3b3e69bd38f382"
+                    },
+                    "required_dependencies": [
+                        "nmoqTijg"
+                    ],
+                    "size": 1159096,
+                    "date_published": "2026-08-19T23:05:31.730816Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nCRc4ZdIEAl6v02T",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "sophisticated-core"
+            },
+            "name": {
+                "modrinth": "Sophisticated Core"
+            },
+            "id": {
+                "modrinth": "nmoqTijg"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sophisticatedcore-1.20.1-1.3.84.2308.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/JGT2DD0v/sophisticatedcore-1.20.1-1.3.84.2308.jar",
+                    "id": "JGT2DD0v",
+                    "parent_id": "nmoqTijg",
+                    "hashes": {
+                        "sha512": "f287c44700f38673e8691ca07a24ab579bcd72ce596950cbeb2d2566fda00069f7535c8deac06ae05bc92cba3efc75427822b7e3aacfdd6f166b18a3dc24d40e",
+                        "sha1": "8aa610db0e761f2ea0f0d3c37c609347ddfae962"
+                    },
+                    "required_dependencies": [],
+                    "size": 1640160,
+                    "date_published": "2026-08-22T08:36:19.052805Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zCnuaRSBCcDbZrqC",
+            "pakku_links": [
+                "nCRc4ZdIEAl6v02T"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "sophisticated-storage"
+            },
+            "name": {
+                "modrinth": "Sophisticated Storage"
+            },
+            "id": {
+                "modrinth": "hMlaZH8f"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sophisticatedstorage-1.20.1-1.4.86.2131.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hMlaZH8f/versions/JCxeJIsN/sophisticatedstorage-1.20.1-1.4.86.2131.jar",
+                    "id": "JCxeJIsN",
+                    "parent_id": "hMlaZH8f",
+                    "hashes": {
+                        "sha512": "c3698fd39af033e6bdcd80e7eb194a2d284ab1f026a095b22d3c99838fd01fb6f8b6ae855b7baa6d9b1509ea130565d18b22bdd31a9d1de41b014ea50ddbb001",
+                        "sha1": "f01592882a63856927de2b5ef90aa0ce9924a41e"
+                    },
+                    "required_dependencies": [
+                        "nmoqTijg"
+                    ],
+                    "size": 1867686,
+                    "date_published": "2026-08-23T22:22:17.981074Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zKsO6SDFLaXy35IF",
             "type": "MOD",
             "side": "BOTH",
@@ -2163,6 +2581,44 @@
                     ],
                     "size": 811968,
                     "date_published": "2024-10-19T04:11:11.309263Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "snSqXeyYjJIsYtPy",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "xaeros-minimap"
+            },
+            "name": {
+                "modrinth": "Xaero's Minimap"
+            },
+            "id": {
+                "modrinth": "1bokaNcj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "xaerominimap-forge-1.20.1-26.4.2.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/A1JacFsh/xaerominimap-forge-1.20.1-26.4.2.jar",
+                    "id": "A1JacFsh",
+                    "parent_id": "1bokaNcj",
+                    "hashes": {
+                        "sha512": "6bf30d544f79e7ecf0a2522c1294cb8bbb1eaf731f428b1ae10edce20d0eacf831f407625c844bf4ee84816a78897a206e59525a0fb4722c4081d330b0c12500",
+                        "sha1": "8f5f747a33e787aaa3827b00eb0ad098966499ff"
+                    },
+                    "required_dependencies": [],
+                    "size": 2195245,
+                    "date_published": "2026-07-17T08:49:28.373847Z"
                 }
             ]
         },
