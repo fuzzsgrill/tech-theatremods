@@ -1,0 +1,13 @@
+name = "Even More Instruments!"
+filename = "evenmoreinstruments-1.20-1.20.1-6.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Mcs3cqJ1/versions/Y3VmW2Cj/evenmoreinstruments-1.20-1.20.1-6.1.4.jar"
+hash-format = "sha512"
+hash = "a97ee135206fb34166d6130d29d24fde426423b1b359d08cac16ed5c6f0db3ba544f9676100add655e8f55fbbc7b9b57b719fe770bdcc22602503ccf96d19892"
+
+[update]
+[update.modrinth]
+mod-id = "Mcs3cqJ1"
+version = "Y3VmW2Cj"

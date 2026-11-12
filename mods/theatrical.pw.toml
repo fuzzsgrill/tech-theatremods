@@ -1,0 +1,13 @@
+name = "Theatrical"
+filename = "Theatrical-forge-1.0.0-alpha.28.120+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xJEJ79eC/versions/toON9OfE/Theatrical-forge-1.0.0-alpha.28.120+mc1.20.1.jar"
+hash-format = "sha512"
+hash = "3a7ff0f478c09450884f03161cfc7f767cb5527fa2b7e0e8897fb77efc1e73857c91c929eefa2ce2c630dc586f95be384dcd59403f580301f749d8e1e42d5757"
+
+[update]
+[update.modrinth]
+mod-id = "xJEJ79eC"
+version = "toON9OfE"

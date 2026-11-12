@@ -1,0 +1,13 @@
+name = "RSInfinityBooster"
+filename = "rsinfinitybooster-forge-2.0.0+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sjzdj2cy/versions/A8nPq92k/rsinfinitybooster-forge-2.0.0+mc1.20.1.jar"
+hash-format = "sha512"
+hash = "df9ac5ef32c324deeabd8daaed8e35b0cd3aee1f11a00ef22c7a4b0f445dd471df8af8dece5b4c8080f2986d9e55be44253229f07b2edf9c61713001a973ecc0"
+
+[update]
+[update.modrinth]
+mod-id = "Sjzdj2cy"
+version = "A8nPq92k"

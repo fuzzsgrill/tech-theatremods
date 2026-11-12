@@ -1,0 +1,13 @@
+name = "Tech Theatre Mods"
+author = "Fuzz"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9cfd88e52ea6ab35675c8b714401596787527bc02ba14fda47b6afd108042f02"
+
+[versions]
+forge = "47.4.23"
+minecraft = "1.20.1"

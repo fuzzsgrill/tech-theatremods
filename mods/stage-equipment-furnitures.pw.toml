@@ -1,0 +1,13 @@
+name = "Stage Equipment Furnitures"
+filename = "S.E.F_Mod-v.5.8_hf_1.20.1-FORGE.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HUSjabOH/versions/xLKelHtU/S.E.F_Mod-v.5.8_hf_1.20.1-FORGE.jar"
+hash-format = "sha512"
+hash = "8c802ce239f96912377f0c85158ff4ad522c0d5a8ab3b35f54060ab5cd0c920aef075b67827be8bc044768aed7fdfa25e42d4d3166a1c2a52fdabdabbfe3eb6d"
+
+[update]
+[update.modrinth]
+mod-id = "HUSjabOH"
+version = "xLKelHtU"

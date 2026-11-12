@@ -1,0 +1,13 @@
+name = "Genshin Instruments"
+filename = "genshinstrument-1.20-1.20.1-5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UUD6Qkij/versions/DNcTeIAp/genshinstrument-1.20-1.20.1-5.0.jar"
+hash-format = "sha512"
+hash = "a4347037c8fde379cc6c4c0d9a356d5b53edea4399035af9094e5795966551a89c4f40d055a4b12a2e24e4cff8f93c971ca2cd3c5f44cfce90e07f00911f5201"
+
+[update]
+[update.modrinth]
+mod-id = "UUD6Qkij"
+version = "DNcTeIAp"

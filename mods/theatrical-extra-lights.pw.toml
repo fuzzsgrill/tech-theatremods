@@ -1,0 +1,13 @@
+name = "Theatrical: Extra Lights"
+filename = "TheatricalExtraLights-Beta-forge-1.4.13-mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tkqUgNnN/versions/uNgIjCEE/TheatricalExtraLights-Beta-forge-1.4.13-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "a004bd5207636d9270041d8db79b44ca558c592eb3dacbe6c5188b92b40a4a3d135ddea0e798b0a764f563ba01c3466a0bdfc57782f845139c7256c2b4454646"
+
+[update]
+[update.modrinth]
+mod-id = "tkqUgNnN"
+version = "uNgIjCEE"

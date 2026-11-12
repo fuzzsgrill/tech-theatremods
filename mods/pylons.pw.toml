@@ -1,0 +1,13 @@
+name = "Pylons"
+filename = "pylons-1.20.1-4.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/A82glthi/versions/IrtCWfIw/pylons-1.20.1-4.3.0.jar"
+hash-format = "sha512"
+hash = "283b47ccafc8e401bbbf09622c397793cd2eb429069d23a13a73d5a68e718448b153ab07ef89c50ebc4d0b00c0658d935b38167133b99daa588aa1b0eec1b62a"
+
+[update]
+[update.modrinth]
+mod-id = "A82glthi"
+version = "IrtCWfIw"

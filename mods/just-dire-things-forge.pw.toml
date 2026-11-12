@@ -1,0 +1,13 @@
+name = "Just Dire Things [Forge]"
+filename = "[Forge] justdirethings-1.1.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/89BWQkZU/versions/IQt6I6fE/[Forge] justdirethings-1.1.12.jar"
+hash-format = "sha512"
+hash = "31b81ed64096105d4cbc856dc24ef79919b4a01d0539cb172249fd8500695eb053d578b557f8b81768365b1ff6f2c205cf2e943aad3c72aae309f06bd4038707"
+
+[update]
+[update.modrinth]
+mod-id = "89BWQkZU"
+version = "IQt6I6fE"

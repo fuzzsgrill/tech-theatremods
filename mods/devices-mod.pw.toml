@@ -1,0 +1,13 @@
+name = "Omnixerio Devices Mod"
+filename = "devices-forge-0.8.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YDa5wT4H/versions/uyYeHRob/devices-forge-0.8.4.jar"
+hash-format = "sha512"
+hash = "b12f4722f1265922aa1e022a89b6cc3b3d522d58d0da610b1df512898fd5020541ca0ba15eec60f4f85345a821ebec60c6903f0e7de2c8ad7db8abcecc6b80e3"
+
+[update]
+[update.modrinth]
+mod-id = "YDa5wT4H"
+version = "uyYeHRob"

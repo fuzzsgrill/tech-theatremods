@@ -1,0 +1,13 @@
+name = "Theatrical Workbench"
+filename = "theatricalwb-0.0.1-mc1.20.1-forge-2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gYYjwNbc/versions/RBeJNkOW/theatricalwb-0.0.1-mc1.20.1-forge-2.jar"
+hash-format = "sha512"
+hash = "4009201083b3933468a6c46b434b4ab00c48df8f4e6a92494824edc01b4eeeb66d477c4f04fcdef8785a1d49c9263f9b73cf54d5a9ffceed30fc604b92bdd373"
+
+[update]
+[update.modrinth]
+mod-id = "gYYjwNbc"
+version = "RBeJNkOW"
