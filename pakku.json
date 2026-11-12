@@ -3,5 +3,13 @@
     "version": "0.0.1",
     "overrides": [
         "config"
-    ]
+    ],
+    "projects": {
+        "mcef": {
+            "side": "BOTH"
+        },
+        "questlog-quest-book": {
+            "side": "CLIENT"
+        }
+    }
 }
