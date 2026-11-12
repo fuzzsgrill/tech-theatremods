@@ -207,7 +207,7 @@
                 "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9"
             },
             "env": {
-                "client": "unsupported",
+                "client": "required",
                 "server": "required"
             },
             "downloads": [
@@ -1137,7 +1137,7 @@
                 "sha1": "9dccfe9d5bc5079c3b7c3dff6467364460af43c7"
             },
             "env": {
-                "client": "unsupported",
+                "client": "required",
                 "server": "required"
             },
             "downloads": [

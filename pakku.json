@@ -10,6 +10,12 @@
         },
         "questlog-quest-book": {
             "side": "CLIENT"
+        },
+        "create": {
+            "side": "BOTH"
+        },
+        "veinminer": {
+            "side": "BOTH"
         }
     }
 }
