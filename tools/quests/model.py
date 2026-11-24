@@ -38,6 +38,11 @@ def observe(block_id: str) -> Task:
     return Task("observation", {"block": block_id})
 
 
+def observe_tag(tag: str) -> Task:
+    """Look at any block in a block tag (e.g. every colour of a Devices laptop)."""
+    return Task("observation", {"tag": tag})
+
+
 def checkmark() -> Task:
     return Task("checkmark")
 

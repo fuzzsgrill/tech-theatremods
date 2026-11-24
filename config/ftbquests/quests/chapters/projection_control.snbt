@@ -194,19 +194,19 @@
 		{
 			id: "2BDD03CDE105D11F"
 			title: "Laptop"
-			icon: "devices:laptop"
+			icon: "devices:white_laptop"
 			x: 3.0d
 			y: 0.0d
 			description: [
-				"The Devices mod's laptop runs apps. Every operator position wants one."
+				"The Devices mod's laptop runs apps. Every operator position wants one. Place one, any colour, and look at it."
 			]
 			tasks: [
 				{
 					id: "77530E7A401C3A50"
-					type: "item"
-					item: "devices:laptop"
-					count: 1L
-					consume_items: false
+					type: "observation"
+					observe_type: 1
+					to_observe: "devices:laptops"
+					timer: 0L
 				}
 			]
 			rewards: [
@@ -220,19 +220,19 @@
 		{
 			id: "5195E291B8A5C34C"
 			title: "Network"
-			icon: "devices:router"
+			icon: "devices:white_router"
 			x: 3.0d
 			y: 1.5d
 			description: [
-				"A router connects devices to each other; each router has a device limit."
+				"A router connects devices to each other, up to a device limit. Place one, any colour, and look at it."
 			]
 			tasks: [
 				{
 					id: "F4DF16D8810469B4"
-					type: "item"
-					item: "devices:router"
-					count: 1L
-					consume_items: false
+					type: "observation"
+					observe_type: 1
+					to_observe: "devices:routers"
+					timer: 0L
 				}
 				{
 					id: "C17CBD063FEC4F28"
@@ -253,19 +253,19 @@
 		{
 			id: "76DD58FAD8D259B3"
 			title: "Paperwork"
-			icon: "devices:printer"
+			icon: "devices:white_printer"
 			x: 4.5d
 			y: 1.5d
 			description: [
-				"Print the running order."
+				"Print the running order. Place a printer, any colour, and look at it."
 			]
 			tasks: [
 				{
 					id: "4682A2487045D06C"
-					type: "item"
-					item: "devices:printer"
-					count: 1L
-					consume_items: false
+					type: "observation"
+					observe_type: 1
+					to_observe: "devices:printers"
+					timer: 0L
 				}
 			]
 			rewards: [
@@ -312,15 +312,15 @@
 				{
 					id: "F2B9AE24EE434497"
 					type: "observation"
-					observe_type: 0
-					to_observe: "devices:laptop"
+					observe_type: 1
+					to_observe: "devices:laptops"
 					timer: 0L
 				}
 				{
 					id: "6813174DC5A0AFBF"
 					type: "observation"
-					observe_type: 0
-					to_observe: "devices:router"
+					observe_type: 1
+					to_observe: "devices:routers"
 					timer: 0L
 				}
 				{

@@ -9,7 +9,7 @@ CHAPTER = Chapter(
     quests=[
         Quest(
             slug="energizing", title="Energizing", icon=P + "energizing_orb", x=0.0, y=0.0,
-            description=["Powah's progression runs through the Energizing Orb: surround it with Energizing Rods and feed it power to make energized materials."],
+            description=["Powah's progression runs through the Energizing Orb. Place Energizing Rods in range of it and power the rods; the orb itself needs no energy."],
             tasks=[item(P + "energizing_orb"), item(P + "energizing_rod_basic", 2)], rewards=[xp(100)],
         ),
         Quest(

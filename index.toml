@@ -126,7 +126,7 @@ hash = "3434753c0fd8039dade239e9f5caddfa21db56f3c651c2cabf814f7a5c0820de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration_gear.snbt"
-hash = "066861d25f09679727b3ad5c6077ac7a7920643960827a18f184efbdfd7cf914"
+hash = "29f05f263e5ed70cb7569e42e99e892c61fd1fffe1aef5cfdb7a8428870d31d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -142,23 +142,23 @@ hash = "5bf1ccc3c06236694d40926f176eb14a5353bbe81e8b8b9f5404c3f347c1e7f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power.snbt"
-hash = "7c9ce1ac1b42578e996d8163bdeba17ca5f5ad3926ca6cd8cfda68d9af5ef138"
+hash = "d3ceffd719cfd1d34b3150b900ca95562704e2ec60e7f138f7463899861b8256"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/projection_control.snbt"
-hash = "be2cc60a5be0931f4ea9d846b4fa996cb45998b62d4d624ea8d201b1dd22770e"
+hash = "6f20c03566177b9e2c5e9a0c2f31f7b2ceaa29cacf73368e9cf56a145f3d7557"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "8039c88963b1bbfc57cf80107f799e06b25ab99d1ca7735f8da1de37ee8f07d8"
+hash = "35940e1eb664e011d6e13bd57363ca7503aff54f2267f2e8028ac2f81dc2b7c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sound_music.snbt"
-hash = "2b391963bb7f1a80d2051b32abdf774afea07b6db21c94915c6e1d19990e3591"
+hash = "209b530f2adfe6ac2d2fd4444e517c50da6b73efd19fc7718921525ab9a62739"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stage_set.snbt"
-hash = "aa2128f89012a6ec979109312478649261d580043f495e5d6537609e64012add"
+hash = "4d209ba57043a552cee0111516f68ebe925658f1eaf856f0b397690a5e4d5121"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_logistics.snbt"

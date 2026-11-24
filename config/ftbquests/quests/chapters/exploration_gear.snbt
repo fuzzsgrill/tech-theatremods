@@ -259,18 +259,18 @@
 		}
 		{
 			id: "DE78A81597BE0658"
-			title: "Relic Hunter"
-			icon: "simplyswords:dormant_relic"
+			title: "Remnants"
+			icon: "simplyswords:empowered_remnant"
 			x: 1.5d
 			y: 1.5d
 			description: [
-				"Simply Swords' unique weapons are found, not crafted. Find a Dormant Relic."
+				"Simply Swords' unique weapons drop rarely from loot, or come from remnants: three Empowered Remnants, iron and glass craft a Contained Remnant."
 			]
 			tasks: [
 				{
 					id: "DA8D721BBE4711F4"
 					type: "item"
-					item: "simplyswords:dormant_relic"
+					item: "simplyswords:empowered_remnant"
 					count: 1L
 					consume_items: false
 				}
@@ -325,11 +325,11 @@
 		{
 			id: "B24997BFC0C2CBAF"
 			title: "Legend"
-			icon: "simplyswords:watcher_claymore"
+			icon: "simplyswords:contained_remnant"
 			x: 6.5d
 			y: 1.5d
 			description: [
-				"Carry a legendary unique: The Watcher."
+				"Craft a Contained Remnant. Carried, it changes form into a unique weapon; the mod hints to try it in the End with a Runic Tablet."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -337,7 +337,7 @@
 				{
 					id: "66A9EB6727A5009B"
 					type: "item"
-					item: "simplyswords:watcher_claymore"
+					item: "simplyswords:contained_remnant"
 					count: 1L
 					consume_items: false
 				}

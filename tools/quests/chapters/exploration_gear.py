@@ -47,9 +47,9 @@ CHAPTER = Chapter(
             tasks=[item(AA + "oxygen_distributor"), item(AA + "gravity_normalizer")], rewards=[xp(200)],
         ),
         Quest(
-            slug="relic", title="Relic Hunter", icon=SS + "dormant_relic", x=1.5, y=1.5,
-            description=["Simply Swords' unique weapons are found, not crafted. Find a Dormant Relic."],
-            tasks=[item(SS + "dormant_relic")], rewards=[xp(200)],
+            slug="relic", title="Remnants", icon=SS + "empowered_remnant", x=1.5, y=1.5,
+            description=["Simply Swords' unique weapons drop rarely from loot, or come from remnants: three Empowered Remnants, iron and glass craft a Contained Remnant."],
+            tasks=[item(SS + "empowered_remnant")], rewards=[xp(200)],
         ),
         Quest(
             slug="far_planets", title="Far Planets", icon=AA + "tier_4_rocket", x=6.5, y=-0.75,
@@ -58,10 +58,10 @@ CHAPTER = Chapter(
             tasks=[item(AA + "tier_4_rocket"), dimension(AA + "glacio")], rewards=[give("minecraft:diamond", 4), xp(500)],
         ),
         Quest(
-            slug="legend", title="Legend", icon=SS + "watcher_claymore", x=6.5, y=1.5,
+            slug="legend", title="Legend", icon=SS + "contained_remnant", x=6.5, y=1.5,
             shape="gear", size=1.5,
-            description=["Carry a legendary unique: The Watcher."],
-            tasks=[item(SS + "watcher_claymore")], rewards=[give("minecraft:diamond", 4), xp(500)],
+            description=["Craft a Contained Remnant. Carried, it changes form into a unique weapon; the mod hints to try it in the End with a Runic Tablet."],
+            tasks=[item(SS + "contained_remnant")], rewards=[give("minecraft:diamond", 4), xp(500)],
         ),
     ],
 )

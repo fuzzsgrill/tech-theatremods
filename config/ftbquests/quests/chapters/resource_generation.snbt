@@ -304,23 +304,30 @@
 			x: 6.0d
 			y: -0.75d
 			description: [
-				"Top-tier Mystical Agriculture: a stack of supremium essence, then insanium from Agradditions."
+				"Top-tier Mystical Agriculture: build an Awakening Altar, awaken supremium essence, and make insanium from Agradditions."
 			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
 				{
 					id: "2457B956E8641D2E"
-					type: "item"
-					item: "mysticalagriculture:supremium_essence"
-					count: 64L
-					consume_items: false
+					type: "observation"
+					observe_type: 0
+					to_observe: "mysticalagriculture:awakening_altar"
+					timer: 0L
 				}
 				{
 					id: "2198125EC507E65B"
 					type: "item"
+					item: "mysticalagriculture:awakened_supremium_essence"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "073377EC0F7D3631"
+					type: "item"
 					item: "mysticalagradditions:insanium_essence"
-					count: 16L
+					count: 4L
 					consume_items: false
 				}
 			]

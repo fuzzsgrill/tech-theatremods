@@ -145,3 +145,67 @@ class ChapterContentTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class HardenedCheckTests(unittest.TestCase):
+    def test_loader_requires_lang_key(self):
+        import zipfile
+        from check import load_known_items
+        with tempfile.TemporaryDirectory() as d:
+            jar = Path(d) / "fake.jar"
+            with zipfile.ZipFile(jar, "w") as z:
+                z.writestr("assets/x/models/item/real.json", "{}")
+                z.writestr("assets/x/models/item/ghost.json", "{}")
+                z.writestr("assets/x/lang/en_us.json", '{"item.x.real": "Real"}')
+            self.assertEqual(load_known_items([jar]), {"x:real"})
+
+    def test_loader_accepts_recipe_result_without_lang(self):
+        import zipfile
+        from check import load_known_items
+        with tempfile.TemporaryDirectory() as d:
+            jar = Path(d) / "fake.jar"
+            with zipfile.ZipFile(jar, "w") as z:
+                z.writestr("assets/x/models/item/made.json", "{}")
+                z.writestr("assets/x/models/item/ghost.json", "{}")
+                z.writestr("data/x/recipes/made.json", '{"type": "minecraft:crafting_shapeless", "group": "x:ghost", "result": {"item": "x:made"}}')
+            self.assertEqual(load_known_items([jar]), {"x:made"})
+
+    def test_namespace_without_recipes_rejected(self):
+        ch = chapter(quests=[quest(slug="speaker", tasks=[item("sef:speaker")])])
+        errors = check([ch], known_items={"sef:speaker", "minecraft:book"}, uncraftable_namespaces={"sef"})
+        self.assertTrue(any("speaker" in e and "sef:speaker" in e and "recipe" in e for e in errors))
+
+    def test_observe_tag_snbt(self):
+        from model import observe_tag
+        text = built_text(chapter(quests=[quest(tasks=[observe_tag("devices:laptops")])]))
+        self.assertIn("observe_type: 1", text)
+        self.assertIn('to_observe: "devices:laptops"', text)
+
+    def test_observe_tag_must_exist(self):
+        from model import observe_tag
+        ch = chapter(quests=[quest(slug="lap", tasks=[observe_tag("devices:laptopz")])])
+        errors = check([ch], known_items={"minecraft:book"}, known_block_tags={"devices:laptops"})
+        self.assertTrue(any("lap" in e and "devices:laptopz" in e for e in errors))
+
+
+class Phase2ContentTests(unittest.TestCase):
+    def test_energizing_orb_needs_no_power(self):
+        text = quest_text("power", "energizing")
+        self.assertNotIn("feed it power", text)
+        self.assertIn("rods", text.lower())
+
+    def test_relic_mentions_contained_remnant(self):
+        text = quest_text("exploration_gear", "relic")
+        self.assertNotIn("found, not crafted", text)
+        self.assertIn("Contained Remnant", text)
+
+    def test_legend_capstone_is_not_luck(self):
+        q = next(q for q in chapter_by_slug("exploration_gear").quests if q.slug == "legend")
+        ids = [t.fields.get("item") for t in q.tasks]
+        self.assertNotIn("simplyswords:watcher_claymore", ids)
+
+    def test_supremium_capstone_not_grind(self):
+        q = next(q for q in chapter_by_slug("resource_generation").quests if q.slug == "supremium")
+        counts = {t.fields.get("item"): t.fields.get("count") for t in q.tasks if t.type == "item"}
+        self.assertLessEqual(counts.get("mysticalagriculture:supremium_essence", 0), 16)
+        self.assertLessEqual(counts.get("mysticalagradditions:insanium_essence", 0), 4)

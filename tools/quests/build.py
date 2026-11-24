@@ -56,8 +56,12 @@ def _task(ch, q, i, t):
         d["item"] = t.fields["item"]
         d["count"] = Long(t.fields["count"])
         d["consume_items"] = False
+    elif t.type == "observation" and "tag" in t.fields:
+        d["observe_type"] = 1  # ObserveType.BLOCK_TAG
+        d["to_observe"] = t.fields["tag"]
+        d["timer"] = Long(0)
     elif t.type == "observation":
-        d["observe_type"] = 0
+        d["observe_type"] = 0  # ObserveType.BLOCK
         d["to_observe"] = t.fields["block"]
         d["timer"] = Long(0)
     elif t.type == "dimension":

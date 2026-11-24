@@ -10,8 +10,97 @@ VANILLA_JAR = Path("/mnt/c/Users/fuzzs/Downloads/PrismLauncher-Windows-MinGW-w64
                    "/libraries/com/mojang/minecraft/1.20.1/minecraft-1.20.1-client.jar")
 
 
+def _iter_zips(jar_paths):
+    import io
+
+    def walk(zf):
+        yield zf
+        for name in zf.namelist():
+            if name.startswith("META-INF/jarjar/") and name.endswith(".jar"):
+                yield from walk(zipfile.ZipFile(io.BytesIO(zf.read(name))))
+
+    for p in jar_paths:
+        yield from walk(zipfile.ZipFile(p))
+
+
+def _lang_keys(jar_paths) -> set:
+    import json
+    keys = set()
+    for zf in _iter_zips(jar_paths):
+        for name in zf.namelist():
+            if name.startswith("assets/") and name.endswith("/lang/en_us.json"):
+                try:
+                    keys.update(json.loads(zf.read(name)))
+                except ValueError:
+                    pass
+    return keys
+
+
+def _recipe_results(jar_paths) -> set:
+    """Every item ID that some recipe outputs (result/results/output/outputs, any shape)."""
+    import json
+    out = set()
+
+    def grab(v):
+        if isinstance(v, str) and ":" in v:
+            out.add(v)
+        elif isinstance(v, dict):
+            for k in ("item", "id", "name"):
+                if isinstance(v.get(k), str):
+                    out.add(v[k])
+            for vv in v.values():
+                if isinstance(vv, (dict, list)):
+                    grab(vv)
+        elif isinstance(v, list):
+            for x in v:
+                grab(x)
+
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in ("result", "results", "output", "outputs", "mainOutput", "secondaryOutput"):
+                    grab(v)
+                else:
+                    walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    for zf in _iter_zips(jar_paths):
+        for name in zf.namelist():
+            if name.startswith("data/") and "/recipes/" in name and name.endswith(".json"):
+                try:
+                    walk(json.loads(zf.read(name)))
+                except ValueError:
+                    pass
+    return out
+
+
+def load_block_tags(jar_paths) -> set:
+    tags = set()
+    for zf in _iter_zips(jar_paths):
+        for name in zf.namelist():
+            parts = name.split("/")
+            if len(parts) >= 5 and parts[0] == "data" and parts[2:4] == ["tags", "blocks"] and name.endswith(".json"):
+                tags.add(f"{parts[1]}:{'/'.join(parts[4:])[:-5]}")
+    return tags
+
+
+def load_uncraftable_namespaces(jar_paths, known_items) -> set:
+    """Namespaces with items but no mention in any recipe anywhere (creative-only content)."""
+    import re
+    mentioned = set()
+    for zf in _iter_zips(jar_paths):
+        for name in zf.namelist():
+            if name.startswith("data/") and "/recipes/" in name and name.endswith(".json"):
+                mentioned.update(m.decode() for m in re.findall(rb'"([a-z0-9_.-]+):[a-z0-9_/.-]+"', zf.read(name)))
+    return {i.split(":")[0] for i in known_items} - mentioned
+
+
 def load_known_items(jar_paths, kind="item") -> set:
-    """IDs from each jar (nested jars included): kind="item" reads assets/<ns>/models/item/*.json,
+    """IDs from each jar (nested jars included): kind="item" reads assets/<ns>/models/item/*.json
+    and keeps only vanilla IDs, IDs with an item.*/block.* lang key, or IDs some recipe outputs
+    (a leftover model file alone is not a registered item);
     kind="block" reads assets/<ns>/blockstates/*.json (placeable blocks)."""
     known = set()
 
@@ -31,6 +120,12 @@ def load_known_items(jar_paths, kind="item") -> set:
     for p in jar_paths:
         with zipfile.ZipFile(p) as zf:
             scan(zf)
+    if kind == "item":
+        lang = _lang_keys(jar_paths)
+        made = _recipe_results(jar_paths)
+        known = {i for i in known
+                 if i.startswith("minecraft:") or i in made
+                 or f"item.{i.replace(':', '.')}" in lang or f"block.{i.replace(':', '.')}" in lang}
     return known
 
 
@@ -38,7 +133,7 @@ def _ids_in(quest):
     for t in quest.tasks:
         if t.type == "item":
             yield t.fields["item"], "task"
-        elif t.type == "observation":
+        elif t.type == "observation" and "block" in t.fields:
             yield t.fields["block"], "observe"
     for r in quest.rewards:
         if r.type == "item":
@@ -46,7 +141,7 @@ def _ids_in(quest):
     yield quest.icon, "icon"
 
 
-def check(chapters, known_items, known_blocks=None) -> list:
+def check(chapters, known_items, known_blocks=None, uncraftable_namespaces=None, known_block_tags=None) -> list:
     errors = []
     for ch in chapters:
         slugs = [q.slug for q in ch.quests]
@@ -59,9 +154,16 @@ def check(chapters, known_items, known_blocks=None) -> list:
             for item_id, role in _ids_in(q):
                 if item_id not in known_items:
                     errors.append(f"{where}: unknown item {item_id} ({role})")
+            for item_id, role in _ids_in(q):
+                if uncraftable_namespaces and role != "icon" and item_id.split(":")[0] in uncraftable_namespaces:
+                    errors.append(f"{where}: {item_id} comes from a mod with no recipes (creative-only?)")
+            for t in q.tasks:
+                if t.type == "observation" and "tag" in t.fields and known_block_tags is not None \
+                        and t.fields["tag"] not in known_block_tags:
+                    errors.append(f"{where}: observe tag {t.fields['tag']} does not exist")
             if known_blocks is not None:
                 for t in q.tasks:
-                    if t.type == "observation" and t.fields["block"] not in known_blocks:
+                    if t.type == "observation" and "block" in t.fields and t.fields["block"] not in known_blocks:
                         errors.append(f"{where}: observe target {t.fields['block']} is not a placeable block")
             for d in q.depends:
                 if d not in slugs:
@@ -81,8 +183,10 @@ def main(argv):
     jars.append(VANILLA_JAR)
     known = load_known_items(jars)
     blocks = load_known_items(jars, kind="block")
+    uncraftable = load_uncraftable_namespaces(jars, known)
+    tags = load_block_tags(jars)
     chapters = load_chapters()
-    errors = check(chapters, known, blocks)
+    errors = check(chapters, known, blocks, uncraftable, tags)
     for e in errors:
         print("ERROR", e)
     print(f"checked {len(chapters)} chapters, {sum(len(c.quests) for c in chapters)} quests "

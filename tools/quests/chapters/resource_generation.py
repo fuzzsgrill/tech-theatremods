@@ -63,8 +63,9 @@ CHAPTER = Chapter(
         Quest(
             slug="supremium", title="Supremium", icon=MA + "supremium_essence", x=6.0, y=-0.75,
             shape="gear", size=1.5,
-            description=["Top-tier Mystical Agriculture: a stack of supremium essence, then insanium from Agradditions."],
-            tasks=[item(MA + "supremium_essence", 64), item("mysticalagradditions:insanium_essence", 16)],
+            description=["Top-tier Mystical Agriculture: build an Awakening Altar, awaken supremium essence, and make insanium from Agradditions."],
+            tasks=[observe(MA + "awakening_altar"), item(MA + "awakened_supremium_essence"),
+                   item("mysticalagradditions:insanium_essence", 4)],
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),
         Quest(

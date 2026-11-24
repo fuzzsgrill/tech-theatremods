@@ -1,7 +1,6 @@
 from model import Chapter, Quest, give, item, observe, xp
 
 C = "create:"
-SEF = "sef:"
 FB = "framedblocks:"
 
 CHAPTER = Chapter(
@@ -35,22 +34,6 @@ CHAPTER = Chapter(
             tasks=[item("mcwbridges:rope_oak_bridge", 8), item("connectedglass:borderless_glass", 16)], rewards=[xp(100)],
         ),
         Quest(
-            slug="build_the_stage", title="Build the Stage", icon=SEF + "stage_floor", x=3.0, y=-1.5,
-            description=["Stage Equipment Furnitures has a real stage kit: floor, stairs and a barrier line."],
-            tasks=[item(SEF + "stage_floor", 16), item(SEF + "stage_stairs", 2), item(SEF + "stage_barrier", 4)],
-            rewards=[xp(100)],
-        ),
-        Quest(
-            slug="the_house", title="The House", icon=SEF + "theatre_seat_red", x=3.0, y=0.0,
-            description=["Seat the audience."],
-            tasks=[item(SEF + "theatre_seat_red", 16)], rewards=[xp(100)],
-        ),
-        Quest(
-            slug="rigging", title="Rigging", icon=SEF + "chain_hoist", x=3.0, y=1.5,
-            description=["Ground support: quad truss pillars and a chain hoist to fly the grid."],
-            tasks=[item(SEF + "quad_truss_pillar", 4), item(SEF + "chain_hoist", 2)], rewards=[xp(100)],
-        ),
-        Quest(
             slug="it_moves", title="It Moves", icon=C + "mechanical_bearing", x=4.5, y=0.0,
             description=["A Mechanical Bearing rotates whatever is glued to its face. Super Glue holds the set piece together."],
             tasks=[item(C + "mechanical_bearing"), item(C + "super_glue")], rewards=[xp(150)],
@@ -74,16 +57,6 @@ CHAPTER = Chapter(
             tasks=[
                 observe(C + "mechanical_bearing"), observe(C + "rope_pulley"),
                 observe(C + "gantry_carriage"), observe(C + "redstone_link"),
-            ],
-            rewards=[give("minecraft:diamond", 4), xp(500)],
-        ),
-        Quest(
-            slug="open_the_house", title="Open the House", icon=SEF + "theatre_seat_red", x=6.5, y=-2.0,
-            shape="gear", size=1.5,
-            description=["A finished venue: stage floor and stairs, seating, flown rig on truss, and haze. Look at each part."],
-            tasks=[
-                observe(SEF + "stage_floor"), observe(SEF + "stage_stairs"), observe(SEF + "theatre_seat_red"),
-                observe(SEF + "quad_truss_pillar"), observe(SEF + "fog_machine"),
             ],
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),

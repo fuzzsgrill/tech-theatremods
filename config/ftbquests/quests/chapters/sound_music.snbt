@@ -215,105 +215,13 @@
 			]
 		}
 		{
-			id: "F5CB6643D082C874"
-			title: "PA System"
-			icon: "sef:funktion_two_f221"
-			x: 3.0d
-			y: -1.5d
-			description: [
-				"Stage Equipment Furnitures adds real-world PA. Stack some tops and subs."
-			]
-			tasks: [
-				{
-					id: "B5F6C60F78274E0D"
-					type: "item"
-					item: "sef:funktion_two_f221"
-					count: 2L
-					consume_items: false
-				}
-				{
-					id: "BC70C99DD636CBD5"
-					type: "item"
-					item: "sef:funktion_two_f121"
-					count: 2L
-					consume_items: false
-				}
-			]
-			rewards: [
-				{
-					id: "7884CA435D2ACE53"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			id: "9FD75739C8BB505C"
-			title: "Line Array"
-			icon: "sef:t_acoustics_k_1"
-			x: 4.5d
-			y: -1.5d
-			description: [
-				"Fly a line array for the big room."
-			]
-			tasks: [
-				{
-					id: "2700464442834EAF"
-					type: "item"
-					item: "sef:t_acoustics_k_1"
-					count: 4L
-					consume_items: false
-				}
-			]
-			rewards: [
-				{
-					id: "C4CEA952233829C7"
-					type: "xp"
-					xp: 150
-				}
-			]
-		}
-		{
-			id: "3CC9440A6BCD73FB"
-			title: "Mix Position"
-			icon: "sef:mixer_dm3"
-			x: 3.0d
-			y: 1.5d
-			description: [
-				"Every show needs a sound desk. Set up a mixer and a pair of decks."
-			]
-			tasks: [
-				{
-					id: "FD89893F3D8D61EB"
-					type: "item"
-					item: "sef:mixer_dm3"
-					count: 1L
-					consume_items: false
-				}
-				{
-					id: "E1DB77DF7EFAA772"
-					type: "item"
-					item: "sef:tioneer_cdj_3000"
-					count: 2L
-					consume_items: false
-				}
-			]
-			rewards: [
-				{
-					id: "2CDFEF87A32992D5"
-					type: "xp"
-					xp: 150
-				}
-			]
-		}
-		{
 			id: "2961DCA6A6C1DA4A"
 			title: "The Band"
 			icon: "evenmoreinstruments:koto"
 			x: 6.0d
 			y: 0.0d
 			description: [
-				"A full band and its PA, placed and ready: a keyboard, a koto, a looper, a line array and the mixer that runs it. Look at each one."
+				"A band set up and ready to record: a keyboard on its stand, a koto, and a looper paired to them. Look at each one."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -329,28 +237,21 @@
 					id: "FA629BC85B74A660"
 					type: "observation"
 					observe_type: 0
-					to_observe: "evenmoreinstruments:koto"
+					to_observe: "evenmoreinstruments:keyboard_stand"
 					timer: 0L
 				}
 				{
 					id: "E954615FA978740C"
 					type: "observation"
 					observe_type: 0
-					to_observe: "evenmoreinstruments:looper"
+					to_observe: "evenmoreinstruments:koto"
 					timer: 0L
 				}
 				{
 					id: "C7B0E1D5DAEC0485"
 					type: "observation"
 					observe_type: 0
-					to_observe: "sef:t_acoustics_k_1"
-					timer: 0L
-				}
-				{
-					id: "3E70B1866729634C"
-					type: "observation"
-					observe_type: 0
-					to_observe: "sef:mixer_dm3"
+					to_observe: "evenmoreinstruments:looper"
 					timer: 0L
 				}
 			]

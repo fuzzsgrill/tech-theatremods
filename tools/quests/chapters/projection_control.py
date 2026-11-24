@@ -1,4 +1,4 @@
-from model import Chapter, Quest, give, item, observe, xp
+from model import Chapter, Quest, give, item, observe, observe_tag, xp
 
 WD = "webdisplays:"
 DV = "devices:"
@@ -42,19 +42,19 @@ CHAPTER = Chapter(
             tasks=[item(WD + "minepad")], rewards=[xp(100)],
         ),
         Quest(
-            slug="laptop", title="Laptop", icon=DV + "laptop", x=3.0, y=0.0,
-            description=["The Devices mod's laptop runs apps. Every operator position wants one."],
-            tasks=[item(DV + "laptop")], rewards=[xp(100)],
+            slug="laptop", title="Laptop", icon=DV + "white_laptop", x=3.0, y=0.0,
+            description=["The Devices mod's laptop runs apps. Every operator position wants one. Place one, any colour, and look at it."],
+            tasks=[observe_tag(DV + "laptops")], rewards=[xp(100)],
         ),
         Quest(
-            slug="network", title="Network", icon=DV + "router", x=3.0, y=1.5,
-            description=["A router connects devices to each other; each router has a device limit."],
-            tasks=[item(DV + "router"), item(DV + "ethernet_cable", 4)], rewards=[xp(100)],
+            slug="network", title="Network", icon=DV + "white_router", x=3.0, y=1.5,
+            description=["A router connects devices to each other, up to a device limit. Place one, any colour, and look at it."],
+            tasks=[observe_tag(DV + "routers"), item(DV + "ethernet_cable", 4)], rewards=[xp(100)],
         ),
         Quest(
-            slug="paperwork", title="Paperwork", icon=DV + "printer", x=4.5, y=1.5,
-            description=["Print the running order."],
-            tasks=[item(DV + "printer")], rewards=[xp(50)],
+            slug="paperwork", title="Paperwork", icon=DV + "white_printer", x=4.5, y=1.5,
+            description=["Print the running order. Place a printer, any colour, and look at it."],
+            tasks=[observe_tag(DV + "printers")], rewards=[xp(50)],
         ),
         Quest(
             slug="control_room", title="Control Room", icon=WD + "screen", x=6.0, y=0.0,
@@ -64,7 +64,7 @@ CHAPTER = Chapter(
             ],
             tasks=[
                 observe(WD + "screen"), observe(WD + "rctrl"), observe(WD + "redctrl"),
-                observe(DV + "laptop"), observe(DV + "router"), observe("theatrical:basic_lighting_desk"),
+                observe_tag(DV + "laptops"), observe_tag(DV + "routers"), observe("theatrical:basic_lighting_desk"),
             ],
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),
