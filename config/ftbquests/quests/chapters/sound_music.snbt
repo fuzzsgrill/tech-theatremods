@@ -215,13 +215,112 @@
 			]
 		}
 		{
+			id: "F5CB6643D082C874"
+			title: "PA System"
+			icon: "sef:tiamaha_dxr10"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Stage Equipment Furnitures speakers start from a DXR10 kit (brass, iron plates, note blocks, an electron tube). Put a kit in a stonecutter to pick any working-tier model."
+			]
+			tasks: [
+				{
+					id: "B5F6C60F78274E0D"
+					type: "item"
+					item: "sef:tiamaha_dxr10"
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "BC70C99DD636CBD5"
+					type: "item"
+					item: "sef:funktion_two_f121"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7884CA435D2ACE53"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "9FD75739C8BB505C"
+			title: "Line Array"
+			icon: "sef:t_acoustics_k_1"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"Pro boxes start from a K1, which needs Mekanism advanced control circuits. Fly four with a frame."
+			]
+			tasks: [
+				{
+					id: "2700464442834EAF"
+					type: "item"
+					item: "sef:t_acoustics_k_1"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "9703FB53B145072F"
+					type: "item"
+					item: "sef:k1_bump"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C4CEA952233829C7"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			id: "3CC9440A6BCD73FB"
+			title: "Mix Position"
+			icon: "sef:mixer_dm3"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"A sound desk and a pair of decks. The DM3 is the base for the control family in the stonecutter."
+			]
+			tasks: [
+				{
+					id: "FD89893F3D8D61EB"
+					type: "item"
+					item: "sef:mixer_dm3"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "E1DB77DF7EFAA772"
+					type: "item"
+					item: "sef:tioneer_cdj_3000"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2CDFEF87A32992D5"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
 			id: "2961DCA6A6C1DA4A"
 			title: "The Band"
 			icon: "evenmoreinstruments:koto"
 			x: 6.0d
 			y: 0.0d
 			description: [
-				"A band set up and ready to record: a keyboard on its stand, a koto, and a looper paired to them. Look at each one."
+				"A band and its PA, set up and ready: a keyboard on its stand, a koto, a looper, a flown K1 and the mixer. Look at each one."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -252,6 +351,20 @@
 					type: "observation"
 					observe_type: 0
 					to_observe: "evenmoreinstruments:looper"
+					timer: 0L
+				}
+				{
+					id: "3E70B1866729634C"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:t_acoustics_k_1"
+					timer: 0L
+				}
+				{
+					id: "FCEEFF41086E291D"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:mixer_dm3"
 					timer: 0L
 				}
 			]

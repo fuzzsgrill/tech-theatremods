@@ -57,6 +57,11 @@ CHAPTER = Chapter(
             tasks=[observe_tag(DV + "printers")], rewards=[xp(50)],
         ),
         Quest(
+            slug="front_of_house", title="Front of House", icon="sef:desk_grand_ta2", x=4.5, y=-1.5,
+            description=["A flagship lighting console for the control room. It is built from a DM3 mixer and Mekanism advanced control circuits."],
+            tasks=[item("sef:desk_grand_ta2")], rewards=[xp(250)],
+        ),
+        Quest(
             slug="control_room", title="Control Room", icon=WD + "screen", x=6.0, y=0.0,
             shape="gear", size=1.5,
             description=[

@@ -1,7 +1,8 @@
-from model import Chapter, Quest, give, item, observe, xp
+from model import Chapter, Quest, give, item, observe, observe_tag, xp
 
 C = "create:"
 FB = "framedblocks:"
+SEF = "sef:"
 
 CHAPTER = Chapter(
     slug="stage_set", title="Stage & Set", group="departments", icon=C + "mechanical_bearing", order=2,
@@ -34,6 +35,22 @@ CHAPTER = Chapter(
             tasks=[item("mcwbridges:rope_oak_bridge", 8), item("connectedglass:borderless_glass", 16)], rewards=[xp(100)],
         ),
         Quest(
+            slug="build_the_stage", title="Build the Stage", icon=SEF + "stage_floor", x=3.0, y=-1.5,
+            description=["Stage floor is crafted from wooden slabs and iron; a stonecutter turns it into stairs, barrier, roof and the rest of the stage kit."],
+            tasks=[item(SEF + "stage_floor", 16), item(SEF + "stage_stairs", 2), item(SEF + "stage_barrier", 4)],
+            rewards=[xp(100)],
+        ),
+        Quest(
+            slug="the_house", title="The House", icon=SEF + "theatre_seat_red", x=3.0, y=0.0,
+            description=["Seat the audience. Theatre seats are crafted from wool and iron, in any colour. Place one and look at it."],
+            tasks=[observe_tag(SEF + "theatre_seats")], rewards=[xp(100)],
+        ),
+        Quest(
+            slug="rigging", title="Rigging", icon=SEF + "chain_hoist", x=3.0, y=1.5,
+            description=["Quad truss pillars (iron and iron bars, then the stonecutter for other truss) and chain hoists (steel, a motor, chain) to fly the grid."],
+            tasks=[item(SEF + "quad_truss_pillar", 4), item(SEF + "chain_hoist", 2)], rewards=[xp(150)],
+        ),
+        Quest(
             slug="it_moves", title="It Moves", icon=C + "mechanical_bearing", x=4.5, y=0.0,
             description=["A Mechanical Bearing rotates whatever is glued to its face. Super Glue holds the set piece together."],
             tasks=[item(C + "mechanical_bearing"), item(C + "super_glue")], rewards=[xp(150)],
@@ -57,6 +74,16 @@ CHAPTER = Chapter(
             tasks=[
                 observe(C + "mechanical_bearing"), observe(C + "rope_pulley"),
                 observe(C + "gantry_carriage"), observe(C + "redstone_link"),
+            ],
+            rewards=[give("minecraft:diamond", 4), xp(500)],
+        ),
+        Quest(
+            slug="open_the_house", title="Open the House", icon=SEF + "theatre_seat_red", x=6.5, y=-2.0,
+            shape="gear", size=1.5,
+            description=["A finished venue: stage floor and stairs, seating, truss, and haze from a fog machine. Look at each part."],
+            tasks=[
+                observe(SEF + "stage_floor"), observe(SEF + "stage_stairs"), observe_tag(SEF + "theatre_seats"),
+                observe(SEF + "quad_truss_pillar"), observe(SEF + "fog_machine"),
             ],
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),

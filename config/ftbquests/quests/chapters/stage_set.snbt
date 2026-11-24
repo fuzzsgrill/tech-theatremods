@@ -182,6 +182,105 @@
 			]
 		}
 		{
+			id: "0D2CB6A88E6566A3"
+			title: "Build the Stage"
+			icon: "sef:stage_floor"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Stage floor is crafted from wooden slabs and iron; a stonecutter turns it into stairs, barrier, roof and the rest of the stage kit."
+			]
+			tasks: [
+				{
+					id: "679402A1B803FA5D"
+					type: "item"
+					item: "sef:stage_floor"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "7C61E7B3157075A7"
+					type: "item"
+					item: "sef:stage_stairs"
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "5EFDB975F62523F1"
+					type: "item"
+					item: "sef:stage_barrier"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E66934AF3AE66568"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "A9DEC81BF65D40CB"
+			title: "The House"
+			icon: "sef:theatre_seat_red"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Seat the audience. Theatre seats are crafted from wool and iron, in any colour. Place one and look at it."
+			]
+			tasks: [
+				{
+					id: "AEB2D1081BF0A2BC"
+					type: "observation"
+					observe_type: 1
+					to_observe: "sef:theatre_seats"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "1F0820EFFE309A6B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "D482C044F558FC21"
+			title: "Rigging"
+			icon: "sef:chain_hoist"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"Quad truss pillars (iron and iron bars, then the stonecutter for other truss) and chain hoists (steel, a motor, chain) to fly the grid."
+			]
+			tasks: [
+				{
+					id: "97A145C1BA6A0D52"
+					type: "item"
+					item: "sef:quad_truss_pillar"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "A1EEF5E3CFDD5222"
+					type: "item"
+					item: "sef:chain_hoist"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C9744C4D54B1EDBA"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
 			id: "B141235F1DF76838"
 			title: "It Moves"
 			icon: "create:mechanical_bearing"
@@ -323,6 +422,68 @@
 				}
 				{
 					id: "697CB8665671D933"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "537F47C196643D07"
+			title: "Open the House"
+			icon: "sef:theatre_seat_red"
+			x: 6.5d
+			y: -2.0d
+			description: [
+				"A finished venue: stage floor and stairs, seating, truss, and haze from a fog machine. Look at each part."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "BB91A0B7D263F245"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:stage_floor"
+					timer: 0L
+				}
+				{
+					id: "2A5252CABEE958F6"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:stage_stairs"
+					timer: 0L
+				}
+				{
+					id: "3B41E0FE8130E956"
+					type: "observation"
+					observe_type: 1
+					to_observe: "sef:theatre_seats"
+					timer: 0L
+				}
+				{
+					id: "6919D6145E6A0D7E"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:quad_truss_pillar"
+					timer: 0L
+				}
+				{
+					id: "A9BF57DC13D220BD"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:fog_machine"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "1A424A625235302B"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "4B467E772455E085"
 					type: "xp"
 					xp: 500
 				}

@@ -277,6 +277,32 @@
 			]
 		}
 		{
+			id: "C4AEDA6CEE17C9A8"
+			title: "Front of House"
+			icon: "sef:desk_grand_ta2"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"A flagship lighting console for the control room. It is built from a DM3 mixer and Mekanism advanced control circuits."
+			]
+			tasks: [
+				{
+					id: "BDD877022E434690"
+					type: "item"
+					item: "sef:desk_grand_ta2"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "B35F3A3294102FCA"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
 			id: "464DAFF5C4009F03"
 			title: "Control Room"
 			icon: "webdisplays:screen"
