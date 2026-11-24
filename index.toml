@@ -654,3 +654,75 @@ metafile = true
 file = "mods/xaeros-minimap.pw.toml"
 hash = "3859fdf5883144e5197e350e0745991767da6987821200f1fe01733e3e1a8ec2"
 metafile = true
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/black.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/blue.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/brown.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/cyan.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/gray.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/green.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/light_blue.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/lime.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/magenta.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/orange.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/pink.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/purple.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/red.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/silver.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/white.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/devices/recipes/office_chair/yellow.json"
+hash = "3cc7a909461be8a287f8292249d650bb698c75c251245a560feaff02c461b35f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/forge/tags/items/sandstone/venus_sandstone.json"
+hash = "349ce5951be48e37eea57833237ab8854b918e136566b265e91fd6740a617eef"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/pack.mcmeta"
+hash = "a2d643da134a2ae3cdde98ddbb71c6c6922657fc69c2da83c52914e576617271"
