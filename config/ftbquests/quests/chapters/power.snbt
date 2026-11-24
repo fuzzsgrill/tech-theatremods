@@ -1,0 +1,391 @@
+{
+	id: "9323B6C5B127BEB5"
+	group: "1C43C1CF239BCC21"
+	order_index: 4
+	filename: "power"
+	title: "Power"
+	icon: "powah:energy_cell_nitro"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "68380C49A74A0BCB"
+			title: "Energizing"
+			icon: "powah:energizing_orb"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Powah's progression runs through the Energizing Orb: surround it with Energizing Rods and feed it power to make energized materials."
+			]
+			tasks: [
+				{
+					id: "AE6BEA36BAA9059E"
+					type: "item"
+					item: "powah:energizing_orb"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "2ACFA8CBB215916D"
+					type: "item"
+					item: "powah:energizing_rod_basic"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "D209445215C6F880"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "69448C10BFAAAF05"
+			title: "Tier Up"
+			icon: "powah:energy_cell_hardened"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Powah tiers go starter, basic, hardened, blazing, niotic, spirited, nitro. Reach hardened storage."
+			]
+			tasks: [
+				{
+					id: "E547834E8FDE6889"
+					type: "item"
+					item: "powah:energy_cell_hardened"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "74B047FEEDE4692D"
+					type: "item"
+					item: "powah:dielectric_paste"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "C6DBADD396A5F4B2"
+			title: "Thermo"
+			icon: "powah:thermo_generator_basic"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"A Thermo Generator makes power when placed on top of something hot, like lava. It needs coolant."
+			]
+			tasks: [
+				{
+					id: "A61CF4C7E4130156"
+					type: "item"
+					item: "powah:thermo_generator_basic"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "337B0E99562FC8F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "C8DB13A2F82552F6"
+			title: "Reactor"
+			icon: "powah:reactor_basic"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Powah's Reactor is a multiblock: 36 reactor blocks placed in a 3x4 area. It burns uraninite and slows down as it heats, so cool it."
+			]
+			tasks: [
+				{
+					id: "B284A8D26BDF8FC3"
+					type: "item"
+					item: "powah:reactor_basic"
+					count: 36L
+					consume_items: false
+				}
+				{
+					id: "06FD5C0BE8D5130E"
+					type: "item"
+					item: "powah:uraninite"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "9C6D12ACEDBF0E5B"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "1BABA6F61E1DE811"
+			title: "Blazing"
+			icon: "powah:crystal_blazing"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Blazing crystals unlock the mid tiers."
+			]
+			tasks: [
+				{
+					id: "190A606C05EA0112"
+					type: "item"
+					item: "powah:crystal_blazing"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "34657EC124A10AC3"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "11B0C89CAEF3E20B"
+			title: "Up High"
+			icon: "mekanismgenerators:wind_generator"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Mekanism's Wind Generator makes more the higher you build it."
+			]
+			tasks: [
+				{
+					id: "482C38B7A695B5BE"
+					type: "item"
+					item: "mekanismgenerators:wind_generator"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "03BE0A8BC4E38906"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "995D94A24EBCB696"
+			title: "Gas Burner"
+			icon: "mekanismgenerators:gas_burning_generator"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"The Gas-Burning Generator turns burnable gases like ethylene into steady power."
+			]
+			tasks: [
+				{
+					id: "0DD3F4FFC59A0D4D"
+					type: "item"
+					item: "mekanismgenerators:gas_burning_generator"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "91CBFEA6F95798B4"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "A9EC492DA6C111B7"
+			title: "Kinetic Dynamo"
+			icon: "immersiveengineering:dynamo"
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"Immersive Engineering's Kinetic Dynamo turns rotation from a windmill or watermill into power."
+			]
+			tasks: [
+				{
+					id: "495173A9166B035A"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "D934E9E90D155FCA"
+					type: "item"
+					item: "immersiveengineering:windmill"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "F852D3DCA17D7AD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "D7FCE1D8B51E8F05"
+			title: "The Grid"
+			icon: "immersiveengineering:wirecoil_electrum"
+			x: 1.5d
+			y: 3.0d
+			description: [
+				"IE power runs on wire: LV copper, MV electrum, HV steel. Transformers step between them; capacitors store."
+			]
+			tasks: [
+				{
+					id: "89DD70D770713988"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "A5E26AACFBD1C9F4"
+					type: "item"
+					item: "immersiveengineering:transformer"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "C2F5D0D3C5672B48"
+					type: "item"
+					item: "immersiveengineering:capacitor_mv"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "14CFDA24FA9D1BC0"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "A5199F49665166D9"
+			title: "Turbine Hall"
+			icon: "mekanismgenerators:turbine_casing"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"An Industrial Turbine turns steam into a lot of power. Build its casing and rotors."
+			]
+			tasks: [
+				{
+					id: "C160DE528C97081E"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "8C4D27379002C22C"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "8264150913956DE3"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "88BE08687530DF93"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "08A23AA76FE8D355"
+			title: "Nitro"
+			icon: "powah:energy_cell_nitro"
+			x: 5.0d
+			y: -0.75d
+			description: [
+				"Top-tier Powah: a Nitro Energy Cell. Every tier before it had to be built to get here."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "E0362130812B1B11"
+					type: "item"
+					item: "powah:energy_cell_nitro"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "34247D78425A2A36"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "28FEF86DB0792169"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "36FF4C6275AE4551"
+			title: "Fusion"
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			x: 5.0d
+			y: 1.5d
+			description: [
+				"The Fusion Reactor Controller: the heart of Mekanism's end-game power."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6707B1F2C2FB2342"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "0C3658E922F25411"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "57A08C960FC1B630"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

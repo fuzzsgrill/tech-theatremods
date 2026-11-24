@@ -1,0 +1,383 @@
+{
+	id: "378B5723E7A2D2DB"
+	group: "1C43C1CF239BCC21"
+	order_index: 9
+	filename: "resource_generation"
+	title: "Resource Generation"
+	icon: "mysticalagriculture:supremium_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "A28B343EC8CB02AD"
+			title: "Inferium"
+			icon: "mysticalagriculture:inferium_essence"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Mystical Agriculture starts with inferium essence, from inferium ore and inferium crops."
+			]
+			tasks: [
+				{
+					id: "B9295C0CD468FDBB"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 32L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "611C1D830C2210E5"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "49DD982EFAA67306"
+			title: "Infusion Altar"
+			icon: "mysticalagriculture:infusion_altar"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Seeds are crafted on an Infusion Altar with Infusion Pedestals around it."
+			]
+			tasks: [
+				{
+					id: "FB6CB5061A52900E"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7CB54B9A5299BA25"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "D8BE8AAA700FC839"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "AA891473BD40F7D2"
+			title: "Grow Iron"
+			icon: "mysticalagriculture:iron_seeds"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Resource seeds grow the resource itself. Start with iron."
+			]
+			tasks: [
+				{
+					id: "68D7133FA9EF0A58"
+					type: "item"
+					item: "mysticalagriculture:iron_seeds"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "79665D42016B1D5E"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "93C98DEE1BCEA598"
+			title: "Essence Tiers"
+			icon: "mysticalagriculture:imperium_essence"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Essence tiers climb: inferium, prudentium, tertium, imperium, supremium."
+			]
+			tasks: [
+				{
+					id: "0DE932FF7056D650"
+					type: "item"
+					item: "mysticalagriculture:prudentium_essence"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "575F3795EBE4AE18"
+					type: "item"
+					item: "mysticalagriculture:tertium_essence"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "C47B914595366C48"
+					type: "item"
+					item: "mysticalagriculture:imperium_essence"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "A6EB8430E0411DB3"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "5B0DF0642092096F"
+			title: "Botany Pots"
+			icon: "botanypots:terracotta_hopper_botany_pot"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"A Botany Pot grows a crop on a single block; a hopper pot outputs into what's under it."
+			]
+			tasks: [
+				{
+					id: "09E5B4AED817AC51"
+					type: "item"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "AAF3F986A2413C37"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "6F3E90E86B2B8C0F"
+			title: "Faster Pots"
+			icon: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Botany Pots Tiers adds faster pots: elite, then ultra."
+			]
+			tasks: [
+				{
+					id: "8DF1F508CF5B21F5"
+					type: "item"
+					item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1EF5C85B03724778"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "755AEC285A6788C9"
+			title: "Hive"
+			icon: "productivebees:advanced_oak_beehive"
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"Productive Bees: an Advanced Beehive holds bees and collects their combs."
+			]
+			tasks: [
+				{
+					id: "45DFFA2B6036A5A8"
+					type: "item"
+					item: "productivebees:advanced_oak_beehive"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "3FC5A91EB533D173"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "3D0000DB09F80ABB"
+			title: "Catch"
+			icon: "productivebees:bee_cage"
+			x: 1.5d
+			y: 3.0d
+			description: [
+				"Move bees in cages."
+			]
+			tasks: [
+				{
+					id: "CCE96CDF2F565CEA"
+					type: "item"
+					item: "productivebees:bee_cage"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C962D15BC824F758"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "8597DC2E503AA408"
+			title: "Spin It"
+			icon: "productivebees:powered_centrifuge"
+			x: 3.0d
+			y: 3.0d
+			description: [
+				"A centrifuge spins combs into their products. The powered one runs on energy."
+			]
+			tasks: [
+				{
+					id: "670E21557791D13B"
+					type: "item"
+					item: "productivebees:powered_centrifuge"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "EAF6376E2992E739"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "68A177E738F66B10"
+			title: "Breeding Program"
+			icon: "productivebees:gene_indexer"
+			x: 4.5d
+			y: 3.0d
+			description: [
+				"Breed new bee types; the Gene Indexer keeps track of genes."
+			]
+			tasks: [
+				{
+					id: "0F33BB55E39EDEBC"
+					type: "item"
+					item: "productivebees:breeding_chamber"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "AB8F1AF0E75EE4F2"
+					type: "item"
+					item: "productivebees:gene_indexer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "11AD1A36479659E0"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "08E50A904430B989"
+			title: "Supremium"
+			icon: "mysticalagriculture:supremium_essence"
+			x: 6.0d
+			y: -0.75d
+			description: [
+				"Top-tier Mystical Agriculture: a stack of supremium essence, then insanium from Agradditions."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2457B956E8641D2E"
+					type: "item"
+					item: "mysticalagriculture:supremium_essence"
+					count: 64L
+					consume_items: false
+				}
+				{
+					id: "2198125EC507E65B"
+					type: "item"
+					item: "mysticalagradditions:insanium_essence"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "9DE435303751567C"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "687B1B83A68C0248"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "DF270A45E31100BB"
+			title: "Apiary"
+			icon: "productivebees:wax"
+			x: 6.0d
+			y: 3.0d
+			description: [
+				"A running apiary: look at your powered centrifuge and bring a stack of wax from it."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "9A559BAA65A87940"
+					type: "observation"
+					observe_type: 0
+					to_observe: "productivebees:powered_centrifuge"
+					timer: 0L
+				}
+				{
+					id: "FB78AE9C3B9656EF"
+					type: "item"
+					item: "productivebees:wax"
+					count: 64L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "DDB28B7E40E57ADF"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "EC76913F870E5771"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,349 @@
+{
+	id: "3825E1A34C19BDF8"
+	group: "1C43C1CF239BCC21"
+	order_index: 3
+	filename: "projection_control"
+	title: "Projection & Control"
+	icon: "webdisplays:screen"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "A945980C2679C524"
+			title: "Web Screen"
+			icon: "webdisplays:screen"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"WebDisplays screens show real web pages in the world. Build a few and place them as one big screen."
+			]
+			tasks: [
+				{
+					id: "4BBDB90A78026DDF"
+					type: "item"
+					item: "webdisplays:screen"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "8FF486BACA05A640"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "7E8A234DAC391AEF"
+			title: "Configure"
+			icon: "webdisplays:screencfg"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The Screen Configurator sets a screen's URL and resolution and who can use it."
+			]
+			tasks: [
+				{
+					id: "0A9C380FBB203A8E"
+					type: "item"
+					item: "webdisplays:screencfg"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "3543BCEFD6A276BA"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "65B8BCF8F1793DF6"
+			title: "Link It"
+			icon: "webdisplays:linker"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"The Linking Tool connects a screen to a peripheral: right-click the screen, then the peripheral."
+			]
+			tasks: [
+				{
+					id: "A9E321B4F1CE3EBD"
+					type: "item"
+					item: "webdisplays:linker"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "52979B26D4657287"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "5EBE90A6A228A634"
+			title: "Type It"
+			icon: "webdisplays:keyboard"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"A keyboard peripheral lets you type into a linked screen."
+			]
+			tasks: [
+				{
+					id: "AB9098CFE9B042C7"
+					type: "item"
+					item: "webdisplays:keyboard"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "FF50F7DB5B9438C3"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "8AA97417E4B1BF59"
+			title: "Remote Control"
+			icon: "webdisplays:rctrl"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"The Remote Controller drives a linked screen from where it sits, so the operator doesn't stand at the screen."
+			]
+			tasks: [
+				{
+					id: "F43DFE4C701A3F7B"
+					type: "item"
+					item: "webdisplays:rctrl"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "0DBE3DA0A0552D88"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "A27CBBB436125E95"
+			title: "Redstone Screen"
+			icon: "webdisplays:redctrl"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"The Redstone Controller lets a redstone signal act on a linked screen, so a cue can change the projection."
+			]
+			tasks: [
+				{
+					id: "7D56982EF48040FC"
+					type: "item"
+					item: "webdisplays:redctrl"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "120EE78C5746B054"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "0FD424C6F0D6BFD6"
+			title: "minePad"
+			icon: "webdisplays:minepad"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"A handheld web screen. Sneak and right-click to turn it on."
+			]
+			tasks: [
+				{
+					id: "73795464738EE665"
+					type: "item"
+					item: "webdisplays:minepad"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1DD35EA0046C9F38"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "2BDD03CDE105D11F"
+			title: "Laptop"
+			icon: "devices:laptop"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"The Devices mod's laptop runs apps. Every operator position wants one."
+			]
+			tasks: [
+				{
+					id: "77530E7A401C3A50"
+					type: "item"
+					item: "devices:laptop"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "682734DCB401B475"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "5195E291B8A5C34C"
+			title: "Network"
+			icon: "devices:router"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"A router connects devices to each other; each router has a device limit."
+			]
+			tasks: [
+				{
+					id: "F4DF16D8810469B4"
+					type: "item"
+					item: "devices:router"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "C17CBD063FEC4F28"
+					type: "item"
+					item: "devices:ethernet_cable"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C80A255D8F9C3C93"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "76DD58FAD8D259B3"
+			title: "Paperwork"
+			icon: "devices:printer"
+			x: 4.5d
+			y: 1.5d
+			description: [
+				"Print the running order."
+			]
+			tasks: [
+				{
+					id: "4682A2487045D06C"
+					type: "item"
+					item: "devices:printer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "EF994BE826D45C99"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "464DAFF5C4009F03"
+			title: "Control Room"
+			icon: "webdisplays:screen"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Build the control room: a web screen with its Remote and Redstone Controllers, a laptop on a router, and the lighting desk. Look at each part."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5A37FDD930540014"
+					type: "observation"
+					observe_type: 0
+					to_observe: "webdisplays:screen"
+					timer: 0L
+				}
+				{
+					id: "10043CA8934A7583"
+					type: "observation"
+					observe_type: 0
+					to_observe: "webdisplays:rctrl"
+					timer: 0L
+				}
+				{
+					id: "3CCE80A6DF6DBB31"
+					type: "observation"
+					observe_type: 0
+					to_observe: "webdisplays:redctrl"
+					timer: 0L
+				}
+				{
+					id: "F2B9AE24EE434497"
+					type: "observation"
+					observe_type: 0
+					to_observe: "devices:laptop"
+					timer: 0L
+				}
+				{
+					id: "6813174DC5A0AFBF"
+					type: "observation"
+					observe_type: 0
+					to_observe: "devices:router"
+					timer: 0L
+				}
+				{
+					id: "C3FE832680F135E6"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:basic_lighting_desk"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "7A5C6573C85063C8"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "E23647FB8557A9ED"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

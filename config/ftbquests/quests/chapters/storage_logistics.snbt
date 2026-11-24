@@ -1,0 +1,432 @@
+{
+	id: "2B7E1B5AB3E4B070"
+	group: "1C43C1CF239BCC21"
+	order_index: 8
+	filename: "storage_logistics"
+	title: "Storage & Logistics"
+	icon: "refinedstorage:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "835B73C732D2DE0C"
+			title: "Processors"
+			icon: "refinedstorage:basic_processor"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Refined Storage parts start with processors and quartz-enriched iron."
+			]
+			tasks: [
+				{
+					id: "9EFE6EC3674FF5D8"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "3691DF67FB1BF461"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "8D472ADE66DE2194"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "EAF4A5A1F6D44EFE"
+			title: "The Network"
+			icon: "refinedstorage:controller"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"A Controller powers the network. Cables connect a Disk Drive for storage and a Grid to use it."
+			]
+			tasks: [
+				{
+					id: "AB0D8DC1FD920437"
+					type: "item"
+					item: "refinedstorage:controller"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "71B270827505D28C"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "A2B84D6C57A65AFF"
+					type: "item"
+					item: "refinedstorage:grid"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "769FC7E131828E3C"
+					type: "item"
+					item: "refinedstorage:cable"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1B6F2D44EB07B171"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "792F7B98E72B2D0C"
+			title: "Disks"
+			icon: "refinedstorage:4k_storage_part"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Storage parts go into disks. Step up from 1k to 4k and 16k."
+			]
+			tasks: [
+				{
+					id: "610C60DD123BDA86"
+					type: "item"
+					item: "refinedstorage:4k_storage_part"
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "20B22947E4F260B9"
+					type: "item"
+					item: "refinedstorage:16k_storage_part"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "FF1F38BA3F967266"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "E17018A53DF26F0D"
+			title: "In and Out"
+			icon: "refinedstorage:importer"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Importers pull items into the network; Exporters push them out to machines."
+			]
+			tasks: [
+				{
+					id: "F6769DB53638911D"
+					type: "item"
+					item: "refinedstorage:importer"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "54C8898F33B29517"
+					type: "item"
+					item: "refinedstorage:exporter"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "02CC83BC992FFBA2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "63E701975CF31516"
+			title: "Patterns"
+			icon: "refinedstorage:pattern_grid"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"Autocrafting: encode a recipe on a Pattern in the Pattern Grid and put it in a Crafter."
+			]
+			tasks: [
+				{
+					id: "49597F17C0B8BF15"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "40CA58106DF7CBF3"
+					type: "item"
+					item: "refinedstorage:crafter"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "6E47340C2F84DD04"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E53E1CA45FD57039"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "40975CFEA32458F3"
+			title: "Wireless"
+			icon: "refinedstorage:wireless_grid"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"A Wireless Transmitter and a Wireless Grid give you the network from anywhere in range."
+			]
+			tasks: [
+				{
+					id: "78BA9AAF6E30D827"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "622748E8F825252E"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C3A63AEA74212DAE"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "51BF9B88876E8D8A"
+			title: "Infinite Range"
+			icon: "rsinfinitybooster:infinity_card"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"RS Infinity Booster: the Infinity Range Booster gives a Wireless Transmitter unlimited range; the Dimension Card reaches across dimensions."
+			]
+			tasks: [
+				{
+					id: "756454E76D7F95C4"
+					type: "item"
+					item: "rsinfinitybooster:infinity_card"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "4E618FF70BCA5357"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "173EF21B0ECFDFA7"
+			title: "Tier Upgrades"
+			icon: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"Sophisticated Storage chests upgrade in place, contents and all."
+			]
+			tasks: [
+				{
+					id: "0CC9808CE4337E62"
+					type: "item"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "44734132A3B197EE"
+					type: "item"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "D3A4BF2FF34FA8C9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "845E23E1579EC99E"
+			title: "One Inventory"
+			icon: "sophisticatedstorage:controller"
+			x: 1.5d
+			y: 2.5d
+			description: [
+				"A Sophisticated Storage Controller joins connected chests and barrels into one inventory; Storage Links extend its reach."
+			]
+			tasks: [
+				{
+					id: "563BE368D57BE752"
+					type: "item"
+					item: "sophisticatedstorage:controller"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "9F7E4918D40835AE"
+					type: "item"
+					item: "sophisticatedstorage:storage_link"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7C7078B26F220DFD"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "8857C9C8D0CFB7D8"
+			title: "Faster Pipes"
+			icon: "pipez:advanced_upgrade"
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"Pipez upgrades raise a pipe end's speed: basic, improved, advanced, ultimate, infinity."
+			]
+			tasks: [
+				{
+					id: "F6F8B7C14AB80722"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "B61B737331060CC8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "F81731DEDB4B27E5"
+			title: "Autocrafting"
+			icon: "refinedstorage:crafter"
+			x: 7.5d
+			y: 1.5d
+			description: [
+				"A network that crafts for you: look at your Controller and a Crafter on it, and bring a Crafting Monitor to watch the jobs."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "89B160083876532C"
+					type: "observation"
+					observe_type: 0
+					to_observe: "refinedstorage:controller"
+					timer: 0L
+				}
+				{
+					id: "9B08DEFC42A14E45"
+					type: "observation"
+					observe_type: 0
+					to_observe: "refinedstorage:crafter"
+					timer: 0L
+				}
+				{
+					id: "1BCAE66F2DBC57BE"
+					type: "item"
+					item: "refinedstorage:crafting_monitor"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "B4ABEF2B40598805"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "91D67384972D9A21"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "2000C813111D4A14"
+			title: "Big Disk"
+			icon: "refinedstorage:64k_storage_part"
+			x: 7.5d
+			y: -1.5d
+			description: [
+				"Top-tier item storage: a 64k storage disk."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "213C7F37F7D3F434"
+					type: "item"
+					item: "refinedstorage:64k_storage_disk"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C767F7F58E736AB1"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "0867F5E12FB1A5BB"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

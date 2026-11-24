@@ -1,0 +1,493 @@
+{
+	id: "CA14E7759DDB6335"
+	group: "1C43C1CF239BCC21"
+	order_index: 2
+	filename: "stage_set"
+	title: "Stage & Set"
+	icon: "create:mechanical_bearing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A88E49D8134BF4E"
+			title: "Framed"
+			icon: "framedblocks:framed_cube"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Framed blocks take the look of any block you right-click into them: set walls in any material, any shape."
+			]
+			tasks: [
+				{
+					id: "0171B6178F80DD8B"
+					type: "item"
+					item: "framedblocks:framed_cube"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "D585BE136E99BD27"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "0F26946701E62B84"
+			title: "Hammer and Print"
+			icon: "framedblocks:framed_hammer"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The Framed Hammer takes the camo back out. The Framed Blueprint copies a framed block, camo and all."
+			]
+			tasks: [
+				{
+					id: "E3F15726B0F7EAA3"
+					type: "item"
+					item: "framedblocks:framed_hammer"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "D4377841A32D9EB8"
+					type: "item"
+					item: "framedblocks:framed_blueprint"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "B5335361D6996F58"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "A4598A9784E4E695"
+			title: "Chisel"
+			icon: "rechiseled:chisel"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Rechiseled's chisel turns blocks into decorative variants. Detail your set."
+			]
+			tasks: [
+				{
+					id: "532FB96A21791307"
+					type: "item"
+					item: "rechiseled:chisel"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "4FB59A8A0EE1E178"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "331C7CC5DA3DBEBF"
+			title: "Set Dressing"
+			icon: "mcwfurnitures:oak_wardrobe"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Dress the set with Macaw's furniture, windows and stairs, and ModernDeco."
+			]
+			tasks: [
+				{
+					id: "5AFFCEE6CA14EA72"
+					type: "item"
+					item: "mcwfurnitures:oak_wardrobe"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "6283261E2606B31E"
+					type: "item"
+					item: "mcwfurnitures:oak_table"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "FDFA158A323A5C9A"
+					type: "item"
+					item: "mcwwindows:oak_window"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "5313DF2644F04B4E"
+					type: "item"
+					item: "mcwstairs:oak_loft_stairs"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7C2757F5C2277B6B"
+					type: "item"
+					item: "moderndeco:armchair"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6476C48F36B90A17"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "A5C4020F36FBD8FF"
+			title: "Bridge the Gap"
+			icon: "mcwbridges:rope_oak_bridge"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"A rope bridge across the set, with Connected Glass for a seamless window wall."
+			]
+			tasks: [
+				{
+					id: "60F0AC93A2E00544"
+					type: "item"
+					item: "mcwbridges:rope_oak_bridge"
+					count: 8L
+					consume_items: false
+				}
+				{
+					id: "D5F26FF5F7122832"
+					type: "item"
+					item: "connectedglass:borderless_glass"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "CE27689098EEEE0A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "0D2CB6A88E6566A3"
+			title: "Build the Stage"
+			icon: "sef:stage_floor"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Stage Equipment Furnitures has a real stage kit: floor, stairs and a barrier line."
+			]
+			tasks: [
+				{
+					id: "679402A1B803FA5D"
+					type: "item"
+					item: "sef:stage_floor"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "7C61E7B3157075A7"
+					type: "item"
+					item: "sef:stage_stairs"
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "5EFDB975F62523F1"
+					type: "item"
+					item: "sef:stage_barrier"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E66934AF3AE66568"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "A9DEC81BF65D40CB"
+			title: "The House"
+			icon: "sef:theatre_seat_red"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Seat the audience."
+			]
+			tasks: [
+				{
+					id: "AEB2D1081BF0A2BC"
+					type: "item"
+					item: "sef:theatre_seat_red"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1F0820EFFE309A6B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "D482C044F558FC21"
+			title: "Rigging"
+			icon: "sef:chain_hoist"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"Ground support: quad truss pillars and a chain hoist to fly the grid."
+			]
+			tasks: [
+				{
+					id: "97A145C1BA6A0D52"
+					type: "item"
+					item: "sef:quad_truss_pillar"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "A1EEF5E3CFDD5222"
+					type: "item"
+					item: "sef:chain_hoist"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C9744C4D54B1EDBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "B141235F1DF76838"
+			title: "It Moves"
+			icon: "create:mechanical_bearing"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"A Mechanical Bearing rotates whatever is glued to its face. Super Glue holds the set piece together."
+			]
+			tasks: [
+				{
+					id: "A3951692E1CA6D2A"
+					type: "item"
+					item: "create:mechanical_bearing"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "D31479D98E668EE0"
+					type: "item"
+					item: "create:super_glue"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1B66D8B3B830DB7B"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "7CF61BC1AA11B5C9"
+			title: "Fly It In"
+			icon: "create:rope_pulley"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"A Rope Pulley raises and lowers what's attached under it: fly scenery in and out."
+			]
+			tasks: [
+				{
+					id: "DD02A599D2652D95"
+					type: "item"
+					item: "create:rope_pulley"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "9F2C50AE18744894"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "66EF32F3DDE71FE6"
+			title: "Track It On"
+			icon: "create:gantry_carriage"
+			x: 4.5d
+			y: 1.5d
+			description: [
+				"A Gantry Carriage drives along a Gantry Shaft: a wagon that tracks on and off stage."
+			]
+			tasks: [
+				{
+					id: "56459EC6CCE0F58E"
+					type: "item"
+					item: "create:gantry_carriage"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "12F0A4A89C13241C"
+					type: "item"
+					item: "create:gantry_shaft"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "9D078B81D2A14C7D"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "FAC34F62BA3AD392"
+			title: "Automated Scene Change"
+			icon: "create:gantry_carriage"
+			x: 6.5d
+			y: 0.0d
+			description: [
+				"Build a set that changes itself: a revolve on a bearing, a piece flown on a pulley, a wagon on a gantry, all fired from one Redstone Link. Look at each part."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6AD2BFDD716E8F42"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:mechanical_bearing"
+					timer: 0L
+				}
+				{
+					id: "0FC0DBC8C3ED5D17"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:rope_pulley"
+					timer: 0L
+				}
+				{
+					id: "FFE1A6CF2FCDBA6E"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:gantry_carriage"
+					timer: 0L
+				}
+				{
+					id: "2F767A31E7B1396A"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:redstone_link"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "AE45868577299753"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "697CB8665671D933"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "537F47C196643D07"
+			title: "Open the House"
+			icon: "sef:theatre_seat_red"
+			x: 6.5d
+			y: -2.0d
+			description: [
+				"A finished venue: stage floor and stairs, seating, flown rig on truss, and haze. Look at each part."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "BB91A0B7D263F245"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:stage_floor"
+					timer: 0L
+				}
+				{
+					id: "2A5252CABEE958F6"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:stage_stairs"
+					timer: 0L
+				}
+				{
+					id: "3B41E0FE8130E956"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:theatre_seat_red"
+					timer: 0L
+				}
+				{
+					id: "6919D6145E6A0D7E"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:quad_truss_pillar"
+					timer: 0L
+				}
+				{
+					id: "A9BF57DC13D220BD"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:fog_machine"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "1A424A625235302B"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "4B467E772455E085"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

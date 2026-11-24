@@ -1,0 +1,332 @@
+{
+	id: "359531A978745B07"
+	group: "1C43C1CF239BCC21"
+	order_index: 11
+	filename: "useful_items"
+	title: "Useful Items & Tips"
+	icon: "justdirethings:eclipsealloy_pickaxe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1DC5A5C6D4F81496"
+			title: "Goo"
+			icon: "justdirethings:gooblock_tier1"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Just Dire Things' goo blocks slowly convert certain blocks touching them into new materials. Check JEI for what each tier makes."
+			]
+			tasks: [
+				{
+					id: "BBF26C76CF4FEE6D"
+					type: "item"
+					item: "justdirethings:gooblock_tier1"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "FCCE3C6450C0CCD2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "012EC73FFB3ADE7A"
+			title: "Ferricore"
+			icon: "justdirethings:ferricore_ingot"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"The Just Dire Things material tiers start with ferricore."
+			]
+			tasks: [
+				{
+					id: "98F6690ED2CF4780"
+					type: "item"
+					item: "justdirethings:ferricore_ingot"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "096475722960A0CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "CD1304104FE85F3D"
+			title: "Blazegold"
+			icon: "justdirethings:blazegold_ingot"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Next tier: blazegold, and a pickaxe to go with it."
+			]
+			tasks: [
+				{
+					id: "DE0B616A905828A7"
+					type: "item"
+					item: "justdirethings:blazegold_ingot"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "59BF2B1464B1FD70"
+					type: "item"
+					item: "justdirethings:blazegold_pickaxe"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "AA9A8DE5C4C16035"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "92B5D8C3EAE5072B"
+			title: "Celestigem"
+			icon: "justdirethings:celestigem"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"Celestigem, the third tier."
+			]
+			tasks: [
+				{
+					id: "C147B08073210D51"
+					type: "item"
+					item: "justdirethings:celestigem"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "46A057D925F4AED8"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "DF010D4BDA086B90"
+			title: "Invisible Light"
+			icon: "torchmaster:feral_flare_lantern"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"The Feral Flare Lantern places invisible lights around it. Light a cave without a torch in sight."
+			]
+			tasks: [
+				{
+					id: "8C4E6B51FB3288E2"
+					type: "item"
+					item: "torchmaster:feral_flare_lantern"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6E11297426AB0ECE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "E48743FA07AEEB96"
+			title: "Dread Lamp"
+			icon: "torchmaster:dreadlamp"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"The Dread Lamp stops passive animals like bats and squids spawning nearby."
+			]
+			tasks: [
+				{
+					id: "20AB6DAD59FA11E7"
+					type: "item"
+					item: "torchmaster:dreadlamp"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "DC249B0023E19B2E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "F5A670F554D75B04"
+			title: "Pylons"
+			icon: "pylons:infusion_pylon"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"Pylons: the Infusion Pylon applies potion effects, the Harvester Pylon harvests crops, the Interdiction Pylon stops mob spawns."
+			]
+			tasks: [
+				{
+					id: "0E1BFB4AA7FAF821"
+					type: "item"
+					item: "pylons:infusion_pylon"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "E7043DC2427C73BA"
+					type: "item"
+					item: "pylons:harvester_pylon"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "D536669CA87A8FCA"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "953EF20C37CE1F68"
+			title: "Better Magnet"
+			icon: "simplemagnets:advancedmagnet"
+			x: 4.5d
+			y: 1.5d
+			description: [
+				"The advanced magnet has more range and a filter."
+			]
+			tasks: [
+				{
+					id: "A3C5212A96603FBF"
+					type: "item"
+					item: "simplemagnets:advancedmagnet"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "04ECA2584BF27D84"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "32649F4E653C996A"
+			title: "Craft Services"
+			icon: "farmersdelight:cooking_pot"
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"Feed the crew. Farmer's Delight cooks real meals: a cooking pot on a stove, and a cutting board."
+			]
+			tasks: [
+				{
+					id: "72D15D35CB3C5FAC"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "67BC9AA627C39D27"
+					type: "item"
+					item: "farmersdelight:stove"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "5B391161D8B50293"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E1334B5E5D4BC22F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "ED85BC3A884C90C4"
+			title: "Read the Obituary"
+			icon: "gravestone:obituary"
+			x: 1.5d
+			y: 3.0d
+			description: [
+				"After a death, the obituary lists what you lost and where your grave is."
+			]
+			tasks: [
+				{
+					id: "8D7729AD0E7D5348"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "F3A37B89BA11BEF8"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "99DD977A401717B8"
+			title: "Eclipse"
+			icon: "justdirethings:eclipsealloy_pickaxe"
+			x: 6.5d
+			y: 0.75d
+			description: [
+				"Top-tier Just Dire Things: an eclipse alloy pickaxe."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "55B379921A4422FF"
+					type: "item"
+					item: "justdirethings:eclipsealloy_pickaxe"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "F31573CBC78EA5F9"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "71D97C6CEFFFBA3F"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

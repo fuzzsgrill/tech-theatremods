@@ -1,0 +1,383 @@
+{
+	id: "B3B5ACAACE5C09F9"
+	group: "1C43C1CF239BCC21"
+	order_index: 7
+	filename: "engineering"
+	title: "Engineering"
+	icon: "immersiveengineering:arc_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C3324F1FF2499A75"
+			title: "Engineer's Hammer"
+			icon: "immersiveengineering:hammer"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Immersive Engineering builds multiblocks: place the blocks in the pattern from the Engineer's Manual, then right-click with the hammer to form them."
+			]
+			tasks: [
+				{
+					id: "D5E0B5579D99F8C9"
+					type: "item"
+					item: "immersiveengineering:hammer"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "D7521DFAFCE78B8C"
+					type: "item"
+					item: "immersiveengineering:manual"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "5D071FD5C14FA4D6"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "388CC6A3D54F930D"
+			title: "Coke Oven"
+			icon: "immersiveengineering:cokebrick"
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"The Coke Oven turns coal into coal coke, with creosote as a by-product. Form it and look at it."
+			]
+			tasks: [
+				{
+					id: "E6AA9D43E35765CA"
+					type: "observation"
+					observe_type: 0
+					to_observe: "immersiveengineering:coke_oven"
+					timer: 0L
+				}
+				{
+					id: "EEAC41944CD13463"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "A9D101703327196D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "F5390AC71758D87E"
+			title: "Steel"
+			icon: "immersiveengineering:ingot_steel"
+			x: 3.0d
+			y: -1.0d
+			description: [
+				"The Blast Furnace turns iron and coal coke into steel."
+			]
+			tasks: [
+				{
+					id: "B3FE0F31DABDA403"
+					type: "observation"
+					observe_type: 0
+					to_observe: "immersiveengineering:blast_furnace"
+					timer: 0L
+				}
+				{
+					id: "C12DAFAEA08B0FBE"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7CACC45F8214B64D"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "0ECDAC7679D4B99E"
+			title: "Engineering Blocks"
+			icon: "immersiveengineering:light_engineering"
+			x: 3.0d
+			y: 1.0d
+			description: [
+				"Light and heavy engineering blocks are the frame of every big IE machine."
+			]
+			tasks: [
+				{
+					id: "C4E6BA82BEEB5FCB"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 8L
+					consume_items: false
+				}
+				{
+					id: "E89798E964DA7C04"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "4C88DBC0733EE7B8"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "8CDC4AFB0EB7C601"
+			title: "Metal Press"
+			icon: "immersiveengineering:metal_press"
+			x: 4.5d
+			y: 1.0d
+			description: [
+				"The Metal Press stamps plates, rods and wires with molds. Form it and look at it."
+			]
+			tasks: [
+				{
+					id: "4502598FA2F02F17"
+					type: "observation"
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "B8D8738BC57F7505"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "2C343F1850B771AF"
+			title: "Air Compressor"
+			icon: "pneumaticcraft:air_compressor"
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"PneumaticCraft runs on pressure. An Air Compressor burns fuel to fill its tank, and pressure tubes carry the air."
+			]
+			tasks: [
+				{
+					id: "D74D7BCFF0BA4065"
+					type: "item"
+					item: "pneumaticcraft:air_compressor"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "BBD3E96D3E8482DF"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "187390FFEEB4BFE0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "07FB3F006C042B03"
+			title: "Pressure Chamber"
+			icon: "pneumaticcraft:pressure_chamber_wall"
+			x: 1.5d
+			y: 2.5d
+			description: [
+				"The Pressure Chamber is a multiblock of walls, glass and a valve. It makes compressed iron and more."
+			]
+			tasks: [
+				{
+					id: "7E2A4CB1642BD70D"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "7C1D05BF7B114D1D"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "F3AF6D3D0E87EB57"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "46F1C5F40E1C8F0A"
+			title: "Plastic"
+			icon: "pneumaticcraft:plastic"
+			x: 3.0d
+			y: 2.5d
+			description: [
+				"Plastic opens up PneumaticCraft's electronics."
+			]
+			tasks: [
+				{
+					id: "8BB24716B739BC23"
+					type: "item"
+					item: "pneumaticcraft:plastic"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "343C80148E42EA61"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "F2C81B098DF77C91"
+			title: "Circuit Boards"
+			icon: "pneumaticcraft:printed_circuit_board"
+			x: 4.5d
+			y: 2.5d
+			description: [
+				"Printed circuit boards go into drones and advanced machines. Make four."
+			]
+			tasks: [
+				{
+					id: "6856C539AA884BD5"
+					type: "item"
+					item: "pneumaticcraft:printed_circuit_board"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "57E36573EF565D13"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "07C66AAFDA964F39"
+			title: "Programmer"
+			icon: "pneumaticcraft:programmer"
+			x: 4.5d
+			y: 4.0d
+			description: [
+				"Drones do what the Programmer tells them, built from puzzle pieces."
+			]
+			tasks: [
+				{
+					id: "D15C40FB6165DD00"
+					type: "item"
+					item: "pneumaticcraft:programmer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7F298EAF374BB5E8"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "225AD58331518FC2"
+			title: "Arc Furnace"
+			icon: "immersiveengineering:arc_furnace"
+			x: 6.5d
+			y: 0.0d
+			description: [
+				"IE's top smelter: the Arc Furnace. Form it, power it, and look at it."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "9C6724D1954897CC"
+					type: "observation"
+					observe_type: 0
+					to_observe: "immersiveengineering:arc_furnace"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "9EE9517434F05398"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "D540499148E12076"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "91737308B8063AC3"
+			title: "Drone"
+			icon: "pneumaticcraft:drone"
+			x: 6.5d
+			y: 2.5d
+			description: [
+				"A Drone, ready to program: circuit boards, plastic, and a pressure system that can charge it."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1408168891208095"
+					type: "item"
+					item: "pneumaticcraft:drone"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "5C0FD87B56579EBF"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "7000A58C780380B6"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

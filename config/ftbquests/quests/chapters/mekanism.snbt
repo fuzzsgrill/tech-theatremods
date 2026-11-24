@@ -1,0 +1,402 @@
+{
+	id: "3B8B7472F08455A7"
+	group: "1C43C1CF239BCC21"
+	order_index: 6
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanism:digital_miner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C17D2848C1590A43"
+			title: "Crusher"
+			icon: "mekanism:crusher"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"The Crusher turns ingots back into dust and has a lot of side recipes."
+			]
+			tasks: [
+				{
+					id: "2A9058F737D0056E"
+					type: "item"
+					item: "mekanism:crusher"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "14700A795C0C3600"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "D44AF16757F0F60C"
+			title: "2x"
+			icon: "mekanism:enrichment_chamber"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Ore processing starts at 2x: the Enrichment Chamber turns one ore into two dust."
+			]
+			tasks: [
+				{
+					id: "A9118E35A43CC32F"
+					type: "item"
+					item: "mekanism:enrichment_chamber"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "DC7232E661B47455"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "3BA16D4E3A066899"
+			title: "3x"
+			icon: "mekanism:purification_chamber"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"3x: the Purification Chamber, fed oxygen from an Electrolytic Separator, makes clumps."
+			]
+			tasks: [
+				{
+					id: "3295AF0F92674881"
+					type: "item"
+					item: "mekanism:purification_chamber"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "B4D81CA2BB9F3704"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2AA2781E490A8C6F"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "2F815C348625D204"
+			title: "4x"
+			icon: "mekanism:chemical_injection_chamber"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"4x: the Chemical Injection Chamber, fed hydrogen chloride, makes shards."
+			]
+			tasks: [
+				{
+					id: "9C133FD573C628DC"
+					type: "item"
+					item: "mekanism:chemical_injection_chamber"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "43D738F46FDC4F26"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "552153FD80095954"
+			title: "5x"
+			icon: "mekanism:chemical_crystallizer"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"5x: dissolve ore into slurry, wash it, then crystallize it."
+			]
+			tasks: [
+				{
+					id: "918E01AE952F1A7B"
+					type: "item"
+					item: "mekanism:chemical_dissolution_chamber"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "8B6964A7E9450939"
+					type: "item"
+					item: "mekanism:chemical_washer"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7B7E482547E95E86"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6C30B227ABC687EA"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			id: "6DE951BFEF3E215F"
+			title: "Factories"
+			icon: "mekanism:basic_enriching_factory"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Factories run several operations side by side. A Tier Installer upgrades a machine in place."
+			]
+			tasks: [
+				{
+					id: "B6B6286668BA7926"
+					type: "item"
+					item: "mekanism:basic_enriching_factory"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "C0D1944F573CCBF9"
+					type: "item"
+					item: "mekanism:basic_tier_installer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "134FBB40389F36D4"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "3710F9B04186A56D"
+			title: "Refined Obsidian"
+			icon: "mekanism:ingot_refined_obsidian"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Refined obsidian is the high-end Mekanism metal."
+			]
+			tasks: [
+				{
+					id: "3524E370717964EE"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "D2E57E958AA3A2F1"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "929149D7B905D2A8"
+			title: "Tooled Up"
+			icon: "mekanismtools:refined_obsidian_pickaxe"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"Mekanism Tools adds gear in its metals. Get a refined obsidian pickaxe."
+			]
+			tasks: [
+				{
+					id: "C3E01676FDD02B4F"
+					type: "item"
+					item: "mekanismtools:refined_obsidian_pickaxe"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "DF367341FFA75814"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "1E2373AEEB5B8019"
+			title: "Atomic Disassembler"
+			icon: "mekanism:atomic_disassembler"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"One powered tool for digging, chopping and hitting."
+			]
+			tasks: [
+				{
+					id: "3C02A40D3F836435"
+					type: "item"
+					item: "mekanism:atomic_disassembler"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "16338ACFA193D8F3"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "C72061796D0AA4FF"
+			title: "Digital Miner"
+			icon: "mekanism:digital_miner"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"The Digital Miner mines what you filter for, in a radius around it, without you being there."
+			]
+			tasks: [
+				{
+					id: "5D16784B7EEB24E3"
+					type: "item"
+					item: "mekanism:digital_miner"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "9390A0F5CE2D9D9E"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			id: "CE40B30E1ED345E5"
+			title: "Induction Matrix"
+			icon: "mekanism:induction_casing"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"The Induction Matrix is a multiblock battery: casing, ports, cells and providers."
+			]
+			tasks: [
+				{
+					id: "946D991C411C9489"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "D06B0CB11D6A5300"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "85E65014707D7798"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "D54B3DF48E12F4D2"
+			title: "Shard Line"
+			icon: "mekanism:shard_iron"
+			x: 6.5d
+			y: -1.5d
+			description: [
+				"Prove a running 4x line: bring 64 iron shards. Only the Chemical Injection Chamber makes them."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "A0543FE9E456EA80"
+					type: "item"
+					item: "mekanism:shard_iron"
+					count: 64L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1BFE1C1F7ADFC4F5"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "07BD68213A8229D3"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "63DCB2DF50A89D48"
+			title: "Ultimate Factory"
+			icon: "mekanism:ultimate_enriching_factory"
+			x: 6.5d
+			y: 0.75d
+			description: [
+				"An Ultimate Enriching Factory: the top factory tier, nine operations at once."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "F9390B3492AF1CB4"
+					type: "item"
+					item: "mekanism:ultimate_enriching_factory"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "CF8015E6CF3B0DBE"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "5DE8C3C5137E888A"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

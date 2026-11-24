@@ -117,12 +117,56 @@ file = "config/ftbquests/quests/chapters/act1_get_in.snbt"
 hash = "e5510849f44175f05eae838c64bb2a99573dcf19fae624d5aa58c709dc479685"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "3d75fa487d6f7d71a8ebcb3fcf16fd3fb631cdbbdde57eba990924d95fd584a5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/engineering.snbt"
+hash = "3434753c0fd8039dade239e9f5caddfa21db56f3c651c2cabf814f7a5c0820de"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploration_gear.snbt"
+hash = "066861d25f09679727b3ad5c6077ac7a7920643960827a18f184efbdfd7cf914"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
 hash = "2cc253a8685ed7a1731292084aeccc97030aa74ecf125c0c9e2128f8cc6bd36a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lighting.snbt"
 hash = "79a4c6b860671cac185ff26fd2ddaf53b2d51882a486d44608e027f816ff24c2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "5bf1ccc3c06236694d40926f176eb14a5353bbe81e8b8b9f5404c3f347c1e7f6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/power.snbt"
+hash = "7c9ce1ac1b42578e996d8163bdeba17ca5f5ad3926ca6cd8cfda68d9af5ef138"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/projection_control.snbt"
+hash = "be2cc60a5be0931f4ea9d846b4fa996cb45998b62d4d624ea8d201b1dd22770e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/resource_generation.snbt"
+hash = "8039c88963b1bbfc57cf80107f799e06b25ab99d1ca7735f8da1de37ee8f07d8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/sound_music.snbt"
+hash = "2b391963bb7f1a80d2051b32abdf774afea07b6db21c94915c6e1d19990e3591"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stage_set.snbt"
+hash = "aa2128f89012a6ec979109312478649261d580043f495e5d6537609e64012add"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage_logistics.snbt"
+hash = "1d478dcffdd5dbc258981be792c4893e09d61dbeb51055f4c1abc29ad8c5ce9a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/useful_items.snbt"
+hash = "be52082b0d7bf70577278560829885651e5f4fdbb89d2a422e20c816c98689dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"

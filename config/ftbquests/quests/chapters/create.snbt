@@ -1,0 +1,370 @@
+{
+	id: "7E6DF1AB8C916D21"
+	group: "1C43C1CF239BCC21"
+	order_index: 5
+	filename: "create"
+	title: "Create"
+	icon: "create:precision_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2FE4DF214254F4AF"
+			title: "Crush"
+			icon: "create:crushing_wheel"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"A facing pair of Crushing Wheels, spinning into each other, crush raw ore into crushed ore for more output."
+			]
+			tasks: [
+				{
+					id: "7DF3973D0747CE40"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "A81AE0ECF4CE6F05"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "5F0563C18141CDDA"
+			title: "Mix"
+			icon: "create:mechanical_mixer"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"A Mechanical Mixer over a Basin mixes recipes. Some need heat from below."
+			]
+			tasks: [
+				{
+					id: "AFA5355CCC623FDC"
+					type: "item"
+					item: "create:mechanical_mixer"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "872E00B0689ABCAB"
+					type: "item"
+					item: "create:basin"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "15252010EFC3EB60"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "F1FEFCC34DC4336C"
+			title: "Heat"
+			icon: "create:blaze_burner"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"A Blaze Burner under the Basin heats it. Feed it fuel."
+			]
+			tasks: [
+				{
+					id: "0F92FAFE038A265A"
+					type: "item"
+					item: "create:blaze_burner"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "35488C915A500293"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "A27C221B2A540234"
+			title: "Brass"
+			icon: "create:brass_ingot"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"Brass comes from mixing copper and zinc in a heated basin. It unlocks Create's precision tier."
+			]
+			tasks: [
+				{
+					id: "042C1EE23286459B"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "608A47364ACE86CE"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "8862C1B6D9C62D2D"
+			title: "Electron Tube"
+			icon: "create:electron_tube"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"Electron tubes go into brass-tier machines."
+			]
+			tasks: [
+				{
+					id: "F0AB23BDA3825C07"
+					type: "item"
+					item: "create:electron_tube"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C214CF2FE890B411"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "9A1B1FDE7BBC5C97"
+			title: "Robot Arm"
+			icon: "create:mechanical_arm"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"A Mechanical Arm picks from one place and drops at another. Set its points before you place it."
+			]
+			tasks: [
+				{
+					id: "CB2D6C2ABE05821E"
+					type: "item"
+					item: "create:mechanical_arm"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C12823ABA1E10FE7"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "F159707C2D644291"
+			title: "Deployer"
+			icon: "create:deployer"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"A Deployer uses whatever it holds, like a player would. It's the key to sequenced assembly."
+			]
+			tasks: [
+				{
+					id: "969FBE480A144EEF"
+					type: "item"
+					item: "create:deployer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C99E94507181DE0B"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "3ADD3AFD872F697A"
+			title: "Full Steam"
+			icon: "create:steam_engine"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Steam Engines on a heated Fluid Tank of water: Create's big power. More heat and more tank make more engines run."
+			]
+			tasks: [
+				{
+					id: "466A6EBF0CA02640"
+					type: "item"
+					item: "create:steam_engine"
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "523E64BA019EC153"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "615FB93786B7F0EF"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "EF13049CE4C27B19"
+			title: "Big Crafts"
+			icon: "create:mechanical_crafter"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"Mechanical Crafters chain together for recipes larger than a crafting grid."
+			]
+			tasks: [
+				{
+					id: "0D849CDC8A12D568"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 9L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "29678E81A0BB220A"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "220E3DE27FF1C829"
+			title: "Vault"
+			icon: "create:item_vault"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Item Vaults merge into big storage that funnels and arms can work with."
+			]
+			tasks: [
+				{
+					id: "18527E0D336897AD"
+					type: "item"
+					item: "create:item_vault"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "83D052A082E498E3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "8CB7E1BFC78368F9"
+			title: "Precision"
+			icon: "create:precision_mechanism"
+			x: 6.5d
+			y: -0.75d
+			description: [
+				"Precision Mechanisms only come out of sequenced assembly: a line of deployers adding parts to one piece, step after step. Make 16."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5FD3D98DFE282FBF"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "CB48095C3F49D761"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "81C70F87208B88C8"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "E35A34EA6261EBA7"
+			title: "All Aboard"
+			icon: "create:track_station"
+			x: 6.5d
+			y: 1.5d
+			description: [
+				"Run a train: lay track, build a station, give the train its controls and a schedule. Look at your station."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5D05C17BCA932E44"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:track_station"
+					timer: 0L
+				}
+				{
+					id: "8EAD16262A5A248B"
+					type: "item"
+					item: "create:track"
+					count: 32L
+					consume_items: false
+				}
+				{
+					id: "53A8216876865DAD"
+					type: "item"
+					item: "create:schedule"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C32FCC442DDD3093"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "B7746C4F02830B85"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

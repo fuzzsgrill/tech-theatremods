@@ -1,0 +1,360 @@
+{
+	id: "BF4730401E2DCD5D"
+	group: "1C43C1CF239BCC21"
+	order_index: 10
+	filename: "exploration_gear"
+	title: "Exploration & Gear"
+	icon: "ad_astra:tier_1_rocket"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "AB1F2F614C48A986"
+			title: "Find It"
+			icon: "explorerscompass:explorerscompass"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"The Explorer's Compass searches for structures and points you at them."
+			]
+			tasks: [
+				{
+					id: "97EC0EA6E3309937"
+					type: "item"
+					item: "explorerscompass:explorerscompass"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E3E67E5052CDD247"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "BE320EA1D87C9BCB"
+			title: "Warp Stone"
+			icon: "waystones:warp_stone"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"A Warp Stone teleports you to any Waystone you've activated, from anywhere."
+			]
+			tasks: [
+				{
+					id: "DA97B0BE0BC3CC3A"
+					type: "item"
+					item: "waystones:warp_stone"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2E8F62E21D6730D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "2B5A1D35B4AC98C8"
+			title: "Blades"
+			icon: "simplyswords:diamond_longsword"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Simply Swords adds weapon types: longswords, katanas, glaives, scythes and more. Make a diamond longsword."
+			]
+			tasks: [
+				{
+					id: "0AEC8CA83FC4DA6F"
+					type: "item"
+					item: "simplyswords:diamond_longsword"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "14463B4D345B2A99"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "418063B094C0C239"
+			title: "Suit Up"
+			icon: "ad_astra:space_helmet"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Space needs oxygen: a full space suit, and an Oxygen Loader to fill it."
+			]
+			tasks: [
+				{
+					id: "5ABEBF1F204A7F33"
+					type: "item"
+					item: "ad_astra:space_helmet"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "06EDF82CAD2AE2DB"
+					type: "item"
+					item: "ad_astra:space_suit"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "9FFC53706950D664"
+					type: "item"
+					item: "ad_astra:oxygen_loader"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "BF8295B5C7CCEC82"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "FA3FFCE70385AFD3"
+			title: "Launch"
+			icon: "ad_astra:tier_1_rocket"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"A Tier 1 Rocket on a Launch Pad, fuelled from a Fuel Refinery."
+			]
+			tasks: [
+				{
+					id: "307C813A3B516935"
+					type: "item"
+					item: "ad_astra:tier_1_rocket"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "0284E47F5BC835C6"
+					type: "item"
+					item: "ad_astra:launch_pad"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "4B0DBDDF44FA973D"
+					type: "item"
+					item: "ad_astra:fuel_refinery"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "A32A07493A93BD26"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "C67D0735A874BD39"
+			title: "The Moon"
+			icon: "minecraft:end_stone"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"Land on the Moon."
+			]
+			tasks: [
+				{
+					id: "E60EA9A10942C948"
+					type: "dimension"
+					dimension: "ad_astra:moon"
+				}
+			]
+			rewards: [
+				{
+					id: "24BD66FBE98ADEB7"
+					type: "item"
+					item: "ad_astra:desh_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "470B41E4DDD4F492"
+			title: "Mars"
+			icon: "ad_astra:ostrum_ingot"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"Desh builds the Tier 2 rocket. Reach Mars."
+			]
+			tasks: [
+				{
+					id: "B018A4D4CF10D96F"
+					type: "item"
+					item: "ad_astra:tier_2_rocket"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "B1DFA4727CB1B646"
+					type: "dimension"
+					dimension: "ad_astra:mars"
+				}
+			]
+			rewards: [
+				{
+					id: "697E95A708A48915"
+					type: "item"
+					item: "ad_astra:ostrum_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "C95496319AE54E2E"
+			title: "Stay a While"
+			icon: "ad_astra:oxygen_distributor"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"An Oxygen Distributor fills a sealed room with air; a Gravity Normalizer fixes the gravity."
+			]
+			tasks: [
+				{
+					id: "5F08C253056938BC"
+					type: "item"
+					item: "ad_astra:oxygen_distributor"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "F32E34BBA3FFB93A"
+					type: "item"
+					item: "ad_astra:gravity_normalizer"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "257BFDEACED836B3"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "DE78A81597BE0658"
+			title: "Relic Hunter"
+			icon: "simplyswords:dormant_relic"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Simply Swords' unique weapons are found, not crafted. Find a Dormant Relic."
+			]
+			tasks: [
+				{
+					id: "DA8D721BBE4711F4"
+					type: "item"
+					item: "simplyswords:dormant_relic"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "F10943248D44E5F7"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			id: "D561D058481683A3"
+			title: "Far Planets"
+			icon: "ad_astra:tier_4_rocket"
+			x: 6.5d
+			y: -0.75d
+			description: [
+				"Build a Tier 4 rocket and reach Glacio, the end of the Ad Astra line."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "986D62099DA69F0E"
+					type: "item"
+					item: "ad_astra:tier_4_rocket"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "B7E86DCBF21F21D7"
+					type: "dimension"
+					dimension: "ad_astra:glacio"
+				}
+			]
+			rewards: [
+				{
+					id: "00C47F16B67DA6B5"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "7121A21F48F9C145"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "B24997BFC0C2CBAF"
+			title: "Legend"
+			icon: "simplyswords:watcher_claymore"
+			x: 6.5d
+			y: 1.5d
+			description: [
+				"Carry a legendary unique: The Watcher."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "66A9EB6727A5009B"
+					type: "item"
+					item: "simplyswords:watcher_claymore"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E305E55C113D66E8"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "6ECBB4CD0310947D"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}
