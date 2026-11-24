@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "sef:layer_sound_galileo_galaxy_816"
-  },
-  "result": "sef:t_acoustics_k_1",
-  "count": 1
-}

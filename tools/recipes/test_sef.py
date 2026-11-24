@@ -116,3 +116,24 @@ class SefLootTests(unittest.TestCase):
                 self.assertEqual(table["pools"][0]["entries"][0]["name"], b)
             self.assertFalse((Path(d) / "data/sef/loot_tables/blocks/road_case_1.json").exists(),
                              "road_case_1 keeps SEF's own loot table")
+
+
+class RetierTests(unittest.TestCase):
+    def family_of(self, item):
+        return next(f.name for f in sef.FAMILIES if item in f.members)
+
+    def test_unlisted_speaker_fails_instead_of_defaulting(self):
+        with self.assertRaises(ValueError):
+            sef.classify(sorted(i[4:] for i in SEF_ITEMS) + ["mystery_box"])
+        sef.classify(sorted(i[4:] for i in SEF_ITEMS))
+
+    def test_hand_retier(self):
+        for p in ("t_acoustics_x15_hiq", "t_acoustics_a15_focus", "t_acoustics_a15_focus_oriz",
+                  "layer_sound_msl_3", "layer_sound_msl_4", "tet_max",
+                  "funktion_two_res_4e", "funktion_two_res_4e_black"):
+            self.assertEqual(self.family_of("sef:" + p), "speakers_t2", p)
+        for p in ("funktion_two_evo7eh", "funktion_two_evo7eh_black", "blackline_h3plus",
+                  "taw_anya", "taw_kf_850ef", "taw_sb_850ef", "taw_sb1000zr"):
+            self.assertEqual(self.family_of("sef:" + p), "speakers_t3", p)
+        self.assertEqual(self.family_of("sef:layer_sound_galileo_galaxy_816"), "control_t3")
+        self.assertEqual(self.family_of("sef:fl_b_hdl_20_18"), "frames")

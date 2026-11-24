@@ -52,13 +52,43 @@ class Family:
     members: list = field(default_factory=list)
 
 
-T3_SPEAKERS = (r"^(t_acoustics_|layer_sound_|tet_(gls_12|glsl_sub|j12|j_sub|max|q7_with_rig|q7_with_rig_hang)$"
-               r"|texo_|gtx_gts_|funktion_two_(res_4e|f221)|blackline_s218|ttf_|fl_b_hdl|w8l|wsx_|wmx_sub"
-               r"|tk_audio_(l5lts|sub_4000)|taw_otto|nexus_xl|line_i5)")
+# Speakers are tiered by hand, by what the real gear each model parodies is (T-Acoustics = L-Acoustics,
+# Funktion Two = Funktion-One, T&T = d&b, TAW = EAW, Layer Sound = Meyer, Tiamaha = Yamaha):
+# T2 = point-source tops, stage monitors and compact boxes; T3 = line-array elements, big subs, flagships.
+# Every speaker must be listed: a new SEF model fails classify() instead of silently landing in a tier.
+T2_SPEAKERS = [
+    "funktion_two_f121", "funktion_two_f121_black", "funktion_two_res_4e", "funktion_two_res_4e_black",
+    "gtx_12", "gtx_gt_8", "layer_sound_msl_3", "layer_sound_msl_4", "line_co10", "line_cp118", "line_cp218",
+    "nexus_6", "nexus_q", "t_acoustics_a15_focus", "t_acoustics_a15_focus_oriz", "t_acoustics_x15_hiq",
+    "ta_4515", "ta_4515_black", "ta_4515v", "ta_4515v_black", "ta_p27r", "ta_p27r_black",
+    "ta_pms_5000", "ta_pms_5000_black", "tet_max", "tet_q1", "tet_q7", "tet_q_sub",
+    "tiamaha_dxr10", "tiamaha_dxr12", "tk_audio_projector_sub", "tk_audio_projector_top", "tynacord_alphax1",
+]
+T3_SPEAKERS = [
+    "blackline_h3plus", "blackline_s218", "blackline_s218_up",
+    "funktion_two_evo7eh", "funktion_two_evo7eh_black", "funktion_two_f221", "funktion_two_f221_black",
+    "gtx_gts_16c", "gtx_gts_19g", "gtx_gts_19g_vertical", "gtx_gts_29",
+    "layer_sound_1100lfc", "layer_sound_2100lfc", "layer_sound_900lfc", "layer_sound_leopard", "layer_sound_panter",
+    "line_i5", "nexus_xl",
+    "t_acoustics_arcs_2", "t_acoustics_cs1", "t_acoustics_dvdosh", "t_acoustics_dvsub", "t_acoustics_k1_sb",
+    "t_acoustics_k_1", "t_acoustics_k_2", "t_acoustics_k_3", "t_acoustics_kara_2", "t_acoustics_ks_21",
+    "t_acoustics_ks_28", "t_acoustics_ks_28_vertical", "t_acoustics_kudo", "t_acoustics_l1", "t_acoustics_l1d",
+    "t_acoustics_l2", "t_acoustics_l2d", "t_acoustics_sb_18", "t_acoustics_vdosc",
+    "taw_anya", "taw_kf_850ef", "taw_otto_subwoofer", "taw_sb1000zr", "taw_sb_850ef",
+    "tet_gls_12", "tet_glsl_sub", "tet_j12", "tet_j_sub", "tet_q7_with_rig", "tet_q7_with_rig_hang",
+    "texo_rs18", "texo_stm_118", "texo_stm_b112", "texo_stm_m46",
+    "tk_audio_l5lts", "tk_audio_sub_4000", "ttf_hdl_6", "ttf_sub_8006_as", "ttf_sub_9006_as",
+    "w8l", "w8lm", "wmx_sub", "wsx_l", "wsx_r", "wsx_t",
+]
+
+
+def exactly(names):
+    return "^(" + "|".join(re.escape(n) for n in names) + ")$"
+
 
 FAMILIES = [
     Family("seats", 1, r"^theatre_seat_"),
-    Family("frames", 2, r"_bump$", "k1_bump",
+    Family("frames", 2, r"(_bump$|^fl_b_hdl_20_18$)", "k1_bump",
            {"pattern": ["SCS", "S S"], "key": {"S": T("forge:plates/steel"), "C": I("minecraft:chain")}}, 2),
     Family("pyro", 3, r"^(flame_thrower|spark_thrower)$", "flame_thrower",
            {"pattern": ["SBS", "ADA", "SSS"], "key": {"S": T("forge:plates/steel"), "B": I("minecraft:blaze_powder"),
@@ -76,17 +106,17 @@ FAMILIES = [
     Family("tools", 1, r"^wrench_", "wrench_tool",
            {"pattern": ["  I", " C ", "C  "], "key": {"I": I("minecraft:iron_ingot"), "C": I("minecraft:copper_ingot")}}),
     Family("control_t3", 3, r"^(desk_c3500|desk_cl5|desk_sd_5|desk_grand_ta2|ar_2412_stagebox|xps_16k|tbx_dsp_module"
-           r"|ta7_16_module|tet_d80_module|power_module_2)$", "desk_grand_ta2",
+           r"|ta7_16_module|tet_d80_module|power_module_2|layer_sound_galileo_galaxy_816)$", "desk_grand_ta2",
            {"pattern": ["GGG", "AMA", "SSS"], "key": {"G": T("forge:glass_panes"), "A": I("mekanism:advanced_control_circuit"),
             "M": I("sef:mixer_dm3"), "S": T("forge:plates/steel")}}),
     Family("control_t2", 2, r"^(mixer_|tioneer_|desk_quick_q_10$|wireless_microphone$|tablet_device$|laptop$"
            r"|power_module_1$|default_module$)", "mixer_dm3",
            {"pattern": ["RCR", "BEB", "PPP"], "key": {"R": I("minecraft:repeater"), "C": I("minecraft:comparator"),
             "B": T("forge:ingots/brass"), "E": I("create:electron_tube"), "P": T("forge:plates/iron")}}),
-    Family("speakers_t3", 3, T3_SPEAKERS, "t_acoustics_k_1",
+    Family("speakers_t3", 3, exactly(T3_SPEAKERS), "t_acoustics_k_1",
            {"pattern": ["SAS", "DED", "SAS"], "key": {"S": T("forge:plates/steel"), "A": I("mekanism:advanced_control_circuit"),
             "D": I("sef:tiamaha_dxr10"), "E": I("create:electron_tube")}}),
-    Family("speakers_t2", 2, r".*", "tiamaha_dxr10",
+    Family("speakers_t2", 2, exactly(T2_SPEAKERS), "tiamaha_dxr10",
            {"pattern": ["PNP", "BEB", "PNP"], "key": {"P": T("forge:plates/iron"), "N": I("minecraft:note_block"),
             "B": T("forge:ingots/brass"), "E": I("create:electron_tube")}}, 2),
 ]
@@ -103,7 +133,9 @@ def classify(items):
     for fam in FAMILIES:
         fam.members = []
     for path in items:
-        fam = next(f for f in FAMILIES if re.search(f.pattern, path))
+        fam = next((f for f in FAMILIES if re.search(f.pattern, path)), None)
+        if fam is None:
+            raise ValueError(f"sef:{path} matches no family; add it to a family or a speaker list")
         fam.members.append("sef:" + path)
     for fam in FAMILIES:
         if fam.base and "sef:" + fam.base not in fam.members:

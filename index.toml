@@ -1644,6 +1644,10 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_desk_sd_
 hash = "225e0e0746ea369b34ebeffac91468267a414de8dfcff466270e359e7d931fec"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_layer_sound_galileo_galaxy_816.json"
+hash = "db4b18a918c3c6a9333e83fc83a186ae5e30b33ce5da0d844520acb2a5b0795e"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_power_module_2.json"
 hash = "7198802c57e9d097df476559bea552668b726499b67fadf267bf1ed6a9dd5961"
 
@@ -1680,6 +1684,10 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_desk_sd_5
 hash = "005346ce6e019305f6199000e73b5eb3042d934095f8d0d3d64ab5858a987342"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_layer_sound_galileo_galaxy_816.json"
+hash = "9219301d17f2e3d9552a08aadd12441519476d273c46318cde24204e44e473a1"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_power_module_2.json"
 hash = "d3121eb3576d25aa18ac86e1cf1443fc25102d7fd9147a9745597d9136eaf3a5"
 
@@ -1710,6 +1718,10 @@ hash = "58b8051b4f53fb80018fceeec2bf0a6e88b7938b872a166ca66362c89b375db4"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_dv_bump.json"
 hash = "0523317d0db51decc53a88d6eb7d3a0b0cefc34fc3de659e4fff8dc7c79be0b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_fl_b_hdl_20_18.json"
+hash = "8aad9db1d3881e462ba80028ef8aa9e520e154c6d0ca84af3c24093490cb7d2f"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_gsl_bump.json"
@@ -1794,6 +1806,10 @@ hash = "62341a80f5e77a8fb8ef553f1630b3b383595dc936caa0889d6bdef8504afb06"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_dv_bump.json"
 hash = "76623ce286426fb680b18dd81f978a56d91972ff6b5e83888f8b6c2615a1b756"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_fl_b_hdl_20_18.json"
+hash = "308a1c11e113b6c9398c0f389116f08d1e95d5100ba1766359e7f728ee034b45"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_gsl_bump.json"
@@ -1984,18 +2000,6 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_yellow.json"
 hash = "4a17a3776df9e6eb8d63fa38b35eb9607718404b1aedf046f29e94380ad7b95e"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_blackline_h3plus.json"
-hash = "eea0dce8cc33ae49537fc9c11441a2101fcb624647f69a4df55b597a71354028"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_evo7eh.json"
-hash = "48a810ffa43617f107563ace1163418e7eac4e73837cd03865df99d32b079145"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_evo7eh_black.json"
-hash = "83eb06bf2193a8c852bef7dce2a1719e18d2abba1344944b135495bf1048b0bd"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_f121.json"
 hash = "6795f046e7b8e9167e7730733e3d70e35e0e8808ed4db8594ffc55f93c798d9a"
 
@@ -2004,12 +2008,28 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktio
 hash = "e00d489e2f8ad5b27f346704b5e9ef2868087856ec83d8351e1703083f9642b2"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_res_4e.json"
+hash = "2311d6586f69bb584182a5ac1051d006f114b1b6d0be9f99c66835399eeb7d5a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_res_4e_black.json"
+hash = "4d802607cbfd9b5ee95310b53be6fa96d74f48ec042c3a3960a20d5329c23c64"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_gtx_12.json"
 hash = "56ec82dee609c8057fb6df7675c05fbc0d19a5bc330798c77b036b4152a6b827"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_gtx_gt_8.json"
 hash = "2c41ca16fbd762fa8c10550403e3a590ad558779c2e96cb237d09a1577eacc54"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_layer_sound_msl_3.json"
+hash = "d34d64d5af6b5b82806ad243018dd9324058fc5cb0c5fe1e0fe922dc09a85032"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_layer_sound_msl_4.json"
+hash = "5da2980d76de9a2626854e41b5bcdb8390bd6a56216c33f81c14fe3c71fefc9f"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_line_co10.json"
@@ -2030,6 +2050,18 @@ hash = "19ea58002c72af099f5a99ffb48d2e171069b68597360841fa5759b7f3cb6d65"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_nexus_q.json"
 hash = "8edaf9a4a43ac5668d4573296024ba0f2604eba17a6d049f4eaf3106bb948c98"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_t_acoustics_a15_focus.json"
+hash = "9f976b7b344dc2065be379c1272e4d8737e87e4a35b2e3b88335b844870d3740"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_t_acoustics_a15_focus_oriz.json"
+hash = "8d770587f3d940a0950be55a868380b051f03a28a69da08bd6176f3dabb64c37"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_t_acoustics_x15_hiq.json"
+hash = "1d6f994b1c22ce836f58977c1342faac041a9285a3908571b76616b50cd0171d"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_4515.json"
@@ -2064,20 +2096,8 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_pms_
 hash = "f27305e2623e7c94cb5b0a0931b9f6c240f30a75c26e9698d79adc0751772de8"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_anya.json"
-hash = "94e2c154a2c04956feca871ac0b44476c45b7bf0c1a5d96e253f67d338f2ad6e"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_kf_850ef.json"
-hash = "a7d374f42d299b25abc3cb8ceaf7d9318c6bc46787610924ea7c7182647c068c"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_sb1000zr.json"
-hash = "a2c68a5e7b55f182eeab29c1147a9407dcb40d478297323cd1dff3d38a878611"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_sb_850ef.json"
-hash = "3bf1f39d18af23fe82c8b2597d7581e469f42bbda2294523cf14b18d1c4b3dae"
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tet_max.json"
+hash = "8f818d9640a1a2d5bc857502a930628e8e02a49a9b7f230bf22787421ab624d6"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tet_q1.json"
@@ -2108,18 +2128,6 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tynacor
 hash = "aaee6b8d7fec7434be5fae20b325dd7b233a600cb673c6f24328b1b1e3a3434f"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_blackline_h3plus.json"
-hash = "e189a86d2d472c0bf095b485178ddc6c0839ed1b9e9465a87d44278c6f5519e0"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_evo7eh.json"
-hash = "dca4367f5748fc0145bfb7d6cbfffb01af7634f036007f440781cc3cd824b38f"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_evo7eh_black.json"
-hash = "67fa2f463d6753438317cb6359cac9db078380a8beefe31f13ce94c052d698ee"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_f121.json"
 hash = "f76ba72fc7c7db35e920ee56c8e8eaa7aa0f730013a564ede826a64d38fdfc28"
 
@@ -2128,12 +2136,28 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion
 hash = "1512b26045a5b5c4bcbb765199b7883d934ab2220caaf2e744066d038350a766"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_res_4e.json"
+hash = "33e2a1b515c221c56269170e1b70a26a14bb24909e99df7f4798ed87086b513c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_res_4e_black.json"
+hash = "87a6db9592dd3c393f10bff62e2b915d67cc43f267ca9880cdb508bda3385ec0"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_gtx_12.json"
 hash = "1e400a09f451222499a82af2a28c58ebb4f951f33ed68c012ac7bb38f2cbfbd8"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_gtx_gt_8.json"
 hash = "bf1330830d3412875968310b10424d15cdbe0ce8914755aec0b069ecee559605"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_layer_sound_msl_3.json"
+hash = "9e2a086b3d1b8611947c0248a183ea95c0c5e0ad98cd400e12202478da5891fc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_layer_sound_msl_4.json"
+hash = "b5781e2cd9ff4f795fb0e70e2cb43c6d6257f41b3f8a93946eb3d80485705d0a"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_line_co10.json"
@@ -2154,6 +2178,18 @@ hash = "32bc540848f08e40b597a70407dd04267daaec832b31492de3293ab10973f7ec"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_nexus_q.json"
 hash = "69138bedadc737332afe973205da3fb3df113d0d1ab8d63c5feb3a0b394a8a14"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_t_acoustics_a15_focus.json"
+hash = "e384407a3ca635f0b597d9fe5c570ce60bc09af847036548a466d88988aef02a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_t_acoustics_a15_focus_oriz.json"
+hash = "d797149cff26534143fd354393519abca393ff7cc0f4f53ea4a2d996d09e07a2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_t_acoustics_x15_hiq.json"
+hash = "f90a5167bba1650003af794a71d5ea7b433a18118ef058ccd520573a1c4b2d84"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_4515.json"
@@ -2188,20 +2224,8 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_pms_5
 hash = "ab610e3ac36345726765aa41856a9fa62d323934b3579ed6a67e6a091fc76d21"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_anya.json"
-hash = "e0194c2cb991076f9f03d8a35c212f3c42732cf9ca506559eef1377b40f5de26"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_kf_850ef.json"
-hash = "83dbab0138ad80cdc7505d36da4cbb430ca9f0101b62d6a3dc3cea8548dc8026"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_sb1000zr.json"
-hash = "5615ac8a0805fa1684984a477b299c831fd0b2f5afdf510edcb50aac3e685a5a"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_sb_850ef.json"
-hash = "f4010bbda53f798ea04f196081972a35d45d1c5bcfa342320fb8a61461e34dbc"
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tet_max.json"
+hash = "a54a39140e9c81190a167951fd235e873cc0c14237480823f1c87f517b1baf6d"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tet_q1.json"
@@ -2236,6 +2260,10 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__tiamaha_dxr1
 hash = "4306d204d6d764ed8daac3313441b3373d80e06931741ebfc1710ffee6d116bb"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_blackline_h3plus.json"
+hash = "841394f5921d698729baae38f448d6293c724af917c4f01c59d92c522fd6e262"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_blackline_s218.json"
 hash = "8594650bb1e5f999e9738dd06d2c7df1feee8b136ee60672abac5b6846b5ae6e"
 
@@ -2244,8 +2272,12 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_blackli
 hash = "4232f9290f9ce2a307bfce26124ee3b0c302ff5f5bcbcd8e502415ab4427dcc7"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_fl_b_hdl_20_18.json"
-hash = "c6fd8e929e77cc20e9e5aeea470ac2f0165cb824110f0f4a50482e184974e3dd"
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_evo7eh.json"
+hash = "f7688be05d3f0be133215ccf86e8f993c9d3dc6a3e559f5ec95dbfdbb51e57d4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_evo7eh_black.json"
+hash = "4b605fff10a174804ccca35fc986cd639101edd886d88f4da912bbac4e320547"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_f221.json"
@@ -2254,14 +2286,6 @@ hash = "45fa2acdb5078b11658cf97c753d3c0bea0797eabbfe9e9971f88df6663bfe12"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_f221_black.json"
 hash = "5e1a9f4f3ae57255a76dae191767557c5ad9984ffaad36d2325b9a3c28568867"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_res_4e.json"
-hash = "bb6dd149bbc290b1f3a00e7f737d574e1f7e462395be5652b92fbfa2a0676b2a"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_res_4e_black.json"
-hash = "76deb731bf01649f8c8c004d01e099d1214626981b70badd4a029fd78bfdc921"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_gtx_gts_16c.json"
@@ -2292,20 +2316,8 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_s
 hash = "2d984200fb4481482759deab3531f327daeb7f8c0c161fc07e2351fc0c923b6a"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_galileo_galaxy_816.json"
-hash = "462bf9ed56d38c472a6c2b045cf00272b0e618f11fee09b8cd891492f587fae2"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_leopard.json"
 hash = "696d68a75975f38e243a2e88dca8778d397c3505aadbda69ac47256ba70fe4c0"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_msl_3.json"
-hash = "21a411d9ac9ee345b45ead1c9c10754f7ec539b66e8e77fd6aa1fc0a40656502"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_msl_4.json"
-hash = "69f648ae48a5808245ee8800e6a4584d6bfce01f623a24fed9b7eaf042a1d890"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_panter.json"
@@ -2318,14 +2330,6 @@ hash = "d8b274c4d6fde21452555f64568df7b762cfda466a440a68aa9599b8618dc9f7"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_nexus_xl.json"
 hash = "981c9445dc65f26e67e3610447d53f18ed74bd78caea08370a96401b6b44b007"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_a15_focus.json"
-hash = "2af904452a5e629cbcc12ef72a23104d020d4308067bf8190acb59c03100a25a"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_a15_focus_oriz.json"
-hash = "eec5fb933c0a1d35d5758b4b37517d780752f34c07d5442b95df8283fc3560f7"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_arcs_2.json"
@@ -2400,12 +2404,24 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acous
 hash = "97e72c328c7b7e4c7149a8877da06d206ff8a72b53ded52ad442186e389d41d8"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_x15_hiq.json"
-hash = "517b53e32264ccdd3336667bd9312fe02b645ba7f38e7f189cfed74797e027ae"
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_taw_anya.json"
+hash = "cca294418e3b004611552d228350b346ddb2091bf25a84dbacfda1b052e9d560"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_taw_kf_850ef.json"
+hash = "32f09f80c583b57e08524b4bb7059aa1f84acf67f560f79acc3f167efe4ea144"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_taw_otto_subwoofer.json"
 hash = "f0c0c7c3568697f2a28c9e8c9d526e2c87bc09569f522affb204085749cfc0b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_taw_sb1000zr.json"
+hash = "88a9f3cd5859bc9616e2d1a3afd1a905375ab7fd86090f877116bf36dc5c6b19"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_taw_sb_850ef.json"
+hash = "4f9d4e938e97b92b89b1ba6a4cd514db304a06dc308e3fce1daa2490a5656288"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_gls_12.json"
@@ -2422,10 +2438,6 @@ hash = "58081c7e1ce6c5295fbb182e0a321d6284db03dbd6449481ec9f10c3018594dd"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_j_sub.json"
 hash = "dff1dac122047cb0be8ebc003b34fe225a8e93e4fd46df4772a71ecf9d113221"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_max.json"
-hash = "78ad128c788e6a6810eb218ceea44c7a6d31b1dad7f0726769e9bbc191eaf4d1"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_q7_with_rig.json"
@@ -2496,6 +2508,10 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_wsx_t.j
 hash = "cee36aaba244372c93cfc29f2ca2299a7575fc196f69c94f841a2e8f8b166637"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_blackline_h3plus.json"
+hash = "4a22260aa4a58a251da6ca102dacc45f97f583b8ca198f8df93bae31b391e2b8"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_blackline_s218.json"
 hash = "63d5e60724cff63cba74b1171f4a9e8fa2c3cfcf6d9291297b37b4cf411ea0cd"
 
@@ -2504,8 +2520,12 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_blacklin
 hash = "1fc916c7c179f145c3f67598e8bb61b2510f1f923e3d2477c1fb5507bb4301b1"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_fl_b_hdl_20_18.json"
-hash = "9654f17e1da4d35dd20ec1d03a9324b2c6c8ac9ae74520c2034ba647c5a71d6c"
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_evo7eh.json"
+hash = "087602df97a949a117e54a78d8d25549263c272d4412b3da838132f5c4d856ad"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_evo7eh_black.json"
+hash = "ae6346996cd2ba63bef4334143c777ad48cbf5499ec444af372d0bb25e5dcc42"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_f221.json"
@@ -2514,14 +2534,6 @@ hash = "80c275d3fc64e1877b007ecb4335c689ef15e553f9e379e5b45eca1d509993b9"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_f221_black.json"
 hash = "c090e22f41d4fa7b12b7b1d96a306c66de73b7466eec3181c5429c7144191d2c"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_res_4e.json"
-hash = "733759435a77dc57eae2e2bddd38b5f93da64e212fa83b0df72e06f835652995"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_res_4e_black.json"
-hash = "72cf1aa8abc34fd86f20c0eda5f837422e7ae518e91e5aed1a0bb31e9df015c0"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_gtx_gts_16c.json"
@@ -2552,20 +2564,8 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_so
 hash = "5b28a794603eb4c351a372e1a0d5ae7b81cc913cfdd6e768743e2242dfad8d36"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_galileo_galaxy_816.json"
-hash = "9b9450d0e20c711b1403c1d6d5f4c575e574c288b1ff5c88160922c724b1c6be"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_leopard.json"
 hash = "a956cc328bc057ed9dad45e8ae96957af6be9c2b6029ddbf9287207b5dddf0f5"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_msl_3.json"
-hash = "6bfbe0d37c8fac8a430674b629b1e89e76b19bf7ffcd1bdd2f7e7e3b93e507cd"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_msl_4.json"
-hash = "9873d68f005f667cfe2d76b17b960d2bd7ae783902b500dbb540f8823c49d357"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_panter.json"
@@ -2578,14 +2578,6 @@ hash = "0e65b4b0ecd2a044ea809324daf62b437c6c5955d08b355c23c02fe8f41b8926"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_nexus_xl.json"
 hash = "0d9e66883672032d2b4579fffa2f81959a497f8bcfd1949d200ce2f08550a095"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_a15_focus.json"
-hash = "43ce81ec65127fc0602479d3b75038ae59622de70b686506d61a5d8723e8ccfb"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_a15_focus_oriz.json"
-hash = "a01bc674fb0c75f4dedde193036772fcd076c55886901b104944227623aa8fae"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_arcs_2.json"
@@ -2660,12 +2652,24 @@ file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoust
 hash = "3188515edba58ab590669dc1f8e6b8fdb5f3f17e5931e8eaf759339e5f4bf9c7"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_x15_hiq.json"
-hash = "5b7ef6b4a6088ed916fb265ec05dfa6565dcfc953153b51975e50be94cdf3149"
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_taw_anya.json"
+hash = "10ab6609bd6e38da237dd3aa059f0d434b1d9101eaee72b9bb6600ae4c1ce3ae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_taw_kf_850ef.json"
+hash = "fde150ee2429367434652ace17ea069ea3a6774fb25b71a128a33db7da550b1e"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_taw_otto_subwoofer.json"
 hash = "71b4d844a5e1f47865e4259d75d218c37b7e7a164098eb4bbf71328bcb7f33c2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_taw_sb1000zr.json"
+hash = "00f751ad01984ae3914f7135b3c53fb9899b1bcacaa45859baf705410d4e7a98"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_taw_sb_850ef.json"
+hash = "7b51b7ed8a7813726350d4ba6b1d1afe5fdf06a36f210de09cb8efce25a0dbcb"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_gls_12.json"
@@ -2682,10 +2686,6 @@ hash = "021ab1a5fe9ff15ba79a9fd1e13f45599224ce401403570ca5f787105cf814f0"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_j_sub.json"
 hash = "477005ffff79da870abf2e6c743218d3689738745782e0e5e298b04f0b9e1c4a"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_max.json"
-hash = "f28dbe336d619c26f28f8c47ac5de3344c05a947b21e2049b355d148214d7dce"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_q7_with_rig.json"

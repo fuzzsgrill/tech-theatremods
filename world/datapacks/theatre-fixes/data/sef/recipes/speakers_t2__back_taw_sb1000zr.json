@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "sef:taw_sb1000zr"
-  },
-  "result": "sef:tiamaha_dxr10",
-  "count": 1
-}

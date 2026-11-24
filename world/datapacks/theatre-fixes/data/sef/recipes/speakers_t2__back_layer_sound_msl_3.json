@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:layer_sound_msl_3"
+  },
+  "result": "sef:tiamaha_dxr10",
+  "count": 1
+}
