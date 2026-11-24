@@ -792,10 +792,6 @@ file = "world/datapacks/theatre-fixes/data/forge/tags/items/sandstone/venus_sand
 hash = "349ce5951be48e37eea57833237ab8854b918e136566b265e91fd6740a617eef"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_default_module.json"
-hash = "e021e6403e0d0498e7f6e2712e70d717c60bcd686498501218552b603ed404f9"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_desk_quick_q_10.json"
 hash = "570ac0a16a01c15ea1ed8b7c999eef5a8bc43fa885be75d9f93cac80739021d6"
 
@@ -830,10 +826,6 @@ hash = "fcf5737113a04f65728a3db9d346774c98346e811780b009d01cad596d67c04e"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_wireless_microphone.json"
 hash = "e8f724fcfa8e3d3c46d5d29f6e429999fe9de38177cf2bcebe73e309a587d763"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_default_module.json"
-hash = "b538dc1e6a466eb6b483df14cdd5e9eb61a2903967ffd2a17cc025e5aa541839"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_desk_quick_q_10.json"
@@ -2006,22 +1998,6 @@ hash = "6d9a51b765d0101352424f5b5318dd6257731b1db57a98b35cf1ab262d584816"
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__t_acoustics_k_1.json"
 hash = "adcd9140c40bda505c7703fe2147509c11a9bdac4fbd89550ac3b51f6df5dfc6"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__back_wrench_configurator.json"
-hash = "05cd8d29504765b1b07a74ab3aa982e7b9e90b1fdb276313efaf70cf5605eeff"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__back_wrench_editor.json"
-hash = "e230bea1116c50d274f624261e05ec31b01c2c41e6703e4cd7d70ca50e4ad012"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__cut_wrench_configurator.json"
-hash = "ef555e986501d17c67de1837ff471c033ff4911418accd3567245a175ff9e9f0"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__cut_wrench_editor.json"
-hash = "a3062645ebb32168251162a18b5f17c5b45348754c2eb5e3879b273ad6aeed8b"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__wrench_tool.json"

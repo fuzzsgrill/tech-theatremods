@@ -84,6 +84,13 @@ class SefRecipeTests(unittest.TestCase):
                 src, dst = r["ingredient"]["item"], output(r)
                 self.assertEqual(tier[src], tier[dst], f"stonecut {src} (T{tier[src]}) -> {dst} (T{tier[dst]})")
 
+    def test_no_recipe_uses_unregistered_items(self):
+        # Ghosts (a model file but no lang key and no recipe making them) fail to parse on the server.
+        for ghost in ("sef:wrench_editor", "sef:wrench_configurator", "sef:default_module"):
+            for r in self.recipes:
+                self.assertNotEqual(output(r), ghost)
+                self.assertNotIn(ghost, json.dumps(r.get("ingredient", {})))
+
     def test_seat_tag_lists_all_colours(self):
         with tempfile.TemporaryDirectory() as d:
             sef.generate(Path(d))

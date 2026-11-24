@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "sef:mixer_dm3"
-  },
-  "result": "sef:default_module",
-  "count": 1
-}
