@@ -792,6 +792,766 @@ file = "world/datapacks/theatre-fixes/data/forge/tags/items/sandstone/venus_sand
 hash = "349ce5951be48e37eea57833237ab8854b918e136566b265e91fd6740a617eef"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/anya_bump.json"
+hash = "f3d4408b3a7f459b5bc7b2607494027845925d982ad03ceabbff1abc9f23bb55"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/base_small_truss_structure.json"
+hash = "76a0cc9c2710a1bdefd8c2e455eacd44697246c32e096abe31eadb8632e97e24"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/base_small_truss_structure_black.json"
+hash = "450a1f841a7b417c18dfeaeb22663f5c530c9d1f43526940f52b42e0795e4bb9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/base_truss_structure.json"
+hash = "263066d992ef596bea93ef37c66bbd277609ca15d0ab366af3a5ae977db50ade"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/base_truss_structure_black.json"
+hash = "43af12f369ab0848abe0c13b54128ee5047c41c48f091fc08dfe0d88f495d232"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/blackline_h3plus.json"
+hash = "9f560787215665f4513555ac92a72129f23f9caaa54891abc8e5bd06caab6bf7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/blackline_s218.json"
+hash = "439b63d089ac71607a2f391baa953fcd596f4a491972a0cf2e0adb05cba6663b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/blackline_s218_up.json"
+hash = "c11bd84ea38e9947cbd86aa8b948f73eb825c98971386ec33076cc5130d75f90"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/blinder_2.json"
+hash = "f358c3fbd0974cb44abfd558d712132778413a5ceb5b679b7f9aca5cd5f4524c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/blinder_4.json"
+hash = "c818564e9dc4f8dfcf5aee5a5d57975e2057924b1c9bacaec5e8dade9df95395"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/blinder_8.json"
+hash = "56b3d2686edcaf12574a35c1a21471f84c5cba5b2ec982bc5c7b4fdcb41cf33d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/cable_ramp.json"
+hash = "d94e7b4bd44c0d0ad3de47a6c19a4e5cbe79cfeeddcc503c0cd55da5f849d9f6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/chain.json"
+hash = "eb8fe52aff30cb4a45e3ab6f90262a862846902cdce36e32c90a68c24c44296d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/chain_hoist.json"
+hash = "2fc7001c81bdfd51d295d89dc7669a6c6ba5f5d3910385434ac5492e7079ec9d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/cover_panel.json"
+hash = "088358fbf4ae8cc2bbbdd9918ba7830854171a481c3f5b0a165a254b69776039"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/desk_c3500.json"
+hash = "6acc4125506430fd767ee6f423620a0fd0d4059891df3b75686023a6b25c7304"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/desk_cl5.json"
+hash = "afe5ae29da9e10f2b122c6b480d93ec8196ba67d1caf4fb737552067ea9fdfad"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/desk_grand_ta2.json"
+hash = "dcd288a8f1c822cfb90c681f6365856bbb71e25a4d6c6e0de55b2841564c7ebf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/desk_quick_q_10.json"
+hash = "ac1f96f92551fc877016514671fbf8bc3fbcaac39a6a548264f92f720bfc5959"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/desk_sd_5.json"
+hash = "fabc874c7029138763bec201229de1398b3d7ff7da7f69e6d80b82bbf1292c46"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/dv_bump.json"
+hash = "f6268767080b5fe65bcabde1658f327a205061fae5f580cc7e7c62b7d33caf78"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/fl_b_hdl_20_18.json"
+hash = "8d31a26e81693396a62a4cc09af4c9ae888734aab97fdae71b9c12cacdff2587"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/flame_thrower.json"
+hash = "54708a3e1a9ced2da3df28df32a960daa93fc180f5bed262c5d75db55af02450"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/fog_machine.json"
+hash = "3d8398a653c7789d7e2b2848af9dac9f08469163ff8ed01e4986e460576f58c1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_evo7eh.json"
+hash = "2383f5210a26b7b0e683fedeb3fece46070ca2e12f65e0271317014faa949431"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_evo7eh_black.json"
+hash = "51f265ccbd032d660e95696977d682f28d7fbe5f8710bc0aad3a5389eab7bedd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_f121.json"
+hash = "3fc005df0f3e7c31088d989b7c88e51556c03f3f1e20f060ee361f0320d2fbb2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_f121_black.json"
+hash = "723d13e3dd4de7f03a67d1907f1bdf0ecabaf735573abb82008577240190ead0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_f221.json"
+hash = "379ba0a5f90cfd0234c25913c36a2c3cc3c7383b8ee151da1ef327b55fff8999"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_f221_black.json"
+hash = "36e80ab44e52f9ad582e171f31c7964d8fd64fdfb8480172444512d40f49d047"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_res_4e.json"
+hash = "d8a890f8ff0759b5a127c3b3295c0cbcb597ffc23beb2ab7d030360e2825d32d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/funktion_two_res_4e_black.json"
+hash = "134fcaadbcc30daa0662ff6dc35e64d856d3b1045a132bd3f1de05976d1c261d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gsl_bump.json"
+hash = "1d80d48ba47d619973edeb030f8d8679948e83eaf67ab81870270233aa644eba"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gtx_12.json"
+hash = "558f5ad5b256b434b85d703720c11159c87269c3eddd4ab972e35ac495aba41f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gtx_gt_8.json"
+hash = "c8206dd1bfc15640f0615977e540420b268943fed4e0307d9290a1c0cc42593d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gtx_gts_16c.json"
+hash = "4cacfdc6fcc1cfdfde7cfdfcc2b77b4ac9a0328ac252afad4d46859e624d3c01"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gtx_gts_19g.json"
+hash = "90779857650929efdbb7fb7115e75524b6e9706de607d9b43eebb1f51aacc5cf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gtx_gts_19g_vertical.json"
+hash = "d21df6934877b1467252095ab407fefc343905cc5eb58ccbdcc5278539a8d6cf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/gtx_gts_29.json"
+hash = "c5a85f65c915e7b2b1368c84ae97a09b451bbe8976e841c3208c128b25ccb7bd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/hanging_truss_adapter.json"
+hash = "9b0f65a38e65d7b716d8f8ce350bf77362beeb747bb0a1a1344c8b617f392e9a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/hanging_truss_adapter_small.json"
+hash = "55ab02962bea84d0c45d654ed67759142db01af0e0174ab658fcab6007de5d00"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/j_bump.json"
+hash = "14ec6ae423c745655a2b219210f9713f77fcd32acc29e8b59541853754f7e13e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/k1_bump.json"
+hash = "dd6f0412023ecc9ef8119561b48c3e2834067974a14b831537e5d66d08a60495"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/k2_bump.json"
+hash = "85ebbe984115d6bbd3fc51df3ee13819c7781f192a520ef62dc3c31cb1628b01"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/k3_bump.json"
+hash = "14984f51f6c48260f2d3e7d7d76e5695b100b42e4019407fa4cadddcdeb41f86"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/kudo_bump.json"
+hash = "8582972ec46c6216e46eba5530cacba726d89843ecfc1afd8f748bc9b1f58475"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/l1_bump.json"
+hash = "301b295ae4c34155be2bf430acea3b7e069d81fd4c844d7f206ae557c6d7b0ee"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/l2_bump.json"
+hash = "af7798f435c83f34f92689f75506b008bebb1d448a13e7662025d133194c1e55"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/laptop.json"
+hash = "cf60a29c5126d75977d51b806c33c204148ae5164a020de125bfc362c6b32a9f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_1100lfc.json"
+hash = "42648f4894c9660acfc7ebf1aad00624118a6a47973da2fb18b95e1e4115cfc3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_2100lfc.json"
+hash = "0119a930dc434ac17911aee9d8578cf1d6335e32d6b9232d8a736f4112fb0c18"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_900lfc.json"
+hash = "d40e4f94e7d86a8179bab6617f0ce30aa110f63e05bf62dbfab91deb75b22e49"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_leopard.json"
+hash = "6d2a5805f53dc8d37cab37c0cf9aa654bfeac9b4f8201aa1276c128941d92cad"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_msl_3.json"
+hash = "525cfed9abfb8e8d16ea399e9512ebb94cd7bf161f60ef07956585f36e534b23"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_msl_4.json"
+hash = "35e7116c03b2d8758b1d752208e6fd688855151467cdb2b512c8da35f1c29e68"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/layer_sound_panter.json"
+hash = "268a6cd9f377c4ccff1958c2b706e5c91642db7627bc06296b2eabd8d4be3836"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_co10.json"
+hash = "369f059a54880c34cecda1cc40dc3cc9ec42222b9766fb249222ff5caf017b16"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_co10_bump.json"
+hash = "1444d3d0b036f3f864dba3d04d6afee6a584bf38641d6cf701034c17fc5cb87a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_cp118.json"
+hash = "a06055404be61ac3c8c8940948d33c4483a1616f91538be1d76dd0400c04a711"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_cp218.json"
+hash = "48161d9b7eb3a0ddbd0696b4869a02b6438a875e69b7a8e9468acb00398d6f11"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_cp218_bump.json"
+hash = "26041c61c190ba25dca630786fe7c34a72de2d640e802503924c342d75702e80"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_i5.json"
+hash = "0d5bdc7d6f496ad5e375264a96c84829e4150d77fd0dc32d3822a74c228e3e49"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/line_i5_bump.json"
+hash = "9785e1bcdabbc4dfe8c4263e5a7062fffbd2b0faf470298183cf86daf31d2339"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/m_bump.json"
+hash = "76b80efa08e6415d650ab5c923e03c6d00cfd34db1e72866c4f542e5b96bc14c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/mg_1100lfc_bump.json"
+hash = "0681511b886fa51c3e596b3971233348910d7af1cf32f5e5b7503277a14b5fe9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/mg_2100lfc_bump.json"
+hash = "0cccb871d809adeb5e672614e582fcef60bc5d2616bc18f59244fae57946f781"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/mg_leopard_bump.json"
+hash = "5f058a808f4f4e182fa67a7d99fd2cbb32b8845276dc0add56c9c8367f97ebde"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/mg_panter_bump.json"
+hash = "f79134309f75133c57cf6cf5585f49829ca84ee41c7b8cfd7ab86c8342e24832"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/mixer_dm3.json"
+hash = "6706765d98f6bd50706cb79cb66eb263f8ff37689015aedaca04b2a729aabc45"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/mixer_me_500.json"
+hash = "0f8173d15a297f5dd2a426287c15039e21314c318779fb20d0424b854a27e9f6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/nexus_6.json"
+hash = "f0743d351b1ddcd2ea51268116cedddc18120e4302f0fe7255f321dd40723bdb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/nexus_q.json"
+hash = "d5bc6cae87dfccb2850f9e4f9cea44a93caeb95dc080a2166498b1bad66a5e07"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/nexus_xl.json"
+hash = "88b55a163bd3892f49cc73dbde69ba124c1b42a971b2c279a53e38f5b545fa17"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/pole_stand.json"
+hash = "91f6adeb18dbbf8eb5eba645cc1ab85e8c24fbe88b3559342d9aa8f8a0a0a80c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/pole_stand_base.json"
+hash = "05b649d3a9a871eba56bb8e4a5e59496b7fd312427e90168bf99d7a50252d559"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/pole_truss_support.json"
+hash = "edb5363d68fd57565b582a33b25b0fd7936693faec524e5107da618572138920"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/q_bump.json"
+hash = "00111df4d6fa2dd4c55b7c8c4fea4c21c45cd4eea3dce0e09a9a129d9ae971e5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_joint.json"
+hash = "17275d9dd965dc1b1cef66ce7f553edc52dfbf03b270ddd791d614306000feb1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_joint_black.json"
+hash = "6f65e4e659af50890038eb4b77bae608f55d462d5e396e68a0bfc7a1007d005b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_joint_small.json"
+hash = "73166999d396fd99fff99bf19ba061dff822a14dc174d4300a8ace09fe9b2aea"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_joint_small_black.json"
+hash = "06aa5157eaf2a6e4157cf21aa4b2ae5b386c34a0edb1a9d1a06f8196c7843f6d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_pillar.json"
+hash = "b47e3c86255cf8de70ad6283c606333847a54b1c08af2b628a392e9e679f14df"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_pillar_black.json"
+hash = "00d0b0ac1f19d812032a0d8c692204d9b1bc58b4ac7a90427010865716f34790"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_pillar_small.json"
+hash = "91755ee409223b5d29bbee02ceebfd70562fc8f8636759f6b3a29fa429ef90cf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/quad_truss_pillar_small_black.json"
+hash = "17da2ade7dab445ec5c455093cda6294fce968764add71ab81c63ec789a7d5a2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/rack_2.json"
+hash = "57dd483cf74825b51db236512b12126790591f79e9a35f2097da8a83df13830b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/scaffold_wall_2.json"
+hash = "b58211313ff04709ae2bf778a1c6f35edfccde2ba5da90230040b62846cbcaaa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/scaffold_wall_3.json"
+hash = "231c7826425d115cda720d33a11e10b9876ca7bffff77d2de261bd342bd16b3f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/scaffold_wall_black_2.json"
+hash = "c88b9aea472d7fca449c0b070c47f3debcb9d434fac9d60b7a2ec43c35f4bd12"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/scaffold_wall_black_3.json"
+hash = "02bf3273bdc4f939e6786c1b5fb960a2df9cd3deec25fe8318561623cd8b848d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/spark_thrower.json"
+hash = "e9553e2983806386b9896c0d5482dc76ccb09da8be620ae21f6a50dfbe8ff0ca"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_barrier.json"
+hash = "4988b6afaecb53f59b26b9210b2e3ba8278fe9b36dcde58f39faa54b8a3dcb13"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_floor.json"
+hash = "72cd7202379e06a60e99ee3d4bf0e7d8566413eef13c1e0c0e2215b854c0113d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_floor_planks.json"
+hash = "57df71bf54935a4dfc30ad4a203f9e41018dad62f4851d646b2f2146f4c43834"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_roof.json"
+hash = "2332910bff924385a2cc3f3a3efb74b220a7a7e581ac0e4a0f0bcfb31681470e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_roof_cover.json"
+hash = "b8d65f18ef05168303940d1a7ba70c36485a247f91fc297e2ac9b49566e86163"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_roof_top.json"
+hash = "3e2c58dbd5a67e752dd9c77d059319f10803f1572efa723c69d2a5e41b5d2621"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_roof_top_cover.json"
+hash = "cedefec8ab14aa09a148e08b5645c6ba77775b75f280f0b9cca2bdb7230216fc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_stairs.json"
+hash = "a1b8d4adf04c95ec506c5df1727e7b99fc273a61be18778449b778dc827a84c0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_sustain.json"
+hash = "80484d00953e8d285c4936eeeffd3646944ddd92fb09dc8cafd0031615cbdc81"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_table.json"
+hash = "ac6d293153be76d9ed440fd33280ac57369f68bdc04341c4e5a8e8176517e223"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stage_table_small.json"
+hash = "bd108f59b5449064ac56cfc5f56ebd1db76204a9f6298742ac68961a882c2f19"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/stm_bump.json"
+hash = "7d1af8836192fce411f3960b690729fd91415eafc887ff41d752d09797a2e08b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_a15_focus.json"
+hash = "194f06e1a257d7a5078868bec371b6a0b267c6bcb0368c18e9db62f24f4ab475"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_a15_focus_oriz.json"
+hash = "4467d106d654484ba29544880e273d2dd2942a8ac5864abf9122c16498194641"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_arcs_2.json"
+hash = "222fe5232e29bf5f39228cb4b36cc3387db840ef3a2939fcd97f97202a5ea380"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_cs1.json"
+hash = "6f34fc8e6817979371fb119d90b3af12d9182e31e4e2938a597a04c7b2cbb59b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_dvdosh.json"
+hash = "47ed1705639ed3d066b679887db8466d9f432c9990057810cbebaa244edbd0e2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_dvsub.json"
+hash = "df571713fa171b62278493da3c0a150d2fae3dd634c5d5208940b75b66155908"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_k1_sb.json"
+hash = "e1ac6d57e3f3535eb0b8ddf181ec90dffb9794e6044b86747d5fb0d91a4938bb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_k_1.json"
+hash = "89762aab7ec260387b2c785463c40900e91cc114357695fccb2b014fbc10c33d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_k_2.json"
+hash = "2c9c0f9bbf18f3362c807df1994576dcec8ff6483626e9269ed9b0da81857a38"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_k_3.json"
+hash = "a7e736c9ab6dacfafde92cb43c906aee936ec34ba71e4873035c864a6cf648e4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_kara_2.json"
+hash = "bb56878d3d3d34c91b5eea83e86a17f7d32e6b2d470f07f5249d0f5882739f78"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_ks_21.json"
+hash = "beef990f85f2acf5789bcd0ce4460ef81c101243b11c8ad0975c5a5c14415dae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_ks_28.json"
+hash = "5f98d7ebcdd050fd85203dbae3c6d47986b292cbdca64edcd1d8ae2034170b00"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_ks_28_vertical.json"
+hash = "19cb86577d611b90ff8b9423f7cee39d2d8268bc010f6bd7e73ee320b56e4b29"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_kudo.json"
+hash = "5d23ed03319f82b270221972694db3a45a563bd3632da5b74b8c19753c16a049"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_l1.json"
+hash = "00f8dd48cb4e3300c74701adf2e6fd6eab71ce9296c894dc89ca1aa895474325"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_l1d.json"
+hash = "ce6c6707a9fc6750eab88c3a4808f189c6886049a13ebaf81a9a7a1e6f51de47"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_l2.json"
+hash = "44f50bbb0465c91efdcbb580a0bb032abe6b9b045107213bb74bea0f1c05da64"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_l2d.json"
+hash = "46d6eeadf5042286d9c7aa1c2f777a6e453d3121f637f5a70af898c40fba7aa9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_sb_18.json"
+hash = "795e90476d010fccc6da1cec393e3acf18c71497227588ee0690616d039771d5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_vdosc.json"
+hash = "240fb656a7a12eb7703c10289d2b41d441aad0cbc2bfe4ea9f367f9c9b4ec7dd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/t_acoustics_x15_hiq.json"
+hash = "61ba7b752a85cd27f9e816af1437d52d266d8603d4be1e9fe1382a022999fc2d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_4515.json"
+hash = "8321fc3bf891c5d0bdc10cf68d9d9d1cb6bb11776ab3ebab1fc56271bb00bb77"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_4515_black.json"
+hash = "6ae514cee6a20ef9d04766b7ec5902f4f48f33101e8a6ee003c15cef4a62b249"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_4515v.json"
+hash = "c686bde21d1a88d1945bec8d102ced4e708f544504d70c00a25192533cfa65b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_4515v_black.json"
+hash = "fbf4403c6abf735d59878090091cff44d6b55696548b9e14d31adbe2aa364d2a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_p27r.json"
+hash = "761743420220bb18f1d5066d89de632e78edfc36d0b9dc07f45d2745cef76f85"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_p27r_black.json"
+hash = "56d05269a30d9eddba4db9623ea2a4f6e02b8f0b4b31ddec033ef5493ae15532"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_pms_5000.json"
+hash = "34d0ddda41d32b4e2d2c7ed3d4524c5e855433a75018d26d1ffde94d99a2d18c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ta_pms_5000_black.json"
+hash = "62d8adce6c8419d0a65220a9d84eabd86bd540dfdd992bc2358f8a8662c6485e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/taw_anya.json"
+hash = "43220f77085a73f89d619a88e20f55bade56033cb2f762f35f2dd80516e27671"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/taw_kf_850ef.json"
+hash = "80a1fd57b1c076c9a7eb1ddbcedf3884e7b2ba792fb95a5dd10da62f129b4de7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/taw_otto_subwoofer.json"
+hash = "819d5c94257fbba0d19f9daa1e1c59b8f0532b4dd824b9dcbde01cc6e0126992"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/taw_sb1000zr.json"
+hash = "6be0db15bed1dbc464d82ec1da4871106f9a031c6a536eb57051c82fd84e2850"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/taw_sb_850ef.json"
+hash = "3177bdb7e40afeba200ab646cab9804becdf841698dfd1c37cfd2e4335d75dd2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_gls_12.json"
+hash = "e264bd506428959885c9b942dd22909ca36a32d48eb53e5ecb4baac3dc5fc0a6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_glsl_sub.json"
+hash = "0b47157fbb4b82ab232dd0a6286807a2558c3ce1241318de1481ebe15382e4b0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_j12.json"
+hash = "2583e3819d6bd42edf8d2ad529e3d5953c170c5ae819d6275ed41a7e13a74e12"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_j_sub.json"
+hash = "d0d5960346d0031fe26b91ad65353650cc497a4979b2ab80a9f27a8cd1aa1bba"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_max.json"
+hash = "3179ac891fc434048f8b973fc07b910e17218a654f71aefd9a7d49fe8c8133dd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_q1.json"
+hash = "c265afb30958fbafab58e9c7bca0019d8a49f21e1a8ca2831c6e32d851c63a40"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_q7.json"
+hash = "2e700cd79ab35f72f52e8de179fe7fe9b3bbaeb2e0320d6cf673b0af3573c793"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_q7_with_rig.json"
+hash = "93ddf57332a32cf894ebf4190eb9d4193896f4e6f1dcf4aef9cd9d4c2b3d46c1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_q7_with_rig_hang.json"
+hash = "c7f96800404347e8bf49b193a0591aaebff6be4362a2920d6c247d42fb2ec3b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tet_q_sub.json"
+hash = "881806322e93d9c8aabb2f86ed6f9ba255b3b61f1efc6606f1ce3030f0d279ce"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/texo_rs18.json"
+hash = "9b8107428b427135916c46a563709d1ee8adac16a50cdd138df1b3eda39cf558"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/texo_stm_118.json"
+hash = "d3d425c34663917af2975f6ac73387a10b8b82d73b5b59b5ba7286b47662b9e9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/texo_stm_b112.json"
+hash = "79e9bf063d9d111b24dc72aee8444f291a9b38130c972aedabdcbe12848cbb0b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/texo_stm_m46.json"
+hash = "aaf93b9fd4c77b23576f116489c6b79526f8e1e84320d8748dac177170f632b7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_aqua.json"
+hash = "faf5b4aef4fd0e4f91a5b480fd0ff995630df758b9f124129e7e3dd1c5afbff7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_black.json"
+hash = "436a9c927284da8b40a095d39c6b56bdee02d268641ef739c578d5c1dc917975"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_blue.json"
+hash = "3931f527afab262ff416d7131543ba2767aaf026d91c218a3d94f096946a519e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_brown.json"
+hash = "fa6f9666a6cdc009e1e8cbf9a3f7d9e5baad4ac099f33f9f4544b3abd69c70e5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_cyan.json"
+hash = "47fb244cb9cf81d8783adc3a8b4f0e81a5475a88cc80f8d81e73d0c33210c6e2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_gray.json"
+hash = "2f1272a1a204f56466fb3391fe536113a03f06dc5f17918bd5967dbd64902f98"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_green.json"
+hash = "fd8c432af9d65e27bed0a35a3b078278fc6bec6143d9f2360bb07baa36c768a2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_light_gray.json"
+hash = "0251a80a64fcae07bccca2cf3e166f163e4c21dc2d8cc7fabb974384cf490fd8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_lime.json"
+hash = "895438f19a777c7192198475e5654f78f4882be32e4709e95bdff69bcf41039c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_magenta.json"
+hash = "1ed6dc4bb6dc680376e0a749dbc7b4ec1e9d2650077f98013031666743375e30"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_orange.json"
+hash = "b240306c9b5e617afad37207c2a0071898331f203262c52495b5870145c932d4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_pink.json"
+hash = "52ec469d7eed3145590dd5bf4813e76d1a60f695d837f343a78823ae88ff4f67"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_purple.json"
+hash = "a7e6d2f12fc7894a1f5430b10bc7c96fb27cb257c567579f025c91e392eacbba"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_red.json"
+hash = "9c56b8cd1a3c294e091932051e79c7a6ca8e2fd395a0463254261e5ad617400b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_white.json"
+hash = "3bb9b2a2efb4a5c724829ad36edcabc720cfc48aee8148d66561bed4126b0405"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/theatre_seat_yellow.json"
+hash = "d0da53532cfa277e300a08595f38a6702c516e11483cdcd1feb7d2215472f9d1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tiamaha_dxr10.json"
+hash = "6b0c1b0827f1f874deefff044f6c3abbc18ea265606fd06ccce06907116ca7ab"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tiamaha_dxr12.json"
+hash = "ca7d8dcd88114c535c02a55bae2adb3a90e90fad6bbf6b635c61bcb9775ad90e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tioneer_cdj_3000.json"
+hash = "b4dede803e50735834b8d0a4b095cbcc9277b295ed35f8878b4a30bd6e85d146"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tioneer_dj_a94.json"
+hash = "184f37e0fb0344d6a429021b55e549524a7fa7f4eaa0d02838bd73ca45e02b71"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tioneer_djs1000.json"
+hash = "e81d89018d3bc8bd9217aadd6c6275b118c8fd34150a70267211eca5500325f3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tk_audio_l5lts.json"
+hash = "8b24df3c7f60ce0887661a898e4ba55335faf87730c10a17976ae02ce4478599"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tk_audio_projector_sub.json"
+hash = "0b8001a44dc734b7395411fe36ef9ef0e2a73d3c369c1829cf411c64b7f034b2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tk_audio_projector_top.json"
+hash = "733b57f36a4c2db954944f0ab37893dc8bf3939a05e5862df726381f1d90ae2e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tk_audio_sub_4000.json"
+hash = "4a9fbbca0d195a0efe06b78069c2ff04d79c641803f5fd53c51b82ef2ab3e244"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ttf_hdl_6.json"
+hash = "767fad49046f8149e9d3f1f56d2f79d98c84d29566e2ee86bd7c3997c9bf67e6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ttf_sub_8006_as.json"
+hash = "31668a7912438266c177a28df8f48f987356974b72a7e86518c5e9ecb88c1cbb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/ttf_sub_9006_as.json"
+hash = "9045b3577798e586f6dc9e28e94b3a3b870d55d9025f4cc309e2c28d2fa0c017"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/tynacord_alphax1.json"
+hash = "a400b15be15da13d461e60e484771a2c581369fe608a551ab6a0c2dff525f6f9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/w8l.json"
+hash = "87b812e4268ad04cf7562c622a2839eb24eec7514e45029d767a84006551a6d2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/w8l_bump.json"
+hash = "fe7c604cfd29d0e4f39e8ccd5c519dcd4e0ca098ff00f9445750096b96b1f6b4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/w8lm.json"
+hash = "43a3866b320d7eef6e57f6e80dd71c359c9a602f90b5c24c8517eabb94d59931"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/w8lm_bump.json"
+hash = "4b63f6840e8497d3537a4362e18aa2880b8aecf49887221d32f9bc106dfb6254"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/water_ballast.json"
+hash = "52aa237c0e40b94345d8e7e8248c03413f50ea08c7ae7ae31609cb7e3d65632c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/wmx_sub.json"
+hash = "f48a7c5f50d928f9f1873eeb1b78a386ce884513ac361342e7913a295bb602d4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/wsx_l.json"
+hash = "cd65b72f4ccf60cce98223e6032ae5aac363fb72820ac6e7850f69168aa65897"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/wsx_r.json"
+hash = "c369321ba403c964a6c17392a077676801baf9fa2341ca1f39eb64d25cb81d2b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/loot_tables/blocks/wsx_t.json"
+hash = "c41f30f6353c80e8626b0830b0a7387246ddbb1817ca0b3f21cdbc043f672cc3"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_desk_quick_q_10.json"
 hash = "570ac0a16a01c15ea1ed8b7c999eef5a8bc43fa885be75d9f93cac80739021d6"
 

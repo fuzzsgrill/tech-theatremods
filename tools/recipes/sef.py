@@ -143,6 +143,19 @@ def generate(datapack_root: Path) -> None:
     rdir.mkdir(parents=True)
     for name, r in sorted(recipes().items()):
         (rdir / f"{name}.json").write_text(json.dumps(r, indent=2) + "\n")
+    # SEF ships a loot table only for road_case_1, so every other SEF block drops nothing when broken.
+    # Give each placeable SEF item a plain self-drop (no SEF block has a two-part "half" property).
+    ldir = Path(datapack_root) / "data/sef/loot_tables/blocks"
+    if ldir.exists():
+        shutil.rmtree(ldir)
+    ldir.mkdir(parents=True)
+    blocks = set((HERE / "sef_blocks.txt").read_text().split())
+    for b in sorted(blocks & {m for f in FAMILIES for m in f.members} - {"sef:road_case_1"}):
+        table = {"type": "minecraft:block", "pools": [{
+            "rolls": 1, "bonus_rolls": 0,
+            "entries": [{"type": "minecraft:item", "name": b}],
+            "conditions": [{"condition": "minecraft:survives_explosion"}]}]}
+        (ldir / f"{b[4:]}.json").write_text(json.dumps(table, indent=2) + "\n")
     tdir = Path(datapack_root) / "data/sef/tags/blocks"
     tdir.mkdir(parents=True, exist_ok=True)
     seats = next(f for f in FAMILIES if f.name == "seats").members

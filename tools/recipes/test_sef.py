@@ -100,3 +100,19 @@ class SefRecipeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SefLootTests(unittest.TestCase):
+    def test_every_placeable_sef_item_drops_itself(self):
+        # SEF ships only road_case_1's loot table; without ours, broken SEF blocks drop nothing.
+        blocks = set((HERE / "sef_blocks.txt").read_text().split())
+        with tempfile.TemporaryDirectory() as d:
+            sef.generate(Path(d))
+            for b in sorted(blocks & SEF_ITEMS - {"sef:road_case_1"}):
+                path = Path(d) / "data/sef/loot_tables/blocks" / (b[4:] + ".json")
+                self.assertTrue(path.exists(), f"no loot table for {b}")
+                table = json.loads(path.read_text())
+                self.assertEqual(table["type"], "minecraft:block")
+                self.assertEqual(table["pools"][0]["entries"][0]["name"], b)
+            self.assertFalse((Path(d) / "data/sef/loot_tables/blocks/road_case_1.json").exists(),
+                             "road_case_1 keeps SEF's own loot table")
