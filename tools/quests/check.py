@@ -10,16 +10,20 @@ VANILLA_JAR = Path("/mnt/c/Users/fuzzs/Downloads/PrismLauncher-Windows-MinGW-w64
                    "/libraries/com/mojang/minecraft/1.20.1/minecraft-1.20.1-client.jar")
 
 
-def load_known_items(jar_paths) -> set:
-    """Item IDs from assets/<ns>/models/item/<name>.json in each jar (nested jars included)."""
+def load_known_items(jar_paths, kind="item") -> set:
+    """IDs from each jar (nested jars included): kind="item" reads assets/<ns>/models/item/*.json,
+    kind="block" reads assets/<ns>/blockstates/*.json (placeable blocks)."""
     known = set()
 
     def scan(zf):
         for name in zf.namelist():
             parts = name.split("/")
-            if len(parts) == 5 and parts[0] == "assets" and parts[2:4] == ["models", "item"] \
-                    and parts[4].endswith(".json"):
+            if kind == "item" and len(parts) == 5 and parts[0] == "assets" \
+                    and parts[2:4] == ["models", "item"] and parts[4].endswith(".json"):
                 known.add(f"{parts[1]}:{parts[4][:-5]}")
+            elif kind == "block" and len(parts) == 4 and parts[0] == "assets" \
+                    and parts[2] == "blockstates" and parts[3].endswith(".json"):
+                known.add(f"{parts[1]}:{parts[3][:-5]}")
             elif name.startswith("META-INF/jarjar/") and name.endswith(".jar"):
                 import io
                 scan(zipfile.ZipFile(io.BytesIO(zf.read(name))))
@@ -42,7 +46,7 @@ def _ids_in(quest):
     yield quest.icon, "icon"
 
 
-def check(chapters, known_items) -> list:
+def check(chapters, known_items, known_blocks=None) -> list:
     errors = []
     for ch in chapters:
         slugs = [q.slug for q in ch.quests]
@@ -55,6 +59,10 @@ def check(chapters, known_items) -> list:
             for item_id, role in _ids_in(q):
                 if item_id not in known_items:
                     errors.append(f"{where}: unknown item {item_id} ({role})")
+            if known_blocks is not None:
+                for t in q.tasks:
+                    if t.type == "observation" and t.fields["block"] not in known_blocks:
+                        errors.append(f"{where}: observe target {t.fields['block']} is not a placeable block")
             for d in q.depends:
                 if d not in slugs:
                     errors.append(f"{where}: depends on '{d}', which is not a quest in this chapter")
@@ -72,8 +80,9 @@ def main(argv):
     jars = [p for d in argv for p in Path(d).glob("*.jar")]
     jars.append(VANILLA_JAR)
     known = load_known_items(jars)
+    blocks = load_known_items(jars, kind="block")
     chapters = load_chapters()
-    errors = check(chapters, known)
+    errors = check(chapters, known, blocks)
     for e in errors:
         print("ERROR", e)
     print(f"checked {len(chapters)} chapters, {sum(len(c.quests) for c in chapters)} quests "

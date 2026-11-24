@@ -59,6 +59,13 @@ class CheckTests(unittest.TestCase):
         self.assertIn("minecraft:stonee", errors[0])
         self.assertIn("needs_stone", errors[0])
 
+    def test_observe_requires_placeable_block(self):
+        from model import observe
+        ch = chapter(quests=[quest(slug="look", tasks=[observe("minecraft:diamond")])])
+        errors = check([ch], known_items={"minecraft:diamond", "minecraft:book"},
+                       known_blocks={"minecraft:stone"})
+        self.assertTrue(any("look" in e and "minecraft:diamond" in e and "block" in e for e in errors))
+
     def test_cross_chapter_dependency_rejected(self):
         ch = chapter(quests=[quest(slug="a", depends=["not_in_this_chapter"])])
         errors = check([ch], known_items={"minecraft:oak_log"})
