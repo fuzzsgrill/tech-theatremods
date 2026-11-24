@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:stage_stairs"
+  },
+  "result": "sef:stage_floor",
+  "count": 1
+}

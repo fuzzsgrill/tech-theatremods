@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:tk_audio_projector_sub"
+  },
+  "result": "sef:tiamaha_dxr10",
+  "count": 1
+}

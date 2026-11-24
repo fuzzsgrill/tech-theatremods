@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "ADA",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    }
+  },
+  "result": {
+    "item": "sef:flame_thrower",
+    "count": 1
+  }
+}

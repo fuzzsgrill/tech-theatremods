@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "AMA",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "M": {
+      "item": "sef:mixer_dm3"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "sef:desk_grand_ta2",
+    "count": 1
+  }
+}

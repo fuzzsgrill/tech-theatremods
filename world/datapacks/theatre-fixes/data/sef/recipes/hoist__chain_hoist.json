@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "M": {
+      "item": "theatricalwb:motor"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "sef:chain_hoist",
+    "count": 1
+  }
+}

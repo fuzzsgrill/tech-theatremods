@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:blinder_2"
+  },
+  "result": "sef:blinder_8",
+  "count": 1
+}

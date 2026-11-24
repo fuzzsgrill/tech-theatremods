@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:mixer_dm3"
+  },
+  "result": "sef:tioneer_dj_a94",
+  "count": 1
+}

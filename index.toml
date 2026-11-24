@@ -792,5 +792,1541 @@ file = "world/datapacks/theatre-fixes/data/forge/tags/items/sandstone/venus_sand
 hash = "349ce5951be48e37eea57833237ab8854b918e136566b265e91fd6740a617eef"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_default_module.json"
+hash = "e021e6403e0d0498e7f6e2712e70d717c60bcd686498501218552b603ed404f9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_desk_quick_q_10.json"
+hash = "570ac0a16a01c15ea1ed8b7c999eef5a8bc43fa885be75d9f93cac80739021d6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_laptop.json"
+hash = "554541b88138e2a56c79685d1e0c9fdd6bf17b2cf012f3838458c964a36ae731"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_mixer_me_500.json"
+hash = "5624f28b5fb4e588145a598c847be5b17d644da51671b2eda5243f1bec1164c8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_power_module_1.json"
+hash = "c0fc9ba3fd0837c6fb369458e96489e732ccf6a6cd7bcd94fd8d81ad68f0dff8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_tablet_device.json"
+hash = "efae4dc9c581b9bceef1cf62e336406a585680df1e69126a4fc48ea931bc228d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_tioneer_cdj_3000.json"
+hash = "32991f2d5cba644b077490527ca7c981b4b502e036e7d1181d96a67ec8042fa2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_tioneer_dj_a94.json"
+hash = "d7ba8e80ec99b23c611a547d8d03cdaddb7e733f1193118a3cd897ec3737c041"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_tioneer_djs1000.json"
+hash = "fcf5737113a04f65728a3db9d346774c98346e811780b009d01cad596d67c04e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__back_wireless_microphone.json"
+hash = "e8f724fcfa8e3d3c46d5d29f6e429999fe9de38177cf2bcebe73e309a587d763"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_default_module.json"
+hash = "b538dc1e6a466eb6b483df14cdd5e9eb61a2903967ffd2a17cc025e5aa541839"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_desk_quick_q_10.json"
+hash = "96a789758bb2a4867bc31061b9ad538e319c7c1cc41640be86ebe8b3e94afb57"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_laptop.json"
+hash = "fc27ad20bc4d780ed40d99645b4d47ab571f982c4d1658f9a48ab47241312655"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_mixer_me_500.json"
+hash = "2df3aa7b1ff3c4018fa2c73fc89b7723716635c3dbb9b2a0a5feb9425d892f63"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_power_module_1.json"
+hash = "515488e728fc0d7f206680323ec2881a0b97003805e218843cac63606593cc75"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_tablet_device.json"
+hash = "ce97e71cef6f38018aa157629b19e66beacc602d889a989610cf3984373c006c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_tioneer_cdj_3000.json"
+hash = "414964fd0a94fd147a6f18c5ad7fa53ff9b8dc5c0f012fb517eb7cfd8c0e58e7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_tioneer_dj_a94.json"
+hash = "53ecb101c18aa3ff51c170a605693f5a1efcb46c9fd4b38835e8050fdd1b075b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_tioneer_djs1000.json"
+hash = "2ca1d5dc5257b8cfd689896fc15b50d6990fe9e476aa2a431d526000b0f22cb9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__cut_wireless_microphone.json"
+hash = "efa6bf72ceb7fba548cc1ae64d5822dbf6eec069589df5abe54cc9e1ffca9a25"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t2__mixer_dm3.json"
+hash = "08aa18133a0fe5e35e05f4fad8ea649ec069f88907505c47344c8107e8a37a67"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_ar_2412_stagebox.json"
+hash = "69e8fed85a0914b896d0e8531505c49d414abbec767b8298ce08b50fdc2e07a4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_desk_c3500.json"
+hash = "d90a851311ed2d6cc50e6c584aa7fb82447225f12173da6450981e4f0f0351aa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_desk_cl5.json"
+hash = "e97054a365fe4736236eede82b10c8029c05e76f74e49e35689b86d2a468ab56"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_desk_sd_5.json"
+hash = "225e0e0746ea369b34ebeffac91468267a414de8dfcff466270e359e7d931fec"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_power_module_2.json"
+hash = "7198802c57e9d097df476559bea552668b726499b67fadf267bf1ed6a9dd5961"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_ta7_16_module.json"
+hash = "5ab9922a9f056c39a47858dc4009e1b80f5d3132989ad785cd2fa90b2873a923"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_tbx_dsp_module.json"
+hash = "a98598e033580d518925f72b7cc18c6cd1f1f2971f880781d942b97f17faf9c6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_tet_d80_module.json"
+hash = "d61e041d38f01ff66d8c636c29cc71bf091f31d6298a1533082317d548742000"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__back_xps_16k.json"
+hash = "f9cd8aed17da90ec46801fb30652fdcfb54462f4fefde299fa0088199c1439d1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_ar_2412_stagebox.json"
+hash = "15566504a50f958aa22b3f1966eaca4ee091069be091f07c3d2c9065a58b0308"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_desk_c3500.json"
+hash = "8e966e8914c0e05d18bfda68f738fdd1f7c7642eaa30c41109a78fd0c8cf32f1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_desk_cl5.json"
+hash = "b8812a86a7c5677e05b2e4eb9ba8e7a23037001bff62aa6ebfaa1b6b4c6de790"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_desk_sd_5.json"
+hash = "005346ce6e019305f6199000e73b5eb3042d934095f8d0d3d64ab5858a987342"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_power_module_2.json"
+hash = "d3121eb3576d25aa18ac86e1cf1443fc25102d7fd9147a9745597d9136eaf3a5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_ta7_16_module.json"
+hash = "97cfe106f9b9a8586f26f5dc1b6a54d883b7b3e33fae82bbe47ecd753d188aa9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_tbx_dsp_module.json"
+hash = "6a156797027033b2ef39e288a49651e1cf35d1c41d7f1ad770b78eaa7f965661"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_tet_d80_module.json"
+hash = "1bc96d1af0fdc8763414989a5b88a402f16e5820da8cf0c5419a1ffaf9185d2e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__cut_xps_16k.json"
+hash = "fc17b33a65b8eaec940541a5c6e19442c5deb4ed39482e4851f7f98d250412ad"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/control_t3__desk_grand_ta2.json"
+hash = "c874f28f8d2021bd33f3c60f21dbae59ec17475e996abe4b0ada993b9214a6a1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_anya_bump.json"
+hash = "58b8051b4f53fb80018fceeec2bf0a6e88b7938b872a166ca66362c89b375db4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_dv_bump.json"
+hash = "0523317d0db51decc53a88d6eb7d3a0b0cefc34fc3de659e4fff8dc7c79be0b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_gsl_bump.json"
+hash = "e2a019198d692391976f07dc2add42ce5670f797115810bc454a583a991c870c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_j_bump.json"
+hash = "d6de22fd214a1901852278b31cd1a948e992cf55bd5a9b6b4b8461d6c65c925f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_k2_bump.json"
+hash = "f16996a7072aedf2ee3061168fb468f8dba0f7d9c56e969876b0daaee6abc9f2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_k3_bump.json"
+hash = "bbf622528f514f88ded3b7144b391bd1f1a03932f2d1ce5c65335f78b6300bbb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_kudo_bump.json"
+hash = "2705ed3fda4ba91b8daf67c47db188dc180ee02b8523f6130d007e3ca314258b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_l1_bump.json"
+hash = "541f8283ea16d4d4fca170b523c5395b11974d316c0b29f07ee26196d68eee61"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_l2_bump.json"
+hash = "32c7be832240230cd223d1247901e9dc45c9a26f2b1f863bd166d1d9ce867914"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_line_co10_bump.json"
+hash = "83b999f310e891bf7cd75dba5c9db827331042b0b277d0247a05e978e15eb7af"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_line_cp218_bump.json"
+hash = "d66c54901b6413f7c499bf25f5db8b65cfa94080d728cafac6bbd7636c341659"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_line_i5_bump.json"
+hash = "1cb88e6ddfd114cc19e38a34cc36345968b32d7dcb7aaf12b9a20c1ac84d96ce"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_m_bump.json"
+hash = "803894411a72f6b45e0ea94bef74f36d99f6607f64e498ffcdc5730e4d87ba8c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_mg_1100lfc_bump.json"
+hash = "94685b601b073eb3733a881832599c1df9235c2eb56cf491ba5b367619436874"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_mg_2100lfc_bump.json"
+hash = "d3c09b3e39f00dda52e1cc3a82963829598545e6423bf356a05d8c264ab1af33"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_mg_leopard_bump.json"
+hash = "e0f2fa721ed217bcdbd6a97ff9a4eda3edc7cf500f69f47befc37e8db5ac7767"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_mg_panter_bump.json"
+hash = "ffbb66f21ab5a946cc0563e0348f64869b064e7270d05019a8ffb3c88ebc95e1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_q_bump.json"
+hash = "5aef53eb816c8eae8b3c972fec19b82397af7498b654bd0d73725181933865b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_stm_bump.json"
+hash = "d9055cb3c8d100fb8f72c44677181a8eed8fadb81f93058fe4e3a02a8da1a895"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_w8l_bump.json"
+hash = "f24779378423186f4089b360b57ba3a871a81e2096f77a057a031a5b80db2154"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__back_w8lm_bump.json"
+hash = "87446b9b01249fffed45f7f0f7604a72d0a27b323cb43d443308b29eafb725dd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_anya_bump.json"
+hash = "62341a80f5e77a8fb8ef553f1630b3b383595dc936caa0889d6bdef8504afb06"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_dv_bump.json"
+hash = "76623ce286426fb680b18dd81f978a56d91972ff6b5e83888f8b6c2615a1b756"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_gsl_bump.json"
+hash = "3f926d15f16e9061cb08755b9417bdfbf1ea8fc628bc139ae97343b638a124ee"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_j_bump.json"
+hash = "14a3740ad7eec584629770bf23e10c55feafbf87ef230369bd9284ca6d3210fa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_k2_bump.json"
+hash = "9f7ee97a8fc3543c9a50bfefde9230d3498095263e966786f83c1644d5ec6eec"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_k3_bump.json"
+hash = "4290ebcf2b0b49aadf9260a919ad8965e44f1d6540cbe9e4f2d9de2650409175"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_kudo_bump.json"
+hash = "535a536c782bebd720ff3fe1e49ec605ff7a61154cf8aff9082bab723ab4d3e6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_l1_bump.json"
+hash = "af7604173bc374ae0dd3dbeaca6b5a03365ee1e89352e72973200baedce34e37"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_l2_bump.json"
+hash = "72bf9f9175269c24a87f1384cd89f38e677d098b3875e696ae52f4e6fab708f5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_line_co10_bump.json"
+hash = "073c3a20d47e676979b5d34f0849fa74760f8377a8013f483cf0e39eeb7a27d2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_line_cp218_bump.json"
+hash = "6ef56b6ee4e5c565a6393588eb76028b5e7de6af178076681f9882aeba2e5989"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_line_i5_bump.json"
+hash = "2d64246fc6c2cab03af073be42f60af851d12fdb0c7874acc922982f123da4d4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_m_bump.json"
+hash = "8b0a028a8fcb54753316bc6ee9bb50f9ab45d64b20541319718e86a4a5dce6b0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_mg_1100lfc_bump.json"
+hash = "e14e825a55b14bda5352ebe720101138f58aeb6a12ec613c7be859da281c5708"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_mg_2100lfc_bump.json"
+hash = "5f57abcf55f3ed5e9c58564482fa23a38bcb0ef251808e7262eded2d3ff7a206"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_mg_leopard_bump.json"
+hash = "87d58c6c41d75fdae165dfd9d3023e7a3443f78f827336dc01e63c24179bca1f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_mg_panter_bump.json"
+hash = "2527e216066ea255ed5d1ef085518b42e74b3caeae623279b5bea515ad4f3905"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_q_bump.json"
+hash = "a17f2f11a6359652bb5fb61849ae7c742adcc0b9b15f91d9598989e6e0a5c90a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_stm_bump.json"
+hash = "52876f786d7e8bc867cf95930475030cd38e6331e974940dcbe4fb53aeae99cc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_w8l_bump.json"
+hash = "b37f14dc21fd7747cac5d4a8fd99ae5e8149a526d08227381061006b259958e8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__cut_w8lm_bump.json"
+hash = "eecb2d5976ad080f4d6f2c448727ce0071bc050c3b946bbec587423e80a89b31"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/frames__k1_bump.json"
+hash = "585bc192ef3ba00181c5226cce31245cf076d4f0dd7ffe859a9637f7e5969a2a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/hoist__chain_hoist.json"
+hash = "b6645cc2ce7a0be11252ee6fe06c9b280b14a65972966a40b33783edf41c7181"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__back_blinder_4.json"
+hash = "4a0c8ed178dec99f125aef5f691fd6a2f4d8eaf213020d20dfbe5901d31fd98a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__back_blinder_8.json"
+hash = "4e1cee0846f60b4dac86a334176869bc08542e1fb4c1289e3978bacba7b3a136"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__back_fog_machine.json"
+hash = "6cc49f7db37be4d657073efc5803fce6d391f1e507a6e56bb8c3b7fbddf7ed9b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__blinder_2.json"
+hash = "7174085ca31f50ee748f54019c5de531daa0eee83062113c817708f5cdf4da4b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__cut_blinder_4.json"
+hash = "7c132bffc21947daf0ac6a0a79f9e41b5e0915dff634a34876dce4c8b341d1b9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__cut_blinder_8.json"
+hash = "09b676b3c0de5bb2083232b5437e77eff2648731269b6dc05c2f2877b3b41248"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/lighting_fx__cut_fog_machine.json"
+hash = "566f42551b9cd0c461ffacd30f72a8e5b6943fd2fa9af7b4bfc70ec826137245"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/pyro__back_spark_thrower.json"
+hash = "9c2c165af2283f63b0bdc6b6d4ed97dc577345afcd5d1a0faaf5cd839febe5fa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/pyro__cut_spark_thrower.json"
+hash = "241aae578181c5c2182d1d1fa5f352a6ac39ca5e3d183e5f4725bb9955f9600c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/pyro__flame_thrower.json"
+hash = "b8b21401380102ea859a956ec86fa0e60cbf43c8fcd1a74ce930e1fdc49cf2d0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_aqua.json"
+hash = "b78027f5fa1e7a71fbf75f06d082dde7270fcd5e4fe4667ebd82a7639a2e1ef5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_black.json"
+hash = "17c9570b63d1c59693bf6646c741d911f3a1018794701551bd48ca46c664ed7f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_blue.json"
+hash = "ca4b7add9601687b63e90cd19ed0abd06fa4bf2330d96a44e28e91921eab7520"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_brown.json"
+hash = "07e0145ed8e5ddc88269ea13216fcd8d1eb4e6ae7286ba136d02ea73087ed242"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_cyan.json"
+hash = "3f422e48b8b32f6c397ee3bc587ffa1408aaa8032a147c3d251bf73151cfec80"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_gray.json"
+hash = "b08b3cdd5d91c4d0921bd482164312adae5040012028a55e65e80450f61c3868"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_green.json"
+hash = "b29aeb9d1ad4aa9bcb858385c0d8669311dc35cdc6b5a90b0e58cfe3954f3d47"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_light_gray.json"
+hash = "04ecfc81270cc9271c6b801f567c51ad6a1fe6cf8ac73b749fa23d4340d978a5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_lime.json"
+hash = "933a1d53a2730e5b9f957371bf2dd5ecbdde137b5c873e24a8f65a920f7be44f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_magenta.json"
+hash = "efa120b6a5413135a6414b8923d091dcf258f7e2fdc21e9884dd05df77532101"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_orange.json"
+hash = "27c474982889952bc75724817682e8ceb1554db33d85db24bee8297ff651f7af"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_pink.json"
+hash = "9d170445d282ce92278f0eccd18eda952e0848d3d25c001438c6a1581e0de035"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_purple.json"
+hash = "187f2a650da3e5934378ae31df261b257f1696f5c22c09d82cca465b4bd42089"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_red.json"
+hash = "c9bc884acebfe65835168e5c5104acb05d9081bb1ae75566b18161002e5b0791"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_white.json"
+hash = "0fa611e9a8721f6fcb8c7b6df5e4a3e05a2379de0b35010fabb30ec1a4b348b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/seat_yellow.json"
+hash = "4a17a3776df9e6eb8d63fa38b35eb9607718404b1aedf046f29e94380ad7b95e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_blackline_h3plus.json"
+hash = "eea0dce8cc33ae49537fc9c11441a2101fcb624647f69a4df55b597a71354028"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_evo7eh.json"
+hash = "48a810ffa43617f107563ace1163418e7eac4e73837cd03865df99d32b079145"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_evo7eh_black.json"
+hash = "83eb06bf2193a8c852bef7dce2a1719e18d2abba1344944b135495bf1048b0bd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_f121.json"
+hash = "6795f046e7b8e9167e7730733e3d70e35e0e8808ed4db8594ffc55f93c798d9a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_funktion_two_f121_black.json"
+hash = "e00d489e2f8ad5b27f346704b5e9ef2868087856ec83d8351e1703083f9642b2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_gtx_12.json"
+hash = "56ec82dee609c8057fb6df7675c05fbc0d19a5bc330798c77b036b4152a6b827"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_gtx_gt_8.json"
+hash = "2c41ca16fbd762fa8c10550403e3a590ad558779c2e96cb237d09a1577eacc54"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_line_co10.json"
+hash = "3cbb23bbd2faf425bb53a4f56edc5e53b2fcf51a5e2a26e5907fc153d3755468"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_line_cp118.json"
+hash = "b74f91befbac674572cb48a194000a5eb6dd2c48a46609f2a4cc1a65d37abbab"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_line_cp218.json"
+hash = "12f342436f2465de4f4db1918a0d2ca484a3cbea1e686f4cd2b7f2095bbd0b3b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_nexus_6.json"
+hash = "19ea58002c72af099f5a99ffb48d2e171069b68597360841fa5759b7f3cb6d65"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_nexus_q.json"
+hash = "8edaf9a4a43ac5668d4573296024ba0f2604eba17a6d049f4eaf3106bb948c98"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_4515.json"
+hash = "ec8ba2f0adbfc8233e888b9f38672ee01809585d6495eb253d2ff725e1eaf457"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_4515_black.json"
+hash = "8212624660725aff7425a7e42633c3826f3aa3f247d1610c86ad0431c4af7b23"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_4515v.json"
+hash = "eebd9de6043084e4bbd6602c7de9930d630f32cafe042c060ba67bd15b2e10e2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_4515v_black.json"
+hash = "709ad0a9e84026d04d4e1457407d56ac0337c8a9632476da941321680ea171be"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_p27r.json"
+hash = "67864818ddbccc5e83ab1153df3bf0cbb1e00e1803ca8b69bedb2743f2a32da9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_p27r_black.json"
+hash = "9fba82332f063b7f03e3fb51655da505b3e5b7b7989d5d5d5e4ff207df13d3ec"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_pms_5000.json"
+hash = "bcbb570b339249c2afce498417ee1dd2ea434bfb26860bab4cd4d85bcae54712"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_ta_pms_5000_black.json"
+hash = "f27305e2623e7c94cb5b0a0931b9f6c240f30a75c26e9698d79adc0751772de8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_anya.json"
+hash = "94e2c154a2c04956feca871ac0b44476c45b7bf0c1a5d96e253f67d338f2ad6e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_kf_850ef.json"
+hash = "a7d374f42d299b25abc3cb8ceaf7d9318c6bc46787610924ea7c7182647c068c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_sb1000zr.json"
+hash = "a2c68a5e7b55f182eeab29c1147a9407dcb40d478297323cd1dff3d38a878611"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_taw_sb_850ef.json"
+hash = "3bf1f39d18af23fe82c8b2597d7581e469f42bbda2294523cf14b18d1c4b3dae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tet_q1.json"
+hash = "22f90ab1488cb044afce9373c34f762d588bf96cb8e6eb0be4ef1c2d19f92bd0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tet_q7.json"
+hash = "0cc780a42711953adb1eccdef3036e67f7b0935dfb59bdd9c718ac4463fe7703"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tet_q_sub.json"
+hash = "2779ba4e5080281456a3bb8d17894535f358a2467e7f77821375ff551e068a28"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tiamaha_dxr12.json"
+hash = "9f6a7dd1edc72e223dc7598b1c867780328380ca4a7a182c7efbf071b18e36df"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tk_audio_projector_sub.json"
+hash = "3d08456b1808b1f917b1301185e2e50b66f46322c8a7753ef47e97b2ac5494ca"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tk_audio_projector_top.json"
+hash = "5756b8c1517418bd29aaca6f7bbc932c350cc84dcca8f734d17ca84fa7ffb09b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__back_tynacord_alphax1.json"
+hash = "aaee6b8d7fec7434be5fae20b325dd7b233a600cb673c6f24328b1b1e3a3434f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_blackline_h3plus.json"
+hash = "e189a86d2d472c0bf095b485178ddc6c0839ed1b9e9465a87d44278c6f5519e0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_evo7eh.json"
+hash = "dca4367f5748fc0145bfb7d6cbfffb01af7634f036007f440781cc3cd824b38f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_evo7eh_black.json"
+hash = "67fa2f463d6753438317cb6359cac9db078380a8beefe31f13ce94c052d698ee"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_f121.json"
+hash = "f76ba72fc7c7db35e920ee56c8e8eaa7aa0f730013a564ede826a64d38fdfc28"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_funktion_two_f121_black.json"
+hash = "1512b26045a5b5c4bcbb765199b7883d934ab2220caaf2e744066d038350a766"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_gtx_12.json"
+hash = "1e400a09f451222499a82af2a28c58ebb4f951f33ed68c012ac7bb38f2cbfbd8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_gtx_gt_8.json"
+hash = "bf1330830d3412875968310b10424d15cdbe0ce8914755aec0b069ecee559605"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_line_co10.json"
+hash = "8d692f16e08aad1e5a7a4fca71c37618c5aaa60befcae9def26ce286109ca4e6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_line_cp118.json"
+hash = "0612bf7b98b27d2cbc33acf05dea0ab4cebfb3bc5b31da53c2857a5f4e3308bd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_line_cp218.json"
+hash = "3479175339f5da844c3ddbf6004a31ffbd87a17ecf7a4274c380f1fd74e66af9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_nexus_6.json"
+hash = "32bc540848f08e40b597a70407dd04267daaec832b31492de3293ab10973f7ec"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_nexus_q.json"
+hash = "69138bedadc737332afe973205da3fb3df113d0d1ab8d63c5feb3a0b394a8a14"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_4515.json"
+hash = "e58ac26864c7f14e81592bf583b8b7e5d5e06240b4a558bb4e4bb7783e5d0c82"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_4515_black.json"
+hash = "92929fbb0791e89c45630743e3827006d2cee7dd3ec2be801bf9a57e5c4569aa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_4515v.json"
+hash = "c87f09a3b606402308d321a85b0a12dd2d11b148f7dd0acaa28313a118195088"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_4515v_black.json"
+hash = "f6b5ee55941a23893ea60cd1f1410a8bba39285331177e75d08b8f5834691ce2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_p27r.json"
+hash = "21398566e566b91e558841ba5bcae58c6fe62ce3fb9bf2037e1a011f6c0eac79"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_p27r_black.json"
+hash = "a3f2cf546f9eb760168503f3eceb78e5f77c50cce1cdd92af1932ea13b8d9e5a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_pms_5000.json"
+hash = "dad9fb30a8a288f8379b839cc5faf24a3bb6e1d8126ff16a4e10ba6ed6bb92de"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_ta_pms_5000_black.json"
+hash = "ab610e3ac36345726765aa41856a9fa62d323934b3579ed6a67e6a091fc76d21"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_anya.json"
+hash = "e0194c2cb991076f9f03d8a35c212f3c42732cf9ca506559eef1377b40f5de26"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_kf_850ef.json"
+hash = "83dbab0138ad80cdc7505d36da4cbb430ca9f0101b62d6a3dc3cea8548dc8026"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_sb1000zr.json"
+hash = "5615ac8a0805fa1684984a477b299c831fd0b2f5afdf510edcb50aac3e685a5a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_taw_sb_850ef.json"
+hash = "f4010bbda53f798ea04f196081972a35d45d1c5bcfa342320fb8a61461e34dbc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tet_q1.json"
+hash = "7bfead693943b4e56ce8c53bede805a0d8bebea8001072b252bb4f13e6900d95"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tet_q7.json"
+hash = "d4ec40c6b22a9e730fd43272720ee11ace8af649b844947d12470694fcc0436a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tet_q_sub.json"
+hash = "479f30298156566baf94d27c11fc01a362637d564bd38d63dc959b8e21c263f8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tiamaha_dxr12.json"
+hash = "1db54a9171b10df5f35f75b9748e5a1a44a22126d0050d30b1a01307ed1c5e5a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tk_audio_projector_sub.json"
+hash = "c516fbc5fff5ff5fe604a17745f6e6b42e8fe4d95184888ec918257996c85a54"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tk_audio_projector_top.json"
+hash = "f47122a47706541bd09e916967bb824855f70adc6286f6377af92c63d8707a89"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__cut_tynacord_alphax1.json"
+hash = "427d04cbba02637a619ab1e77463dedeb7601662f6c45110fa6439a5636163ce"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t2__tiamaha_dxr10.json"
+hash = "4306d204d6d764ed8daac3313441b3373d80e06931741ebfc1710ffee6d116bb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_blackline_s218.json"
+hash = "8594650bb1e5f999e9738dd06d2c7df1feee8b136ee60672abac5b6846b5ae6e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_blackline_s218_up.json"
+hash = "4232f9290f9ce2a307bfce26124ee3b0c302ff5f5bcbcd8e502415ab4427dcc7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_fl_b_hdl_20_18.json"
+hash = "c6fd8e929e77cc20e9e5aeea470ac2f0165cb824110f0f4a50482e184974e3dd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_f221.json"
+hash = "45fa2acdb5078b11658cf97c753d3c0bea0797eabbfe9e9971f88df6663bfe12"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_f221_black.json"
+hash = "5e1a9f4f3ae57255a76dae191767557c5ad9984ffaad36d2325b9a3c28568867"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_res_4e.json"
+hash = "bb6dd149bbc290b1f3a00e7f737d574e1f7e462395be5652b92fbfa2a0676b2a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_funktion_two_res_4e_black.json"
+hash = "76deb731bf01649f8c8c004d01e099d1214626981b70badd4a029fd78bfdc921"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_gtx_gts_16c.json"
+hash = "67808bca65a6ded86b513e2723ac904a7a702b311f52d16ea32a7e52767d8612"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_gtx_gts_19g.json"
+hash = "5dd8a2ad5b0909d820ab2da790aa290a23644c6fd57e4496b28d6398570935bc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_gtx_gts_19g_vertical.json"
+hash = "2d8217faceba91ee27d2f2dc0575b339da62a5df32f52b69a3b9ec7c65b36f3f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_gtx_gts_29.json"
+hash = "411e27763c722840a6523ffc7a293cecdfc7174fae106abf353844779265afff"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_1100lfc.json"
+hash = "c126b888cef81116bca92d01f01a9deb63ce4d40b7db4f855cefdd3c3e9bc008"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_2100lfc.json"
+hash = "7241e4e8b08d2ee173e115366df27a10efc47c221861af2e3ace68c589c4d7d3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_900lfc.json"
+hash = "2d984200fb4481482759deab3531f327daeb7f8c0c161fc07e2351fc0c923b6a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_galileo_galaxy_816.json"
+hash = "462bf9ed56d38c472a6c2b045cf00272b0e618f11fee09b8cd891492f587fae2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_leopard.json"
+hash = "696d68a75975f38e243a2e88dca8778d397c3505aadbda69ac47256ba70fe4c0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_msl_3.json"
+hash = "21a411d9ac9ee345b45ead1c9c10754f7ec539b66e8e77fd6aa1fc0a40656502"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_msl_4.json"
+hash = "69f648ae48a5808245ee8800e6a4584d6bfce01f623a24fed9b7eaf042a1d890"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_layer_sound_panter.json"
+hash = "142f23ffed1b2c1e6faed5f898a3b66ff79537e40fc389c4e78a5453172d576e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_line_i5.json"
+hash = "d8b274c4d6fde21452555f64568df7b762cfda466a440a68aa9599b8618dc9f7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_nexus_xl.json"
+hash = "981c9445dc65f26e67e3610447d53f18ed74bd78caea08370a96401b6b44b007"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_a15_focus.json"
+hash = "2af904452a5e629cbcc12ef72a23104d020d4308067bf8190acb59c03100a25a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_a15_focus_oriz.json"
+hash = "eec5fb933c0a1d35d5758b4b37517d780752f34c07d5442b95df8283fc3560f7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_arcs_2.json"
+hash = "40a691455a5f2480668d5e52541911cf29035ee62b786fb4eafda96b7115e004"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_cs1.json"
+hash = "b09a623594f0e42c4f6987c4676728173c8c8bc023caa5ad7fda5f2ce0940500"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_dvdosh.json"
+hash = "6e51a5676721ade06337b6c62beb8b682e2d513bdcddac3ddc2c8c7b981e8e2d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_dvsub.json"
+hash = "f1d69b8de3194bcd85087c2caab0b5bbade0a111c60f7a474f8969e9ebcca350"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_k1_sb.json"
+hash = "779e2cec558b001d90243ef19905cd5a83f27bb230fbc48ff0adf77f588f25c9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_k_2.json"
+hash = "934c986ad5f0bf5e6908c50da1e99f8fa1e64466e017ed5b7e1515f12ac870c5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_k_3.json"
+hash = "8834087f7a985df9792efc354cf038abedd336c28e9c929415cfb7715645d676"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_kara_2.json"
+hash = "c91516cdbc082d814e0bd1b03d4227bedf70013324a3a15a9b86214cc125adf9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_ks_21.json"
+hash = "dfa71bd10823fe5838177ade506bb05ae169b6ac98fe2eddb8628a751bc1a2c4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_ks_28.json"
+hash = "0dd14e871515a56a320eb03fc3154f0288ddd5fcca8c202431e1c2bfe3e69da6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_ks_28_vertical.json"
+hash = "9bdb05621ff65c24a7f0d24def14ba9fcf7e12faf447c27f4534afcb43d28030"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_kudo.json"
+hash = "8ce69da7110f062744ea8a472241ebc85c333b9fb5e10b26327ed8a5e9ca0485"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_l1.json"
+hash = "6022b362d91a5b8dde2ebd1b4578a3d214151bc98747e5c9f33102e48fbac765"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_l1d.json"
+hash = "6b3ec27c790b63cc7c0fa68f5e1b0ae0b4e63a6f083d3dc58303e933f3a9a83d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_l2.json"
+hash = "84ba7cffe32e69a0139e59ef98688377f678c277a88283a7053655ac786898e4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_l2d.json"
+hash = "978fd871e94f790806f3bcf39455148e850bc169e5b7ac3ae80854ce8785af0f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_sb_18.json"
+hash = "cc56e6007a09f098a1e296c081c5dab9b146bf56971fbffc0495c6c3ac382226"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_vdosc.json"
+hash = "97e72c328c7b7e4c7149a8877da06d206ff8a72b53ded52ad442186e389d41d8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_t_acoustics_x15_hiq.json"
+hash = "517b53e32264ccdd3336667bd9312fe02b645ba7f38e7f189cfed74797e027ae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_taw_otto_subwoofer.json"
+hash = "f0c0c7c3568697f2a28c9e8c9d526e2c87bc09569f522affb204085749cfc0b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_gls_12.json"
+hash = "5a6ad47063c81b53c519b26a59822758d145b0ee764ba7e09c8858bcde848dfb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_glsl_sub.json"
+hash = "5dc719571e7486b38ad5d07c35cee477f7fdc0c13cb63f0483b42cb75a82eb89"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_j12.json"
+hash = "58081c7e1ce6c5295fbb182e0a321d6284db03dbd6449481ec9f10c3018594dd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_j_sub.json"
+hash = "dff1dac122047cb0be8ebc003b34fe225a8e93e4fd46df4772a71ecf9d113221"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_max.json"
+hash = "78ad128c788e6a6810eb218ceea44c7a6d31b1dad7f0726769e9bbc191eaf4d1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_q7_with_rig.json"
+hash = "e2c84931386122f04cf48f8842fe89bc987748e9729e15bb309964f45776b068"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tet_q7_with_rig_hang.json"
+hash = "47ef4084bde60a129ab32e08e8b19777771b2195eebcaa06411f63b32d8ad0f9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_texo_rs18.json"
+hash = "2fcdf25ce7406f4f493507c34a4923b059dfc95fac2498b3eb9e2c0065a72df8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_texo_stm_118.json"
+hash = "d8893d69e8d7a011f391bb612a2c6917ef025fb68377e6f47d5d8e9f58dd456a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_texo_stm_b112.json"
+hash = "52f797f62032ebaa90db7cac3bd9272580f0d9b497e967c81891c0df99e5d814"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_texo_stm_m46.json"
+hash = "f69bed19a0665051969f7ba0c26518ae9a678075c4e224d140229fb0847853d3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tk_audio_l5lts.json"
+hash = "51b8381fc8351ecefe30255a6d181325524b47f505a1a5a585031ea608aa3dbe"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_tk_audio_sub_4000.json"
+hash = "0bd58a0ba7de7f6877dcd705b9792da205b0a9c2167583071ccf83015f9dd517"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_ttf_hdl_6.json"
+hash = "76030ef0baaef029c9186032314b2ce21be857e6cad399d8a337f42a864ac779"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_ttf_sub_8006_as.json"
+hash = "bd401d0f05a58b3c531834b3994c4afce39fae4c9d09409c51b1ca103b61f27f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_ttf_sub_9006_as.json"
+hash = "3f68383bec2d4e899691a81143a3827cfd5333a020005c31c7b5b3b7a3e46953"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_w8l.json"
+hash = "84c70c321034d56274c8d376723c45349d735abffb595077a960c5ad81d6eb42"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_w8lm.json"
+hash = "c6fa7ee8a68fad877fbb52486113940ce4285ca388d3d36dbb8f1e64e9567c16"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_wmx_sub.json"
+hash = "eb2b95cfc427f54d7f82e4fdd7cd9b5c7bb49fd721f646c6b72be1d673479e81"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_wsx_l.json"
+hash = "8754d4216d10bd134d173a8a82b2caa58db67dd23823d6b61368a48c1f77d3e5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_wsx_r.json"
+hash = "3989dd5c7fce708cf1c8979cdc7e7846252c8e5e83e6d6c4f8886e3bc95957a7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__back_wsx_t.json"
+hash = "cee36aaba244372c93cfc29f2ca2299a7575fc196f69c94f841a2e8f8b166637"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_blackline_s218.json"
+hash = "63d5e60724cff63cba74b1171f4a9e8fa2c3cfcf6d9291297b37b4cf411ea0cd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_blackline_s218_up.json"
+hash = "1fc916c7c179f145c3f67598e8bb61b2510f1f923e3d2477c1fb5507bb4301b1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_fl_b_hdl_20_18.json"
+hash = "9654f17e1da4d35dd20ec1d03a9324b2c6c8ac9ae74520c2034ba647c5a71d6c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_f221.json"
+hash = "80c275d3fc64e1877b007ecb4335c689ef15e553f9e379e5b45eca1d509993b9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_f221_black.json"
+hash = "c090e22f41d4fa7b12b7b1d96a306c66de73b7466eec3181c5429c7144191d2c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_res_4e.json"
+hash = "733759435a77dc57eae2e2bddd38b5f93da64e212fa83b0df72e06f835652995"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_funktion_two_res_4e_black.json"
+hash = "72cf1aa8abc34fd86f20c0eda5f837422e7ae518e91e5aed1a0bb31e9df015c0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_gtx_gts_16c.json"
+hash = "903ec390f02bf82cfca4d01df792084ce8f8a6df1f2e39fa1a353bfb95993763"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_gtx_gts_19g.json"
+hash = "410a7f7f6a4eab13f2f778a116308b80c32a93d0a48a70e2a4f3c7910efb9d45"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_gtx_gts_19g_vertical.json"
+hash = "a377a1da8fa7fca19612c96ad1c4e29e51265097cb1f0075fbb819d19f96c734"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_gtx_gts_29.json"
+hash = "4fa4954326836aabed19a474c45cedf8bb42ce1753e56dde42ecc448f1a1e161"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_1100lfc.json"
+hash = "e185652ff01669dcaaf5761ed004380593ba478329db2953bd388768012e39da"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_2100lfc.json"
+hash = "92d3baee56e81d20ca73303ee6c6578df58968a0bbae4fb2bcc28c433eb04aa0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_900lfc.json"
+hash = "5b28a794603eb4c351a372e1a0d5ae7b81cc913cfdd6e768743e2242dfad8d36"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_galileo_galaxy_816.json"
+hash = "9b9450d0e20c711b1403c1d6d5f4c575e574c288b1ff5c88160922c724b1c6be"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_leopard.json"
+hash = "a956cc328bc057ed9dad45e8ae96957af6be9c2b6029ddbf9287207b5dddf0f5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_msl_3.json"
+hash = "6bfbe0d37c8fac8a430674b629b1e89e76b19bf7ffcd1bdd2f7e7e3b93e507cd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_msl_4.json"
+hash = "9873d68f005f667cfe2d76b17b960d2bd7ae783902b500dbb540f8823c49d357"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_layer_sound_panter.json"
+hash = "4afbca65b4800e65e8acb186b6766e7a64c46dad43370d65b818c4f157fe2e87"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_line_i5.json"
+hash = "0e65b4b0ecd2a044ea809324daf62b437c6c5955d08b355c23c02fe8f41b8926"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_nexus_xl.json"
+hash = "0d9e66883672032d2b4579fffa2f81959a497f8bcfd1949d200ce2f08550a095"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_a15_focus.json"
+hash = "43ce81ec65127fc0602479d3b75038ae59622de70b686506d61a5d8723e8ccfb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_a15_focus_oriz.json"
+hash = "a01bc674fb0c75f4dedde193036772fcd076c55886901b104944227623aa8fae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_arcs_2.json"
+hash = "b87daf3e4d875a3bc073bf31d4391557c1374400a5129fd87e29abdf39850186"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_cs1.json"
+hash = "b9ed18847fa68bccd4557db5f1eff41689eda3090fa34914c912edc08a1cb41b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_dvdosh.json"
+hash = "2a425c41ddc0aaff75ccac1a1c10c7aa8dfc33bde17f8cd579982f85365d9936"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_dvsub.json"
+hash = "230e713d9e65d27a2669773a28f68877e054f70d5e05f9c1b1fe97d10decfd02"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_k1_sb.json"
+hash = "958ece4da1ecdaed2312178d4fd83c6ec0838a27b321ebb5804b69b31f19ba35"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_k_2.json"
+hash = "4ac39f5c1e59a61f639d989940af66a9a528e0481935e505229cb37eb7d5e5f9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_k_3.json"
+hash = "68697b11f77aa3dc462e43cfa0686aa186a02dcfc2ac17eb75dc9e4ab83c8d10"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_kara_2.json"
+hash = "e9a22a52f1ed60ab7fb5dcb9cfa464b0aaa14083f4d116154176cda28190da03"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_ks_21.json"
+hash = "d63c2ce7fcdfc6c0231b6ae415c2b9bc22e6099648ffdc3d086eaa182cb800a3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_ks_28.json"
+hash = "a95a77b2c8ce1a923284a9914e6fa6d015cfee962125f390edea3e06d7c22f42"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_ks_28_vertical.json"
+hash = "3bcce39f5ee908355f8d7d39fe9c052eb970362441086f576dc908228475bc39"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_kudo.json"
+hash = "02311d30de02198577ae52793199cfce6b446ca5cfdc5131aefd78bec70e897b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_l1.json"
+hash = "421d3aa3dfefe4237c3fa8d6bcd5b6167d743293d4f0dde151bc3995fab0b021"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_l1d.json"
+hash = "3f4267ca8a56ebc0ae8ba19b438bcfce8e0486c2e533a5f582c7773b75815559"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_l2.json"
+hash = "3dec42573015f50abdd149d7dc9ecf055e632c611a1b38334a64583929130123"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_l2d.json"
+hash = "78159fe23327b23ae555437bb93d10ee4ed4e40fbd7d440d324b99c55dc4d925"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_sb_18.json"
+hash = "e915cc5a6ebb390424d2fe1cb0f91fb9b32f2aac305dcc4baac863c905725fa1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_vdosc.json"
+hash = "3188515edba58ab590669dc1f8e6b8fdb5f3f17e5931e8eaf759339e5f4bf9c7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_t_acoustics_x15_hiq.json"
+hash = "5b7ef6b4a6088ed916fb265ec05dfa6565dcfc953153b51975e50be94cdf3149"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_taw_otto_subwoofer.json"
+hash = "71b4d844a5e1f47865e4259d75d218c37b7e7a164098eb4bbf71328bcb7f33c2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_gls_12.json"
+hash = "fac21590f5863aedd880cb3211adc9066a6c37302cfdaba8ab82873b76eadca9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_glsl_sub.json"
+hash = "89a82b3ed7be93aa8f25e1d132d0fcc34715d4aa55f075098030f05605b4361a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_j12.json"
+hash = "021ab1a5fe9ff15ba79a9fd1e13f45599224ce401403570ca5f787105cf814f0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_j_sub.json"
+hash = "477005ffff79da870abf2e6c743218d3689738745782e0e5e298b04f0b9e1c4a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_max.json"
+hash = "f28dbe336d619c26f28f8c47ac5de3344c05a947b21e2049b355d148214d7dce"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_q7_with_rig.json"
+hash = "53a3af42498cdc587f8158613ca7388539942b258c9992c05a74afe9f62e97ae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tet_q7_with_rig_hang.json"
+hash = "184cf492670b7523b2076025205c8a7313ef1ea6bfd48064aeda48ea43079190"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_texo_rs18.json"
+hash = "1c4e7011aa6574a6e33ba63450399f4c02edb45e96e6b44af03fe902588bb4b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_texo_stm_118.json"
+hash = "29c6b04a8cacc0854a4aa188ff76adc5b5f78617f3e8954e4b6fe9eb2d4be5b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_texo_stm_b112.json"
+hash = "9a00d043bef5d93520a6e26573b7d058ca5212fce4d434d03f4d49c262620258"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_texo_stm_m46.json"
+hash = "ade5e1b8cdd2369b315ac7c97c3a383173a175d560dc2b1541029fb26340d8ba"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tk_audio_l5lts.json"
+hash = "c4661b2e6bdc29c0a7f5ee20be8412a886f4ea51aa79826e476e57a4f96b85ed"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_tk_audio_sub_4000.json"
+hash = "e68df5125cbd4dbcad76b7c471905ebf1bdb5fe125ae23d9de69cb5e381cc183"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_ttf_hdl_6.json"
+hash = "79122f4558fdd05e2c057c6c37195d5fac3bc600fb5525834a49db9ee9ba774d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_ttf_sub_8006_as.json"
+hash = "390332eb7e4e73d2fa9b3bf1c5a0e5d62aae2f95c32cb8e90f2df4b6397b0dae"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_ttf_sub_9006_as.json"
+hash = "77e31672df7432f3f2ca71b923fd9a9fb82b3399bd9d0914a662363b39ca4f8b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_w8l.json"
+hash = "e3e6ff3a970811984eee82e0f0afcc1cfe95db4be6fc2e52223cd1ece75e0d37"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_w8lm.json"
+hash = "74efaec0979a3adca86c9a3e328008f064ff83f94aea10386f315671b48c4168"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_wmx_sub.json"
+hash = "630f521a4ba5b14ccfd672e44333a7e63c626c24c7ebe88ad7ccbca91b8e0faa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_wsx_l.json"
+hash = "b7ef5403de994e100e15dc1590e20f11ddf282cd459a14f58cbd37d2550db6a3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_wsx_r.json"
+hash = "fb2d212f9e8f5d53bb90c58a3b38d413c919ed7888a2a47c228c5ad04f5458de"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__cut_wsx_t.json"
+hash = "6d9a51b765d0101352424f5b5318dd6257731b1db57a98b35cf1ab262d584816"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/speakers_t3__t_acoustics_k_1.json"
+hash = "adcd9140c40bda505c7703fe2147509c11a9bdac4fbd89550ac3b51f6df5dfc6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__back_wrench_configurator.json"
+hash = "05cd8d29504765b1b07a74ab3aa982e7b9e90b1fdb276313efaf70cf5605eeff"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__back_wrench_editor.json"
+hash = "e230bea1116c50d274f624261e05ec31b01c2c41e6703e4cd7d70ca50e4ad012"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__cut_wrench_configurator.json"
+hash = "ef555e986501d17c67de1837ff471c033ff4911418accd3567245a175ff9e9f0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__cut_wrench_editor.json"
+hash = "a3062645ebb32168251162a18b5f17c5b45348754c2eb5e3879b273ad6aeed8b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/tools__wrench_tool.json"
+hash = "3b82b253d81e58a30a2e94d44af61cb8efbe24132ed574f3725f25650a5f3a03"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_base_small_truss_structure.json"
+hash = "3a91ba476f61eaef52e56c909440748419d9065e636cfb1a3a2c178312506904"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_base_small_truss_structure_black.json"
+hash = "f980f9af7d7ff007ba5c5bc789cd47898f0f3bd870fabfceccb74ed0ce4143c5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_base_truss_structure.json"
+hash = "27885f565ce8fd87495361b4ade819d91e3ee9cf87aa1e4dc945f4196adf59ca"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_base_truss_structure_black.json"
+hash = "227dfd154ffc123c1d78355c376603a6479aba0c6d29a2decba2fb31faa2aa19"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_chain.json"
+hash = "ac36b29c3e32c483cc602cace94c4185ebbd4ef725b5440de60ed3f9b96237ee"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_hanging_truss_adapter.json"
+hash = "49f4134859828556a97e45db49ea4b0f53742306a74b5777aedaa8ad8eb9537a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_hanging_truss_adapter_small.json"
+hash = "98de9701faeb4c9d66fd423d1d6c663a1e6d00312ca86cd239d75479eeb4b186"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_pole_stand.json"
+hash = "ab427332ea1635991ccd0258648483011392dda6824b3b73a483f224a3273389"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_pole_stand_base.json"
+hash = "e9bf0d30fee3eb32426f26661c03ab5c90af2e67c6e2f62df263a6b5ca529879"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_pole_truss_support.json"
+hash = "d82fa7fdec6aa420ad7f8c10d8a226b11488b859ec706597ebc3485694d3d4dc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_joint.json"
+hash = "65841f57d440bd1837bf79e95e6b31a02eb83f12e7086f5927e1396ad07d2b3b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_joint_black.json"
+hash = "3a4c427002fa008f710db4e1639b7effbc43c6f0202c32234b9ce7d4c0cef79b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_joint_small.json"
+hash = "1ad8a32fb94dc489d06b8aecfad92d17f0f49b8e91cfea798bbb9f8abb930785"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_joint_small_black.json"
+hash = "596c2230add13330e5bfc4df3d914db8fc68f6de263aca5ca82ced87f69c8cc1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_pillar_black.json"
+hash = "f2e6daa3fc554f3c668179c82713b71e246ab6091bd66ba40503146364daa41b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_pillar_small.json"
+hash = "3caecbf3f5e837c5a44c10854269b460cfc2c7b0becadcdf654d2dd8aa152c9b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_quad_truss_pillar_small_black.json"
+hash = "d3bde767f29cf15d7b10496640ce901debf2a4767f807674fc8a6af14ba169f1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_scaffold_wall_2.json"
+hash = "d45c8ccac2004b379b74587ae978c6ba23b5366b6bcc25986e25288347b47043"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_scaffold_wall_3.json"
+hash = "0a664f8421f46f9d451cd93e1f2934ef1d7386bc8951652440631c9ff3d401e8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_scaffold_wall_black_2.json"
+hash = "e62aec57104a80ab829c838a0217a0f9b4b39ee6a04a6a68a9166cc11a774a00"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__back_scaffold_wall_black_3.json"
+hash = "35c2902f2e280723b765ca0567344b3e495c13d4effe261753d3e8f4b8e89162"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_base_small_truss_structure.json"
+hash = "c49242c8d96eda08f45886fdeaf9062f802b8b909f789debef5f39c1ad7f3c4b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_base_small_truss_structure_black.json"
+hash = "2e5e46c0db36927aed7c385747a2ef49d412437e0ceca9728d68f7b572fb8c3b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_base_truss_structure.json"
+hash = "03f70430ac1c39a1a32f5aa90cd5a94f44647e56a9f1b8805f4c34264dcf744b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_base_truss_structure_black.json"
+hash = "597bf46afe1e5109886eeb4e8ff5c45ce5d70e48b9c8dbc6caed7d5313a6622b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_chain.json"
+hash = "a67e67c5f3aed6e53c336ad4309d8092fdbb3188759c7f92c2973a179b981df5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_hanging_truss_adapter.json"
+hash = "3e926edd383770c3677b40ab75c9430013aaa9f8f75f5c541f4227162e5fd12e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_hanging_truss_adapter_small.json"
+hash = "78053f24134f5d84d8af82a160d655524d3a25937d6251cbb523c9f9f2dcf39b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_pole_stand.json"
+hash = "20487956c808d5efa7463ad605839e9a275396e8b404e55c485b339099456efe"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_pole_stand_base.json"
+hash = "c9ce65b28f279a1403085651f429b639a497c43154596e038d36478be1489cf9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_pole_truss_support.json"
+hash = "376925fbdb952341e42d48023f8e2de7ee36f84ddd67415bbb6d23e61856e634"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_joint.json"
+hash = "ee19f26e856a87038deb07aabe99cc0c0af8c220da430b62b43b507f5865d0b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_joint_black.json"
+hash = "1f0366b1e0692db7d58b8e53340789414d77d2b632592404d69fe92483a888ca"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_joint_small.json"
+hash = "10621c8aefafe0c58da0370157e0b6acbbc4219a570369c558de46e7a4f95a65"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_joint_small_black.json"
+hash = "95826a2c6e77011c26667d336b11ab1ef83175a0f59639fa8726b02f4e5a08eb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_pillar_black.json"
+hash = "b6e73ca79f25b83d6ba27439dc820984d79027b9633357e4b9bbce0f3e571b8d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_pillar_small.json"
+hash = "ce091d4e66f401778a5db429a4313f6eafcea1da5dfcedb01731ddbdbd15c53b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_quad_truss_pillar_small_black.json"
+hash = "44efdbb9571f6dc5cdbdd682089c42b36a05327e7f2d8736ec25869284da1746"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_scaffold_wall_2.json"
+hash = "a4b835ddc51472a086211cdf3beb33e911b8f4f6d101e3cc3fef1b7809bc6620"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_scaffold_wall_3.json"
+hash = "09cc3b28d1f2b3357b4049318326d36f0b6d24577a549330a7c30bb4cfa43c96"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_scaffold_wall_black_2.json"
+hash = "56fce5dae7bc64008cefb2c4f79e0bd588857f5a68838d5207af6a2ec024b799"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__cut_scaffold_wall_black_3.json"
+hash = "bd92eea684d6482786d79b4a2ae10872aa44d964fb378f0cc9d88ab843ccecb7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/truss__quad_truss_pillar.json"
+hash = "7a82829d693a31f12434cd55a393aad6acbc6412a59974ad0ebff90a20e1dab2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_cable_ramp.json"
+hash = "5b24fd2a9b8a49cd77ba7efb3502340af75f95fb6dfa5a67cdf6c3e9daee5a3f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_cover_panel.json"
+hash = "a8a31b6405f5dd950e552d05b9d89ee971554ab11f0d03ac386ef7632f92e58c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_rack_2.json"
+hash = "ecd29a46a8edb7fa329b0f85c4e231d839b49a01a3f1babd55ed8600b8c57b7d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_road_case_1.json"
+hash = "21b24efb8b4ff10f4877a894c87db30605665d7a2fe84a07e77929f801822b44"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_barrier.json"
+hash = "8970f42602584f1f4c51494f64cd09da1ac112d1ec0a718201b0188669a5d194"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_floor_planks.json"
+hash = "b2afd40a5c1b6437a3228bdfff0dbbedb31c532c33660dbd23ac02361d82dd7e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_roof.json"
+hash = "34299b32a9481f5da65904e99a0c76e92e8f67322bce8c91fd625fdcb1292fbb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_roof_cover.json"
+hash = "c24de58fd73537a63e22f0dd3d090cc10afb343f829f3ae40833bf5d2b4cb958"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_roof_top.json"
+hash = "01796858f87116d2df920f15dc9cef6f23782781ae2e8b785cb769335eb35a01"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_roof_top_cover.json"
+hash = "844e9ef8759f7beed470aed2fa975de72299892c07eba93978aaab02dd511667"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_stairs.json"
+hash = "81a7c4d9fc3daff73472826bc17172edf20de38f9f68295b53429e9081375ba0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_sustain.json"
+hash = "95c116e7b2e09ba67719e37ab797e1704c0958bf5bbcb9cbcd86f944639eaff5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_table.json"
+hash = "582b7fee7367d43a095d774b9228111a88d2e901ec8b7f6bb678de1b3b17fbfd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_stage_table_small.json"
+hash = "e9fb2e535cbabfbb33d4c277aa34cf2da2d5e9b2e2cf62f9109b1771cca60ec5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__back_water_ballast.json"
+hash = "f13e97269fb6bd050e06f01f931437375239a472bcecc7daabe1a9b92f88153e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_cable_ramp.json"
+hash = "ddd394f396a1670a3fe3bd595002651f80046b8aeaf69d0e125a3a241946a59f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_cover_panel.json"
+hash = "7d945f3cd7f82ce3436ff12f6560538a36b5c4ae8a5f4d8f08c57b41f563a2da"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_rack_2.json"
+hash = "ab9fc73748da5f1a3a6f7975dffe87ddf6665ef6ee8a945590581b177ee06c53"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_road_case_1.json"
+hash = "a3baf3fc010de56c6f2dd495c6a3bc0c59361dd335368ac26799b5668b85d871"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_barrier.json"
+hash = "c64494cb4af1300a5f0593dcc01dcbaa2b23c5ac0faf38fd509a0589648c8824"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_floor_planks.json"
+hash = "d86c3b700a0ec0b1f6f43efb5b40323269a48b4fa1f3e7031b31fa2de17ff08f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_roof.json"
+hash = "8037762dbd4df46825ee521ff51ee92fbdf2b2c63ae3ff6f1610762aecd8c080"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_roof_cover.json"
+hash = "2b6bd848b57b02f0ba85923fb1862e6fd5687ec095e05ebd0593d1c50e7b4268"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_roof_top.json"
+hash = "cf457512a682e0b495de86fe4d0828729c9f7adf3a6048331f77c3bbc4452336"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_roof_top_cover.json"
+hash = "6a4a0be88723b2c09cc7fad4fe682293ec1a876c0bf51d2029da458a25cf2d43"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_stairs.json"
+hash = "f4fb197ca4343e7a5f1f0b50480f7ddc8a3d95dab311657c166836315777323b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_sustain.json"
+hash = "a678f4284fe5fe3a4ba8d0d67e2d0c93b32fecc4893db3dd086de052ef16491d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_table.json"
+hash = "6ea8d4e0b67db458a0399c8d26ba5d9dba94f51954ad118d2cb8594ab47ab8d7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_stage_table_small.json"
+hash = "27bd13a2df2470c756b005fd8cd60b32dda3f96af77e347c8dcc3ab12e9e10ac"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__cut_water_ballast.json"
+hash = "ea4a21cd4c2261451e40c3cbe02f6c9b9b1fbe3e42ea6ff233319aede319a10c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/recipes/venue__stage_floor.json"
+hash = "577ff771f666924702f9698f7c1563aba28afd804b069cce24f44482da2b060e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/sef/tags/blocks/theatre_seats.json"
+hash = "2fdd7a13dad6e0cde8fded00a90eb8bc0ee5ef6670e13fcba6c0af67132c1b0d"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/pack.mcmeta"
 hash = "a2d643da134a2ae3cdde98ddbb71c6c6922657fc69c2da83c52914e576617271"

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GLG",
+    "PEP"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "L": {
+      "item": "theatricalwb:incandescent_bulb"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "sef:blinder_2",
+    "count": 1
+  }
+}

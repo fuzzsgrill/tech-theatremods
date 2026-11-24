@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:mg_1100lfc_bump"
+  },
+  "result": "sef:k1_bump",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:t_acoustics_k_1"
+  },
+  "result": "sef:layer_sound_leopard",
+  "count": 1
+}

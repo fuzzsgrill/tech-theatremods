@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:ta_4515v_black"
+  },
+  "result": "sef:tiamaha_dxr10",
+  "count": 1
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PNP",
+    "BEB",
+    "PNP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "B": {
+      "tag": "forge:ingots/brass"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "sef:tiamaha_dxr10",
+    "count": 2
+  }
+}

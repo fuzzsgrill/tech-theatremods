@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:wrench_configurator"
+  },
+  "result": "sef:wrench_tool",
+  "count": 1
+}

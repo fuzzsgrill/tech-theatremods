@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:wireless_microphone"
+  },
+  "result": "sef:mixer_dm3",
+  "count": 1
+}

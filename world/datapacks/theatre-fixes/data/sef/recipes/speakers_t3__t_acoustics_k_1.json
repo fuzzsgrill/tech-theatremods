@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "DED",
+    "SAS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "D": {
+      "item": "sef:tiamaha_dxr10"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "sef:t_acoustics_k_1",
+    "count": 1
+  }
+}

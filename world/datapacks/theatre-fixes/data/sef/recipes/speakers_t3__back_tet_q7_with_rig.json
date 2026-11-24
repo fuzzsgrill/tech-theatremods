@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:tet_q7_with_rig"
+  },
+  "result": "sef:t_acoustics_k_1",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:ta7_16_module"
+  },
+  "result": "sef:desk_grand_ta2",
+  "count": 1
+}

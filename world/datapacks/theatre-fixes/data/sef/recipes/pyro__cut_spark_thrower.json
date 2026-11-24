@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:flame_thrower"
+  },
+  "result": "sef:spark_thrower",
+  "count": 1
+}

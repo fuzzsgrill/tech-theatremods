@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:desk_quick_q_10"
+  },
+  "result": "sef:mixer_dm3",
+  "count": 1
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "sef:theatre_seat_aqua",
+    "sef:theatre_seat_black",
+    "sef:theatre_seat_blue",
+    "sef:theatre_seat_brown",
+    "sef:theatre_seat_cyan",
+    "sef:theatre_seat_gray",
+    "sef:theatre_seat_green",
+    "sef:theatre_seat_light_gray",
+    "sef:theatre_seat_lime",
+    "sef:theatre_seat_magenta",
+    "sef:theatre_seat_orange",
+    "sef:theatre_seat_pink",
+    "sef:theatre_seat_purple",
+    "sef:theatre_seat_red",
+    "sef:theatre_seat_white",
+    "sef:theatre_seat_yellow"
+  ]
+}

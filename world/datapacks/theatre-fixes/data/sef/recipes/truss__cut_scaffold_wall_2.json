@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:quad_truss_pillar"
+  },
+  "result": "sef:scaffold_wall_2",
+  "count": 1
+}

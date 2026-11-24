@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:mixer_dm3"
+  },
+  "result": "sef:tablet_device",
+  "count": 1
+}

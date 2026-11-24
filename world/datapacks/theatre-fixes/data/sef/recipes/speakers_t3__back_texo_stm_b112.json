@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:texo_stm_b112"
+  },
+  "result": "sef:t_acoustics_k_1",
+  "count": 1
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "BEB",
+    "PPP"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "B": {
+      "tag": "forge:ingots/brass"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "result": {
+    "item": "sef:mixer_dm3",
+    "count": 1
+  }
+}

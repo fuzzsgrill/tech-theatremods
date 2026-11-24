@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sef:quad_truss_pillar"
+  },
+  "result": "sef:base_truss_structure_black",
+  "count": 1
+}
