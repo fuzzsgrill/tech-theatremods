@@ -157,10 +157,6 @@ file = "config/powah.json5"
 hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
-file = "config/questlog/chapters/main.json"
-hash = "bb2cfd4efb798ea23dcdd4f4ba0cf00ebf21c0bff932be3ad34a0e8bf4d12651"
-
-[[files]]
 file = "config/simplemagnets-common.toml"
 hash = "3ab21f243a4c23ec3b5a5caa60e9c817d05ee0b32099469f3b1843509c9c40a8"
 
@@ -355,6 +351,21 @@ hash = "9fd68ed0b2b69ddabb1cc6c6c13251c4894a7a017cdd80032d92759954270e15"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "efa75ee4aae90dea11316b6e61aecaf9433eeb3d0821f78b4eca41acbbd73e8f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "7b2cc450f553b82439ae9422b8c2b4406dae1af3c48f7ce791a3576acff1d122"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "70035c382995003e71d12ff360f3e9e27fc01835332c3befa17155e7b639dcd2"
 metafile = true
@@ -507,16 +518,6 @@ metafile = true
 [[files]]
 file = "mods/pylons.pw.toml"
 hash = "c4577e4e458ea8283049f4e793a363de93e9ad2d55571fbf6f9847b016131c80"
-metafile = true
-
-[[files]]
-file = "mods/questlog-quest-book.pw.toml"
-hash = "b5345659894ec70acff438410d219ef44065764c2b6779a859659c9bc6090abb"
-metafile = true
-
-[[files]]
-file = "mods/questlog.pw.toml"
-hash = "1a9e3138a96fc8edff5e77056e319099a6cf2b036cc85fb25c43da3042dc14bd"
 metafile = true
 
 [[files]]
