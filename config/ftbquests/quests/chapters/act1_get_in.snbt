@@ -1,0 +1,167 @@
+{
+	id: "E06F7991AF6E004A"
+	group: "C28B50177F41DFCD"
+	order_index: 0
+	filename: "act1_get_in"
+	title: "Act I: Get In"
+	icon: "mekanism:purification_chamber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49EE6D549E8E2F31"
+			title: "House Power"
+			icon: "mekanism:advanced_energy_cube"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"A show can't brown out. Store real power: an Advanced Energy Cube."
+			]
+			tasks: [
+				{
+					id: "846D3C53581E08AA"
+					type: "item"
+					item: "mekanism:advanced_energy_cube"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "DD7265FFAB21BA98"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "0E5DD81A92674F27"
+			title: "Double Up"
+			icon: "mekanism:enrichment_chamber"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"An Enrichment Chamber doubles every ore you feed it. Hand-smelting raw ore is over."
+			]
+			tasks: [
+				{
+					id: "474325A3F1A6FD33"
+					type: "item"
+					item: "mekanism:enrichment_chamber"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6BEBF5C08855112D"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "0B8540364FDC97F3"
+			title: "Routing"
+			icon: "pipez:universal_pipe"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Machines should feed each other. Run items, fluids and power through Universal Pipes."
+			]
+			tasks: [
+				{
+					id: "2FA1C0649C649BF3"
+					type: "item"
+					item: "pipez:universal_pipe"
+					count: 16L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C052F8195D31EADA"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "0489B4759D3E48A5"
+			title: "The Venue"
+			icon: "theatrical:led_fresnel"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Every show needs a space. Hang your first fixture in your venue and look at it."
+			]
+			tasks: [
+				{
+					id: "AC0680B18C4F58C0"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:led_fresnel"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "EF2AA614C2DE34A2"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "71D6A33F55E85312"
+			title: "Triple Threat"
+			icon: "mekanism:purification_chamber"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Upgrade to ore tripling with a running Purification Chamber, fed with oxygen."
+				"Prove the line works: bring 64 iron clumps. Only the Purification Chamber makes them."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "71ECC785AA774CDD"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:purification_chamber"
+					timer: 0L
+				}
+				{
+					id: "DE3FE0B47908CB24"
+					type: "item"
+					item: "mekanism:clump_iron"
+					count: 64L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "CD0A4F53C9DF33D8"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+				{
+					id: "F9D1D1AAC3FA1FFB"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 16
+				}
+				{
+					id: "3406837727522503"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}

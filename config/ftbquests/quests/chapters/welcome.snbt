@@ -1,0 +1,134 @@
+{
+	id: "4B6BE8D3C17CB955"
+	group: "3A8088E2CB654937"
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "ftbquests:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49B40935898EEC27"
+			title: "Read the Room"
+			icon: "ftbquests:book"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"This book is optional. Play however you like: quests check what you have when you open them, so free play still counts."
+				"Start Here gets you moving, Departments go deep on each mod, and Opening Night is the challenge track."
+			]
+			tasks: [
+				{
+					id: "AE9C529D93277B5B"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E2D1A0994D784662"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "D8C0C8415789FC9B"
+			title: "Call Your Crew"
+			icon: "minecraft:player_head"
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"Form a party to share quest progress: /ftbteams party create <name>, then /ftbteams party invite <player>."
+				"Without a party, your progress is your own."
+			]
+			tasks: [
+				{
+					id: "1A5511A4CCDCCFD6"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E227BBAA7F6AD8D9"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "67FF0AFEF5EF93D6"
+			title: "Know Your Mark"
+			icon: "minecraft:red_bed"
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Set a named home with /sethome <name> and return with /home <name>. /delhome <name> clears it."
+			]
+			tasks: [
+				{
+					id: "09E5CB422181738E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "05F059C00279548F"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "E4EFA013FDC02344"
+			title: "Get Around"
+			icon: "waystones:waystone"
+			x: 3.0d
+			y: -1.0d
+			description: [
+				"Build a Waystone. Activate one at every base and you can travel between them."
+			]
+			tasks: [
+				{
+					id: "3DB5BF410EADC06A"
+					type: "item"
+					item: "waystones:waystone"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6D5B6104352177C6"
+					type: "item"
+					item: "waystones:warp_scroll"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "91ABDE8B07585296"
+			title: "Look It Up"
+			icon: "minecraft:knowledge_book"
+			x: 3.0d
+			y: 1.0d
+			description: [
+				"JEI is your manual: hover an item and press R for recipes, U for uses. Jade shows what you're looking at."
+			]
+			tasks: [
+				{
+					id: "4F788FF663F75F4F"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "66ECFE0E30F71BF9"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+	]
+}

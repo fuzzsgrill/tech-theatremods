@@ -1,0 +1,313 @@
+{
+	id: "42B123197FDD5DEA"
+	group: "3A8088E2CB654937"
+	order_index: 1
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "sophisticatedbackpacks:backpack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "F9FCA9DB9FE7F255"
+			title: "Faster Heat"
+			icon: "ironfurnaces:iron_furnace"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Vanilla furnaces are slow. An Iron Furnace smelts faster, and it upgrades in place later."
+			]
+			tasks: [
+				{
+					id: "FAF566F241C74962"
+					type: "item"
+					item: "ironfurnaces:iron_furnace"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "54EF6804191658AE"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "3B443A2D72CA457C"
+			title: "Pack Your Bag"
+			icon: "sophisticatedbackpacks:backpack"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"A Sophisticated Backpack. Upgrades turn it into a pickup filter, magnet, crafter and more."
+			]
+			tasks: [
+				{
+					id: "28C9B3E80B5721AB"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "51FFAB47CBE3C033"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+					count: 1
+				}
+			]
+		}
+		{
+			id: "C9EA1759603626E7"
+			title: "Insurance"
+			icon: "gravestone:gravestone"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Die and your gear goes into a grave where you fell, and you get an obituary with the coordinates. Go get it."
+			]
+			tasks: [
+				{
+					id: "0DAC78BF0AF40803"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "7AB2B81EB055C849"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "801619F788344057"
+			title: "First Spin"
+			icon: "create:water_wheel"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Create runs on rotation. Put a water wheel in flowing water and carry its rotation along shafts."
+			]
+			tasks: [
+				{
+					id: "E1585A0E96AF87E8"
+					type: "item"
+					item: "create:water_wheel"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "F03621AF20E0F7CA"
+					type: "item"
+					item: "create:shaft"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "94E34E4F9DEDA109"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "954F130F405E1F09"
+			title: "Squeeze"
+			icon: "create:mechanical_press"
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"A Mechanical Press over a depot or belt presses plates. It's the first real Create machine."
+			]
+			dependencies: [
+				"801619F788344057"
+			]
+			tasks: [
+				{
+					id: "3A19392B4890381C"
+					type: "item"
+					item: "create:mechanical_press"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E838DFADCC2DBBFD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "C19E3229E16B6512"
+			title: "Bank Some Power"
+			icon: "powah:energy_cell_starter"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"A Furnator burns fuel into FE. Store it in an Energy Cell so machines don't stall."
+			]
+			tasks: [
+				{
+					id: "BB8115545A88EB2F"
+					type: "item"
+					item: "powah:furnator_starter"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "39C823A443466A77"
+					type: "item"
+					item: "powah:energy_cell_starter"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "C759839E18A3B9A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "ADC128F97BF0F078"
+			title: "Pipe Dream"
+			icon: "pipez:item_pipe"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"Pipez moves items, fluids and energy. Use a wrench to set each pipe end's input, output and filters."
+			]
+			tasks: [
+				{
+					id: "B8580CF8FEC64B9C"
+					type: "item"
+					item: "pipez:item_pipe"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E79256DEB80B24D4"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "4432C0D13E05E830"
+			title: "Hands-Free Pickup"
+			icon: "simplemagnets:basicmagnet"
+			x: 6.0d
+			y: -1.5d
+			description: [
+				"A magnet pulls drops to you. Toggle it when you don't want everything."
+			]
+			tasks: [
+				{
+					id: "300BD58D0CA1E41A"
+					type: "item"
+					item: "simplemagnets:basicmagnet"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2F39BF592E066770"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "B15BCCEF4C53EC74"
+			title: "No Spawns in the House"
+			icon: "torchmaster:megatorch"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"A Mega Torch stops hostile mobs spawning in a wide radius. Put one at the venue."
+			]
+			tasks: [
+				{
+					id: "0F6D1849EFA7FDBD"
+					type: "item"
+					item: "torchmaster:megatorch"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "F7E91C4BC8F69588"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "6AC452D3C9B696EB"
+			title: "Mine the Vein"
+			icon: "minecraft:iron_ore"
+			x: 6.0d
+			y: 1.5d
+			description: [
+				"VeinMiner takes the rest of an ore vein when you mine one block. Your tool pays durability for each block."
+			]
+			tasks: [
+				{
+					id: "7D964D555FB922AF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1657BCB5DA616C95"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "8BB8FD4A06A99B40"
+			title: "Better Storage"
+			icon: "sophisticatedstorage:chest"
+			x: 7.5d
+			y: 0.0d
+			description: [
+				"Sophisticated Storage chests and barrels take tier and feature upgrades, like the backpacks."
+			]
+			tasks: [
+				{
+					id: "6796ABA2402A5472"
+					type: "item"
+					item: "sophisticatedstorage:chest"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "04E195B97A471121"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+	]
+}

@@ -109,6 +109,30 @@ file = "config/framedblocks-common.toml"
 hash = "599df95790d200ac55689c0885eba9dc1cdacaae3a4b2649092271173dabff51"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "31e70a6874faeedda3ce3e1e150056659e7192047ae7d8b27525cd5a5a6de0e8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act1_get_in.snbt"
+hash = "e5510849f44175f05eae838c64bb2a99573dcf19fae624d5aa58c709dc479685"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/getting_started.snbt"
+hash = "bf2cb9e15229283266124ab27e9cc66ff67c093e397389f1448fcb454a7d1da2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/lighting.snbt"
+hash = "2cf4c8223d67ec19b0cf5336eec6c3a07ed55fb6ed1b55def571a6c7605a01d9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "e7fdd865ba022454c0814dabde91fc527e6b52eb9a40faaacc52f6c969fdb756"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "620c167ee3f98846e83dc2a5327d9cd79f39c028383ae1a8732796ef117e90e0"
+
+[[files]]
 file = "config/immersiveengineering-common.toml"
 hash = "68550b1b9f85bb8b055e602c6178a9a7ff8ec90d226c739f8d8c5ca66e089e47"
 

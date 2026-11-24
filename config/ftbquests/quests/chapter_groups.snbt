@@ -1,0 +1,16 @@
+{
+	chapter_groups: [
+		{
+			id: "3A8088E2CB654937"
+			title: "Start Here"
+		}
+		{
+			id: "C28B50177F41DFCD"
+			title: "Opening Night"
+		}
+		{
+			id: "1C43C1CF239BCC21"
+			title: "Departments"
+		}
+	]
+}

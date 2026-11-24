@@ -1,0 +1,539 @@
+{
+	id: "A06C92F7012844B4"
+	group: "1C43C1CF239BCC21"
+	order_index: 0
+	filename: "lighting"
+	title: "Lighting"
+	icon: "theatrical:moving_light"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59AD9839C39B4EE0"
+			title: "The Shop"
+			icon: "theatricalwb:workbench"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Every Theatrical fixture starts at the Theatrical Workbench. Build one."
+			]
+			tasks: [
+				{
+					id: "4CC2C2A0B1759234"
+					type: "item"
+					item: "theatricalwb:workbench"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "838B757E3A838D35"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "59C308CF4FAF2EE3"
+			title: "Parts Bin"
+			icon: "theatricalwb:led_bulb"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Fixtures are built from parts: LED bulbs for the emitters, motors for anything that moves."
+			]
+			dependencies: [
+				"59AD9839C39B4EE0"
+			]
+			tasks: [
+				{
+					id: "0AFEA462EA94C85E"
+					type: "item"
+					item: "theatricalwb:led_bulb"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "5B78F8CF3F84E88F"
+					type: "item"
+					item: "theatricalwb:motor"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6DF12770498FB690"
+					type: "item"
+					item: "theatricalwb:motor"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "3039FD2C37FF77C2"
+			title: "Hang a Pipe"
+			icon: "theatrical:truss"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Fixtures hang from pipe and truss. Rig your grid before you hang anything."
+			]
+			tasks: [
+				{
+					id: "D11F957B28BD386B"
+					type: "item"
+					item: "theatrical:pipe"
+					count: 8L
+					consume_items: false
+				}
+				{
+					id: "F3AC5730D5361D88"
+					type: "item"
+					item: "theatrical:truss"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7529139714699B72"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "DBBD2D481C4A4C12"
+			title: "First Light"
+			icon: "theatrical:led_fresnel"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"An LED Fresnel: a soft-edged workhorse for front and top light."
+			]
+			dependencies: [
+				"59C308CF4FAF2EE3"
+			]
+			tasks: [
+				{
+					id: "86DC7D4A3EC04ED8"
+					type: "item"
+					item: "theatrical:led_fresnel"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "277CFEE14CEC422F"
+					type: "item"
+					item: "theatricalwb:led_bulb"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "3A295730A62DC073"
+			title: "Wash It"
+			icon: "theatrical:moving_wash"
+			x: 4.5d
+			y: -1.0d
+			description: [
+				"Colour the stage: an LED Panel for wide washes and a Moving Wash you can point anywhere."
+			]
+			dependencies: [
+				"DBBD2D481C4A4C12"
+			]
+			tasks: [
+				{
+					id: "5061BC13DE2EAF5A"
+					type: "item"
+					item: "theatrical:led_panel"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "6090E6176FDCE5C0"
+					type: "item"
+					item: "theatrical:moving_wash"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "E18DB96EB5ADE11C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "D587F4D0A51C34F6"
+			title: "Movers"
+			icon: "theatrical:moving_light"
+			x: 6.0d
+			y: -1.0d
+			description: [
+				"Moving lights: pan, tilt, colour and gobo, all under DMX control. Hang a pair."
+			]
+			dependencies: [
+				"3A295730A62DC073"
+			]
+			tasks: [
+				{
+					id: "A3DBE2C076EBF087"
+					type: "item"
+					item: "theatrical:moving_light"
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "EC2CCEF9A5E8CC27"
+					type: "item"
+					item: "theatricalwb:motor"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "381E1E82885BBD18"
+			title: "Run the Board"
+			icon: "theatrical:basic_lighting_desk"
+			x: 4.5d
+			y: 1.0d
+			description: [
+				"Place a Basic Lighting Desk and look at it. DMX is wireless here: fixtures within 40 blocks of the desk can be controlled."
+				"Patch each fixture's DMX address with the Configuration Card."
+			]
+			dependencies: [
+				"DBBD2D481C4A4C12"
+			]
+			tasks: [
+				{
+					id: "59626E9B9A2ACE78"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:basic_lighting_desk"
+					timer: 0L
+				}
+				{
+					id: "43A12AB7DF1A88EB"
+					type: "item"
+					item: "theatrical:configuration_card"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "369D29AC49DA7054"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "A0754A7CA10E0924"
+			title: "Art-Net"
+			icon: "theatrical:artnet_interface"
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"The Art-Net Interface takes DMX over the network from external lighting software, so you can drive the rig from a real console."
+			]
+			dependencies: [
+				"381E1E82885BBD18"
+			]
+			tasks: [
+				{
+					id: "4BFA0A7B4AD1DECB"
+					type: "item"
+					item: "theatrical:artnet_interface"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1A147DE1350D90B5"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "814DB90B64ECEC93"
+			title: "Redstone Cue"
+			icon: "theatrical:redstone_interface"
+			x: 6.0d
+			y: 2.5d
+			description: [
+				"The Redstone Interface turns a redstone signal into DMX, so a button, a timer or a Create contraption can fire a cue."
+			]
+			dependencies: [
+				"381E1E82885BBD18"
+			]
+			tasks: [
+				{
+					id: "E5141B2EC7194ACE"
+					type: "item"
+					item: "theatrical:redstone_interface"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "0A875FD62E5AEE40"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 32
+				}
+			]
+		}
+		{
+			id: "DDA0FBB013FCB68C"
+			title: "Conventionals"
+			icon: "theatricalextralights:source_four"
+			x: 3.0d
+			y: -2.5d
+			description: [
+				"Theatrical: Extra Lights adds real-world fixtures. Start with the classics: Source Fours and PARs."
+			]
+			tasks: [
+				{
+					id: "DE277F80DA46CFCB"
+					type: "item"
+					item: "theatricalextralights:source_four"
+					count: 4L
+					consume_items: false
+				}
+				{
+					id: "8D41D566B0DB768D"
+					type: "item"
+					item: "theatricalextralights:par56_white"
+					count: 4L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "23E3F71C832488A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "CC0D5272BDDFDF21"
+			title: "Follow Spot"
+			icon: "theatricalextralights:followspot"
+			x: 4.5d
+			y: -2.5d
+			description: [
+				"A follow spot and its console, for an operator to track the performer by hand."
+			]
+			dependencies: [
+				"DDA0FBB013FCB68C"
+			]
+			tasks: [
+				{
+					id: "98D1D091ADF61283"
+					type: "item"
+					item: "theatricalextralights:followspot"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "035A61D5BECA1FE4"
+					type: "item"
+					item: "theatricalextralights:followspot_console"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "12099E45783B8E68"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "1934E75C1AE0BB6B"
+			title: "Punch"
+			icon: "theatricalextralights:white_strobe"
+			x: 6.0d
+			y: -2.5d
+			description: [
+				"Effects for the big moments: a strobe, a blinder and a laser."
+			]
+			dependencies: [
+				"DDA0FBB013FCB68C"
+			]
+			tasks: [
+				{
+					id: "6646CA14AC4901FF"
+					type: "item"
+					item: "theatricalextralights:white_strobe"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "01D2EB6C532F7390"
+					type: "item"
+					item: "theatricalextralights:blinder"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "717B882264DA92B6"
+					type: "item"
+					item: "theatricalextralights:laser"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "F67B129F58AAE7E2"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			id: "B20CB6594FD313B0"
+			title: "The Full Plot"
+			icon: "theatrical:moving_light"
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"Build a real rig and look at each part of it: moving lights, moving washes, LED Fresnels, Source Fours, and the desk that runs them."
+				"Everything patched, everything under control from one board."
+			]
+			shape: "gear"
+			size: 1.5d
+			dependencies: [
+				"D587F4D0A51C34F6"
+				"381E1E82885BBD18"
+				"DDA0FBB013FCB68C"
+			]
+			tasks: [
+				{
+					id: "100A4D7F96A3611E"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:moving_light"
+					timer: 0L
+				}
+				{
+					id: "A955FD04FCEB94EC"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:moving_wash"
+					timer: 0L
+				}
+				{
+					id: "D4D990E90AF9F1D6"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:led_fresnel"
+					timer: 0L
+				}
+				{
+					id: "2B4941EBB5C20F0D"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:source_four"
+					timer: 0L
+				}
+				{
+					id: "DB0223C921F4E765"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:basic_lighting_desk"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "0DD2D4FA69EDFF23"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "437D2B13F77B430D"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "7603B975BEE851DB"
+			title: "The Big Finish"
+			icon: "theatricalextralights:flame_projector"
+			x: 8.0d
+			y: -2.5d
+			description: [
+				"Stadium effects, placed and ready: a flame projector, a water jet, a laser and an RGB firework launcher. Look at each one."
+			]
+			shape: "gear"
+			size: 1.5d
+			dependencies: [
+				"1934E75C1AE0BB6B"
+			]
+			tasks: [
+				{
+					id: "FACB18CE16C90760"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:flame_projector"
+					timer: 0L
+				}
+				{
+					id: "46BF1B5060BBE6FE"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:water_jet"
+					timer: 0L
+				}
+				{
+					id: "5BE86B036208BC0D"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:laser"
+					timer: 0L
+				}
+				{
+					id: "AC10356902C9C013"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:firework_rgb_launcher"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "C7D2C00C24EA6D80"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "1182D0BE3641E891"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+}
