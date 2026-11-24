@@ -108,12 +108,33 @@ class ChapterContentTests(unittest.TestCase):
         self.assertNotIn("wrench to set each pipe end's input, output and filters", text)
         self.assertIn("extract", text)
 
-    def test_no_item_gated_dependencies_in_start_and_lighting(self):
+    def test_no_dependencies_outside_opening_night(self):
         # Dependencies on item-held quests force experienced players to dismantle or re-craft.
-        for slug in ("getting_started", "lighting"):
-            for q in chapter_by_slug(slug).quests:
-                self.assertEqual(q.depends, [], f"{slug}/{q.slug} has dependencies {q.depends}")
+        from build import load_chapters
+        for ch in load_chapters():
+            if ch.group in ("start_here", "departments"):
+                for q in ch.quests:
+                    self.assertEqual(q.depends, [], f"{ch.slug}/{q.slug} has dependencies {q.depends}")
 
+    def test_each_department_has_one_or_two_capstones(self):
+        from build import load_chapters
+        for ch in load_chapters():
+            if ch.group == "departments":
+                caps = [q.slug for q in ch.quests if q.shape == "gear"]
+                self.assertIn(len(caps), (1, 2), f"{ch.slug} has capstones {caps}")
+
+    def test_department_orders_unique(self):
+        from build import load_chapters
+        seen = {}
+        for ch in load_chapters():
+            key = (ch.group, ch.order)
+            self.assertNotIn(key, seen, f"{ch.slug} shares order {ch.order} with {seen.get(key)}")
+            seen[key] = ch.slug
+
+    def test_chapter_slugs_unique(self):
+        from build import load_chapters
+        slugs = [ch.slug for ch in load_chapters()]
+        self.assertEqual(len(slugs), len(set(slugs)), f"duplicate chapter slugs in {slugs}")
 
 if __name__ == "__main__":
     unittest.main()
