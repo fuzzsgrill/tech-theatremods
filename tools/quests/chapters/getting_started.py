@@ -27,7 +27,7 @@ CHAPTER = Chapter(
         Quest(
             slug="squeeze", title="Squeeze", icon="create:mechanical_press", x=4.5, y=0.0,
             description=["A Mechanical Press over a depot or belt presses plates. It's the first real Create machine."],
-            tasks=[item("create:mechanical_press")], rewards=[xp(100)], depends=["first_spin"],
+            tasks=[item("create:mechanical_press")], rewards=[xp(100)],
         ),
         Quest(
             slug="bank_some_power", title="Bank Some Power", icon="powah:energy_cell_starter", x=3.0, y=-1.5,
@@ -36,7 +36,7 @@ CHAPTER = Chapter(
         ),
         Quest(
             slug="pipe_dream", title="Pipe Dream", icon="pipez:item_pipe", x=3.0, y=1.5,
-            description=["Pipez moves items, fluids and energy. Use a wrench to set each pipe end's input, output and filters."],
+            description=["Pipez moves items, fluids and energy. Use the wrench on a pipe end to make it extract; open that end to set filters and redstone mode."],
             tasks=[item("pipez:item_pipe", 8)], rewards=[xp(50)],
         ),
         Quest(
@@ -51,7 +51,7 @@ CHAPTER = Chapter(
         ),
         Quest(
             slug="mine_the_vein", title="Mine the Vein", icon="minecraft:iron_ore", x=6.0, y=1.5,
-            description=["VeinMiner takes the rest of an ore vein when you mine one block. Your tool pays durability for each block."],
+            description=["VeinMiner breaks the rest of a vanilla ore vein when you mine one block. It works on vanilla ores only, costs hunger, and ignores Fortune."],
             tasks=[checkmark()], rewards=[xp(50)],
         ),
         Quest(

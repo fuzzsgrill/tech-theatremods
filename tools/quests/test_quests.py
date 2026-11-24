@@ -80,5 +80,40 @@ class CheckTests(unittest.TestCase):
         self.assertTrue(any("dup" in e and "duplicate" in e.lower() for e in errors))
 
 
+def chapter_by_slug(slug):
+    from build import load_chapters
+    return next(c for c in load_chapters() if c.slug == slug)
+
+
+def quest_text(chapter_slug, quest_slug):
+    q = next(q for q in chapter_by_slug(chapter_slug).quests if q.slug == quest_slug)
+    return " ".join(q.description)
+
+
+class ChapterContentTests(unittest.TestCase):
+    def test_redstone_cue_describes_dmx_to_redstone(self):
+        # Theatrical's RedstoneInterfaceBlockEntity is a DMXConsumer with redstone output.
+        text = quest_text("lighting", "redstone_cue")
+        self.assertIn("into a redstone signal", text)
+        self.assertNotIn("redstone signal into DMX", text)
+
+    def test_vein_miner_describes_datapack_behaviour(self):
+        # veinminer-1.1.0 is a datapack: vanilla ores only, hunger cost, no tool durability.
+        text = quest_text("getting_started", "mine_the_vein")
+        self.assertNotIn("durability", text)
+        self.assertIn("vanilla ores", text)
+
+    def test_pipe_dream_wrench_toggles_extraction(self):
+        text = quest_text("getting_started", "pipe_dream")
+        self.assertNotIn("wrench to set each pipe end's input, output and filters", text)
+        self.assertIn("extract", text)
+
+    def test_no_item_gated_dependencies_in_start_and_lighting(self):
+        # Dependencies on item-held quests force experienced players to dismantle or re-craft.
+        for slug in ("getting_started", "lighting"):
+            for q in chapter_by_slug(slug).quests:
+                self.assertEqual(q.depends, [], f"{slug}/{q.slug} has dependencies {q.depends}")
+
+
 if __name__ == "__main__":
     unittest.main()

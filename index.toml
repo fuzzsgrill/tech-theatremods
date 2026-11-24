@@ -118,11 +118,11 @@ hash = "e5510849f44175f05eae838c64bb2a99573dcf19fae624d5aa58c709dc479685"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "bf2cb9e15229283266124ab27e9cc66ff67c093e397389f1448fcb454a7d1da2"
+hash = "2cc253a8685ed7a1731292084aeccc97030aa74ecf125c0c9e2128f8cc6bd36a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lighting.snbt"
-hash = "2cf4c8223d67ec19b0cf5336eec6c3a07ed55fb6ed1b55def571a6c7605a01d9"
+hash = "79a4c6b860671cac185ff26fd2ddaf53b2d51882a486d44608e027f816ff24c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"

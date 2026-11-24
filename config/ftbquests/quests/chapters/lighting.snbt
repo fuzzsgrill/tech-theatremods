@@ -44,9 +44,6 @@
 			description: [
 				"Fixtures are built from parts: LED bulbs for the emitters, motors for anything that moves."
 			]
-			dependencies: [
-				"59AD9839C39B4EE0"
-			]
 			tasks: [
 				{
 					id: "0AFEA462EA94C85E"
@@ -114,9 +111,6 @@
 			description: [
 				"An LED Fresnel: a soft-edged workhorse for front and top light."
 			]
-			dependencies: [
-				"59C308CF4FAF2EE3"
-			]
 			tasks: [
 				{
 					id: "86DC7D4A3EC04ED8"
@@ -143,9 +137,6 @@
 			y: -1.0d
 			description: [
 				"Colour the stage: an LED Panel for wide washes and a Moving Wash you can point anywhere."
-			]
-			dependencies: [
-				"DBBD2D481C4A4C12"
 			]
 			tasks: [
 				{
@@ -180,9 +171,6 @@
 			description: [
 				"Moving lights: pan, tilt, colour and gobo, all under DMX control. Hang a pair."
 			]
-			dependencies: [
-				"3A295730A62DC073"
-			]
 			tasks: [
 				{
 					id: "A3DBE2C076EBF087"
@@ -210,9 +198,6 @@
 			description: [
 				"Place a Basic Lighting Desk and look at it. DMX is wireless here: fixtures within 40 blocks of the desk can be controlled."
 				"Patch each fixture's DMX address with the Configuration Card."
-			]
-			dependencies: [
-				"DBBD2D481C4A4C12"
 			]
 			tasks: [
 				{
@@ -247,9 +232,6 @@
 			description: [
 				"The Art-Net Interface takes DMX over the network from external lighting software, so you can drive the rig from a real console."
 			]
-			dependencies: [
-				"381E1E82885BBD18"
-			]
 			tasks: [
 				{
 					id: "4BFA0A7B4AD1DECB"
@@ -274,10 +256,7 @@
 			x: 6.0d
 			y: 2.5d
 			description: [
-				"The Redstone Interface turns a redstone signal into DMX, so a button, a timer or a Create contraption can fire a cue."
-			]
-			dependencies: [
-				"381E1E82885BBD18"
+				"The Redstone Interface turns a DMX channel into a redstone signal, so your desk can drive doors, pistons or Create contraptions as part of a cue."
 			]
 			tasks: [
 				{
@@ -339,9 +318,6 @@
 			description: [
 				"A follow spot and its console, for an operator to track the performer by hand."
 			]
-			dependencies: [
-				"DDA0FBB013FCB68C"
-			]
 			tasks: [
 				{
 					id: "98D1D091ADF61283"
@@ -374,9 +350,6 @@
 			y: -2.5d
 			description: [
 				"Effects for the big moments: a strobe, a blinder and a laser."
-			]
-			dependencies: [
-				"DDA0FBB013FCB68C"
 			]
 			tasks: [
 				{
@@ -421,11 +394,6 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			dependencies: [
-				"D587F4D0A51C34F6"
-				"381E1E82885BBD18"
-				"DDA0FBB013FCB68C"
-			]
 			tasks: [
 				{
 					id: "100A4D7F96A3611E"
@@ -488,9 +456,6 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			dependencies: [
-				"1934E75C1AE0BB6B"
-			]
 			tasks: [
 				{
 					id: "FACB18CE16C90760"
