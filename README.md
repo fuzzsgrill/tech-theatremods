@@ -40,8 +40,32 @@ that differ from the Modrinth project pages, confirmed on the server:
 | Mod | Side | Why |
 |---|---|---|
 | mcef | both | `webdisplays` requires it on the server |
-| questlog-quest-book | client | crashes a dedicated server (loads client screen classes) |
 | xaeros-minimap | client | not needed on the server |
 
+FTB Quests, FTB Library and FTB Teams come from CurseForge (`packwiz curseforge`);
+everything else is Modrinth.
+
 Commit and push to `main`; players get it on their next launch, and the server on its
-next restart.
+next restart. Wait until `https://raw.githubusercontent.com/fuzzsgrill/tech-theatremods/main/pack.toml`
+shows the new `hash = ` line before restarting the server (GitHub caches for a few minutes).
+
+## Quest book
+
+The quest book is FTB Quests (open it from the inventory button or the quest book item).
+Parties share progress: `/ftbteams party create <name>`, then `/ftbteams party invite <player>`.
+
+Quests are generated, not edited by hand. The source is `tools/quests/chapters/*.py`
+(design: `docs/superpowers/specs/2026-11-24-quest-book-design.md`):
+
+```bash
+python3 tools/quests/check.py <dir with the pack's mod jars>   # item IDs + no-lock rules
+python3 -m unittest tools/quests/test_quests.py
+python3 tools/quests/build.py                                  # writes config/ftbquests/quests
+packwiz refresh
+```
+
+Quests edited in-game on the server are overwritten by packwiz on the next restart
+unless the change is copied back into `tools/quests/chapters/`.
+
+`world/datapacks/theatre-fixes` is a small server datapack that disables Devices' legacy
+1.12 office chair recipes and tags Ad Astra's Venus sandstone for Mekanism.
