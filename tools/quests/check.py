@@ -23,6 +23,22 @@ def _iter_zips(jar_paths):
         yield from walk(zipfile.ZipFile(p))
 
 
+def _iter_data_files(jar_paths, datapacks=()):
+    """(name, bytes) for every entry in the jars plus every file in the given datapack folders,
+    with datapack names relative to the folder (so they start with data/...)."""
+    for zf in _iter_zips(jar_paths):
+        for name in zf.namelist():
+            if name.startswith("data/"):
+                yield name, (lambda zf=zf, name=name: zf.read(name))
+    for dp in datapacks:
+        dp = Path(dp)
+        for f in dp.rglob("*.json"):
+            yield f.relative_to(dp).as_posix(), (lambda f=f: f.read_bytes())
+
+
+PACK_DATAPACKS = [Path(__file__).resolve().parent.parent.parent / "world/datapacks/theatre-fixes"]
+
+
 def _lang_keys(jar_paths) -> set:
     import json
     keys = set()
@@ -76,24 +92,22 @@ def _recipe_results(jar_paths) -> set:
     return out
 
 
-def load_block_tags(jar_paths) -> set:
+def load_block_tags(jar_paths, datapacks=()) -> set:
     tags = set()
-    for zf in _iter_zips(jar_paths):
-        for name in zf.namelist():
-            parts = name.split("/")
-            if len(parts) >= 5 and parts[0] == "data" and parts[2:4] == ["tags", "blocks"] and name.endswith(".json"):
-                tags.add(f"{parts[1]}:{'/'.join(parts[4:])[:-5]}")
+    for name, _ in _iter_data_files(jar_paths, datapacks):
+        parts = name.split("/")
+        if len(parts) >= 5 and parts[0] == "data" and parts[2:4] == ["tags", "blocks"] and name.endswith(".json"):
+            tags.add(f"{parts[1]}:{'/'.join(parts[4:])[:-5]}")
     return tags
 
 
-def load_uncraftable_namespaces(jar_paths, known_items) -> set:
+def load_uncraftable_namespaces(jar_paths, known_items, datapacks=()) -> set:
     """Namespaces with items but no mention in any recipe anywhere (creative-only content)."""
     import re
     mentioned = set()
-    for zf in _iter_zips(jar_paths):
-        for name in zf.namelist():
-            if name.startswith("data/") and "/recipes/" in name and name.endswith(".json"):
-                mentioned.update(m.decode() for m in re.findall(rb'"([a-z0-9_.-]+):[a-z0-9_/.-]+"', zf.read(name)))
+    for name, read in _iter_data_files(jar_paths, datapacks):
+        if "/recipes/" in name and name.endswith(".json"):
+            mentioned.update(m.decode() for m in re.findall(rb'"([a-z0-9_.-]+):[a-z0-9_/.-]+"', read()))
     return {i.split(":")[0] for i in known_items} - mentioned
 
 
@@ -183,8 +197,8 @@ def main(argv):
     jars.append(VANILLA_JAR)
     known = load_known_items(jars)
     blocks = load_known_items(jars, kind="block")
-    uncraftable = load_uncraftable_namespaces(jars, known)
-    tags = load_block_tags(jars)
+    uncraftable = load_uncraftable_namespaces(jars, known, PACK_DATAPACKS)
+    tags = load_block_tags(jars, PACK_DATAPACKS)
     chapters = load_chapters()
     errors = check(chapters, known, blocks, uncraftable, tags)
     for e in errors:

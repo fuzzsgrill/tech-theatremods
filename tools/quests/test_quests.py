@@ -209,3 +209,16 @@ class Phase2ContentTests(unittest.TestCase):
         counts = {t.fields.get("item"): t.fields.get("count") for t in q.tasks if t.type == "item"}
         self.assertLessEqual(counts.get("mysticalagriculture:supremium_essence", 0), 16)
         self.assertLessEqual(counts.get("mysticalagradditions:insanium_essence", 0), 4)
+
+
+class DatapackTests(unittest.TestCase):
+    def test_datapack_recipes_make_namespace_craftable(self):
+        from check import load_uncraftable_namespaces, load_block_tags
+        with tempfile.TemporaryDirectory() as d:
+            dp = Path(d) / "pack"
+            (dp / "data/x/recipes").mkdir(parents=True)
+            (dp / "data/x/recipes/a.json").write_text('{"type": "minecraft:stonecutting", "ingredient": {"item": "minecraft:stone"}, "result": "x:thing", "count": 1}')
+            (dp / "data/x/tags/blocks").mkdir(parents=True)
+            (dp / "data/x/tags/blocks/things.json").write_text('{"values": ["x:thing"]}')
+            self.assertEqual(load_uncraftable_namespaces([], {"x:thing"}, datapacks=[dp]), set())
+            self.assertIn("x:things", load_block_tags([], datapacks=[dp]))
