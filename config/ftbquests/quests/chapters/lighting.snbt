@@ -441,11 +441,11 @@
 		{
 			id: "7603B975BEE851DB"
 			title: "The Big Finish"
-			icon: "theatricalextralights:water_jet_big"
+			icon: "theatricalextralights:flame_thrower"
 			x: 8.0d
 			y: -2.5d
 			description: [
-				"Stadium effects, placed and ready: a big water jet, a laser, a searchlight and an LED fountain. Look at each one."
+				"Stadium effects, placed and ready: a flame thrower, an RGB firework launcher, a big water jet and a laser. Pyro needs Mekanism advanced control circuits. Look at each one."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -454,28 +454,28 @@
 					id: "FACB18CE16C90760"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:water_jet_big"
+					to_observe: "theatricalextralights:flame_thrower"
 					timer: 0L
 				}
 				{
 					id: "46BF1B5060BBE6FE"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:laser"
+					to_observe: "theatricalextralights:firework_rgb_launcher"
 					timer: 0L
 				}
 				{
 					id: "5BE86B036208BC0D"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:searchlight"
+					to_observe: "theatricalextralights:water_jet_big"
 					timer: 0L
 				}
 				{
 					id: "AC10356902C9C013"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:led_fountain"
+					to_observe: "theatricalextralights:laser"
 					timer: 0L
 				}
 			]

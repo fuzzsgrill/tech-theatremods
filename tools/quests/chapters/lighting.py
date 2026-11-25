@@ -84,12 +84,12 @@ CHAPTER = Chapter(
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),
         Quest(
-            slug="big_finish", title="The Big Finish", icon=EL + "water_jet_big", x=8.0, y=-2.5,
+            slug="big_finish", title="The Big Finish", icon=EL + "flame_thrower", x=8.0, y=-2.5,
             shape="gear", size=1.5,
-            description=["Stadium effects, placed and ready: a big water jet, a laser, a searchlight and an LED fountain. Look at each one."],
+            description=["Stadium effects, placed and ready: a flame thrower, an RGB firework launcher, a big water jet and a laser. Pyro needs Mekanism advanced control circuits. Look at each one."],
             tasks=[
+                observe(EL + "flame_thrower"), observe(EL + "firework_rgb_launcher"),
                 observe(EL + "water_jet_big"), observe(EL + "laser"),
-                observe(EL + "searchlight"), observe(EL + "led_fountain"),
             ],
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),

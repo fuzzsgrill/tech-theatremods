@@ -274,3 +274,11 @@ class Phase3FixTests(unittest.TestCase):
         q = next(q for q in self.act("act5_opening_night").quests if q.slug == "touring")
         self.assertEqual(q.icon, "ad_astra:tier_4_rocket")
         self.assertNotIn("Nobody hand-crafts", quest_text("act3_tech_week", "all_systems"))
+
+
+class BigFinishTests(unittest.TestCase):
+    def test_big_finish_has_pyro(self):
+        q = next(q for q in chapter_by_slug("lighting").quests if q.slug == "big_finish")
+        observed = {t.fields.get("block") for t in q.tasks if t.type == "observation"}
+        self.assertIn("theatricalextralights:flame_thrower", observed)
+        self.assertIn("theatricalextralights:firework_rgb_launcher", observed)
