@@ -27,6 +27,8 @@ FARMABLE = SEF_FARMABLE | {
     EL + "followspot",            # Theatrical Workbench recipe from farmable parts
 }
 
+# Lists come from the mod's registry classes (Items.class / Blocks.class), not lang keys:
+# water_jet, flame_projector, led_panels and moving_jet_fan have lang keys but are not registered items.
 UNCRAFTABLE = (HERE / "extralights_uncraftable.txt").read_text().split()
 DROP_BLOCKS = (HERE / "theatrical_blocks.txt").read_text().split()
 
@@ -34,11 +36,11 @@ FAMILIES = [
     Family("el_fireworks", 3, r"^firework_", "firework_rgb_launcher",
            {"pattern": ["FRF", "ADA", "SSS"], "key": {"F": I("minecraft:firework_rocket"), "R": I("minecraft:redstone"),
             "A": I("mekanism:advanced_control_circuit"), "D": I("minecraft:dispenser"), "S": T("forge:plates/steel")}}),
-    Family("el_pyro", 3, r"^(flame_projector|flame_thrower|gerb_gold|confetti_cannon|pyro_fan)$", "flame_projector",
+    Family("el_pyro", 3, r"^(flame_thrower|gerb_gold|confetti_cannon|pyro_fan)$", "flame_thrower",
            {"pattern": ["BGB", "ADA", "SPS"], "key": {"B": I("minecraft:blaze_powder"), "G": I("minecraft:gunpowder"),
             "A": I("mekanism:advanced_control_circuit"), "D": I("minecraft:dispenser"), "S": T("forge:plates/steel"),
             "P": T("forge:plates/brass")}}),
-    Family("el_water", 2, r"(water_jet|^waltz_curtain$|^flow2jet$|^moving_jet_fan$)", "water_jet",
+    Family("el_water", 2, r"(water_jet|^waltz_curtain$|^flow2jet$)", "water_jet_cone",
            {"pattern": ["PWP", "DED"], "key": {"P": T("forge:plates/iron"), "W": I("minecraft:water_bucket"),
             "D": I("minecraft:dispenser"), "E": I("create:electron_tube")}}),
     Family("el_fixtures", 2, r"(par64|^atomic_strobe$|panel|^led_facade$|mini_bar|_beams$|_gobo$)", "mini_bar",

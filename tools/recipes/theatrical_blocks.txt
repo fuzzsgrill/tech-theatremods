@@ -31,7 +31,10 @@ theatricalextralights:blinder
 theatricalextralights:blinder2x2
 theatricalextralights:blinder2x2warm
 theatricalextralights:blinder_warm
+theatricalextralights:cake_water_jet
 theatricalextralights:confetti_cannon
+theatricalextralights:dwt_panel
+theatricalextralights:fan_water_jet
 theatricalextralights:firework_amber_aerial_strobe
 theatricalextralights:firework_amber_peony
 theatricalextralights:firework_amber_willow
@@ -108,7 +111,6 @@ theatricalextralights:firework_white_aerial_strobe
 theatricalextralights:firework_white_peony
 theatricalextralights:firework_white_strobe_burst
 theatricalextralights:firework_white_willow
-theatricalextralights:flame_projector
 theatricalextralights:flame_thrower
 theatricalextralights:flow2jet
 theatricalextralights:followspot
@@ -122,9 +124,10 @@ theatricalextralights:laser_mirror
 theatricalextralights:led_facade
 theatricalextralights:led_fountain
 theatricalextralights:led_panel_2
-theatricalextralights:led_panels
 theatricalextralights:mac_vip
 theatricalextralights:mini_bar
+theatricalextralights:mini_scan_gobo
+theatricalextralights:mini_spot_gobo
 theatricalextralights:miniwash
 theatricalextralights:moving500
 theatricalextralights:moving_bar
@@ -161,6 +164,7 @@ theatricalextralights:par56_yellow
 theatricalextralights:par_led
 theatricalextralights:parscroller
 theatricalextralights:pro_spot_gobo
+theatricalextralights:profile3_gobo
 theatricalextralights:pyro_fan
 theatricalextralights:rgb_bar
 theatricalextralights:robitspot
@@ -176,14 +180,16 @@ theatricalextralights:truss_3lights
 theatricalextralights:truss_corner
 theatricalextralights:truss_corner_t
 theatricalextralights:truss_joint
+theatricalextralights:vase_water_jet
 theatricalextralights:vertical_bar
 theatricalextralights:verticalscroller
 theatricalextralights:vervespot
 theatricalextralights:vl6000
 theatricalextralights:vl6c_gobo
+theatricalextralights:waltz_curtain
+theatricalextralights:waltzes_water_jet
 theatricalextralights:washled
 theatricalextralights:washlight
-theatricalextralights:water_jet
 theatricalextralights:water_jet_big
 theatricalextralights:water_jet_bloom
 theatricalextralights:water_jet_central

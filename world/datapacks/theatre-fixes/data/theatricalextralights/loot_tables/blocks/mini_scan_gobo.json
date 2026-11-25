@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "theatricalextralights:led_panels"
+          "name": "theatricalextralights:mini_scan_gobo"
         }
       ],
       "conditions": [

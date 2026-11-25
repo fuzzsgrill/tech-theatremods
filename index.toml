@@ -3216,8 +3216,20 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blo
 hash = "4f110650181f27e041872e50f457c462caf26be4e552da18d8156d3ab938ce0c"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/cake_water_jet.json"
+hash = "a90afb9fda2f6a981ad717cceecaf458838272ad073392e26c87cbafec54c0ec"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/confetti_cannon.json"
 hash = "64634253a6a0ec9960b5ac721f22b6981a1600de0137fc5bf1a9da248334c71f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/dwt_panel.json"
+hash = "7d3181528d265e062abb92d454e9118d607169604d253c392bdbba9ebade4594"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/fan_water_jet.json"
+hash = "6b3c76158ca45505873c24c36aab7dca81c4380c0fbc7178ff1d443dec3be9e8"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_amber_aerial_strobe.json"
@@ -3524,10 +3536,6 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blo
 hash = "ce794f2b86d0eb44dc7ad21b40073564580834ae22c2c886082a36e9b7b10373"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/flame_projector.json"
-hash = "b0bfa9b21f3224dcff4a92b6c0751d957f4d66d6bb14909bf8a2aaef8b7a1181"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/flame_thrower.json"
 hash = "b4fc6381183ca88fe0b40d57dc51ce6aaef4345f267e2c222bc95d08d473a09b"
 
@@ -3580,16 +3588,20 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blo
 hash = "38099909582f1cde74c68b64abd316725e19de897500e6ce0817a33e5048cb08"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/led_panels.json"
-hash = "06b06145a9881497674eef7ad308cb601a2929e575622d90427cce24c29667b3"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/mac_vip.json"
 hash = "1cd85ca125573ce1df96e030e078c86ec3a8b0781222ff1463b71e8879e72211"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/mini_bar.json"
 hash = "4e97d0b52172d652774ff77005d46dd281af57c231a117c0454ca7407b00957b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/mini_scan_gobo.json"
+hash = "4a431d99735656cf7d8a1e5d7dae0dfb988028c099a39eb55a0a4bfebe7ab540"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/mini_spot_gobo.json"
+hash = "2ab14ff6acd5cfe9b01e8956136ddc9dda6c92357cc708e7d5b011bc70e98dff"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/miniwash.json"
@@ -3736,6 +3748,10 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blo
 hash = "4513e3d1d24c4b6334b2b61d76b09ad8110195d5a3676b209696b86ee5c2bc65"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/profile3_gobo.json"
+hash = "c636af70c4959914066681652f5502075a3f33124b2a2f0fa3184de3147bcb25"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/pyro_fan.json"
 hash = "11fcd1ab99a4f979ce5a78a7c09e6a634b802a8fd69c5deb21cee6407150f430"
 
@@ -3796,6 +3812,10 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blo
 hash = "4d7ed8e67958a7e26a0c53580e77df425cb24831acc5734eb32fd1c10ce87d5e"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/vase_water_jet.json"
+hash = "44b084aa25920c23c387d5ee107cb94f4fd303124ccea5f9940ad0d1c7a47f26"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/vertical_bar.json"
 hash = "e8ab791ebfd046797202fed408ef05f1e5d46d1fe3bc16a3bc985a0dcdaa562d"
 
@@ -3816,16 +3836,20 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blo
 hash = "d93d7659b7f385c8ce774a956bda55afff031c3f66b378998790db8de1644442"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/waltz_curtain.json"
+hash = "9b17da1ac26c6f46c9c8a077343885a4c7054f300bc59d458c9939ca70eb796d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/waltzes_water_jet.json"
+hash = "81caca376fda5bb84c4eda3be98d339a9c11082f256ea9e5765b0abe931fa98d"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/washled.json"
 hash = "782075253386d512b8d73488898e9589b72cb39b40d2c5aa78bf2c92ea142e6e"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/washlight.json"
 hash = "2713db6364ddf82c67c1a06ee5480c2a2b08850bfa16d5304b6d250774b237cd"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet.json"
-hash = "5050e46d9b71c159838d663695e05c42bc0d889c07c2fe496a36cb0d73cce820"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_big.json"
@@ -4544,10 +4568,6 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixt
 hash = "6ad475c7aef7904c59156f646b9e2e09e02e85db8ae5113279167b20524914ad"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_led_panels.json"
-hash = "40e58d8de6198b20ddeae7c0f909e23df9facc8d39a9501acd5d797ba889b1ef"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_mini_scan_gobo.json"
 hash = "b1a16ca1dcf5624906bf9b240e5d59c12f4129bec065732fb9f9e2e1207e9471"
 
@@ -4620,10 +4640,6 @@ file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixt
 hash = "f74b037691402e25ef94d6c95ea01c9d07a69c798bf2f8e88bce6fecc9c9a913"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_led_panels.json"
-hash = "0ddaab353961d027a1722d85fa787a1f1b36a16c6962817c438348d1efef231a"
-
-[[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_mini_scan_gobo.json"
 hash = "a1e2772d27dc2c50634cc25a3b8ec01dbe91208b7b332ab62680f23d872f173d"
 
@@ -4669,39 +4685,31 @@ hash = "d32d4f0741f93f236341137ec13ce560b94b70832b9e3e2fc813e1c4994b8903"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_confetti_cannon.json"
-hash = "655a81af8225d9872e433eaa93ce9ae7100014d8ff24016ac6b40b21ecb857f6"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_flame_thrower.json"
-hash = "c688f44775b4e173958ce45c5b9ef5c8d679bcab470807fc08ba598292304e5d"
+hash = "880e563983aba300ce5561e61c5c31c7fcea13cd7a3db14452030d3d2ee5aae1"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_gerb_gold.json"
-hash = "468f98edf20960a179b40ffaf77aac914bd37a4ac09ee2b8d6bb9399b19b594a"
+hash = "e3cca1097a6e9e2981cbfdcad11fcf1e24da1bafcf434d50c758bcd9c5d80991"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_pyro_fan.json"
-hash = "b64dd6db1fff177137b4d4cbcad91ed1300867f8fefbb9fcb21084e70c0fbc42"
+hash = "c7d23ea96dc00bac0d9716b525412acc57096748fd265bde16d5ce02d78a18a3"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_confetti_cannon.json"
-hash = "3a733f3964abe38c78d3b83afe028e6a8c5289223a3b4e40852dfa2b5c25da34"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_flame_thrower.json"
-hash = "393efc1108f3bbc1b963659afb4408a9985f142cf79f3909d496469328902523"
+hash = "6e12be162a8f0795f53e3611c71773ac532620841274c6ac2ffe848b526422d4"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_gerb_gold.json"
-hash = "89809cb7b308ee2d1f81b6ec9dd81f2709ac74c1ddaec5562f3e32167a83b804"
+hash = "8c6536e865307a117b93ed5b90269791e1673087d9da14391794f76a381087f2"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_pyro_fan.json"
-hash = "fb66df60bbe9154088a9ffaf459ee5d79214d59394791dedc25ab169756b3390"
+hash = "31f27ef975cb3432f71626a698dcdfa39dd65f467c53d16b8ac976f7b5b6c12b"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__flame_projector.json"
-hash = "5756e6fc3d376720720da7b4ed1e3e622fb479fcb765e9fcc2845d8566e35c6f"
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__flame_thrower.json"
+hash = "0e6cc75676c7462d6fc777410e91a557f73d8225fd5145417a58631198fc2c54"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_tools__fixture_wrench.json"
@@ -4737,87 +4745,71 @@ hash = "0d9f5fe325aa96cd3b750b169858dbfba66d97b0348901e30908e6f3d099490a"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_cake_water_jet.json"
-hash = "b5e3a83a96644ab8e33b483200eb93afbb2f17015dda5d7f174868eb2c62c02b"
+hash = "72d41167cd16f072374fe6319457a2ceb86f1dc32102f541488297e0f3cddce0"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_fan_water_jet.json"
-hash = "62bcfa00d6984e85ed61cf6a15c619aff684a1d5deb9f60cb0ff9cbfbcbd261d"
+hash = "91f89d15e45039de5f3c79998822ff753233ab0297bc5adfe35f6760a9205f87"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_flow2jet.json"
-hash = "7540f79e5c9b2430c47644f16533f394159ed567309f584eb773930cbdc510e0"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_moving_jet_fan.json"
-hash = "84162d304ef8640361b7325713fdc52ef50846683945a24d9330e1ddeb7d53fb"
+hash = "c9ac9361685ece62b9cc2348914984e96926b2db27344ca494e994eb20dc1a78"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_vase_water_jet.json"
-hash = "8d4e8ef462013224f4b5768508f6c22b97cdc390fbfb6c4c26dd6e307d05a8ab"
+hash = "3c16f1c5834693bdc97cbf84a2cf9134f9e8ebf7eb344083f85b6b4a0020f954"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_waltz_curtain.json"
-hash = "a2cb0104b0f20b784f1b4c7806097bc0f600cae6b19ad33ad505bc1d1bc256fe"
+hash = "c58476071396fb6371368376a65c15132427070ac11e3224aed28097b6576c3c"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_waltzes_water_jet.json"
-hash = "3af2a5324ae5e96476e1cd3c40865a613b6c525ee655e0d12a81735b7474a831"
+hash = "b9bded4f52b90605e6e72beaf32864fb02d54e1fac09023a4413bf05fe37daab"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_water_jet_bloom.json"
-hash = "0c6a3ce0e84c3c27345cadb190852a4b546b7f2781283af0ccd9a061a2fb8076"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_water_jet_cone.json"
-hash = "6e8a91721fda6fee54bcfe22dfb2fc5a57007da20cb5c4f2b30b9dd02cdc31b5"
+hash = "2450a9117951f1c88ea36b71024c763936b5b9c7bfa5f622812db594147e528c"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_water_jet_fog.json"
-hash = "083798e92340d67c44129a17b11f5d8b0e06d2b3dd5ebe46d32e7ee7cb2c1fe1"
+hash = "7e7220d34495ed3824518361825a6b34a94b47898dc509013a567b9d4dc797a3"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_cake_water_jet.json"
-hash = "015f9971d31e989e7a8ab447a3c38aeecc013fd900ebdefb21939d0463da523a"
+hash = "372082e93b7c4da7634cde6e6c17fecd730295ab01fe8ae65917d7f03ab7f281"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_fan_water_jet.json"
-hash = "783e7bc7e0965364e2d06b71cece5041e265740f67873c3b2a55cdc7ad42e78f"
+hash = "005714bd6a3210f47d1a215934a87932883c51917c37b4243025b0802407383e"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_flow2jet.json"
-hash = "5a64480f620f0f859331251373ae8d667d2eedbc54168a6ccd5dc3b8b5d24a99"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_moving_jet_fan.json"
-hash = "3b03fc4dded14986a23cb8ce84aa45143d3241e76824e0524cba78e69abfd897"
+hash = "402a87600f87ffc3e5052cd3291a20f40f22f1d344789170be353474b2b958ff"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_vase_water_jet.json"
-hash = "7f06fa1815dd07129eacfd0739fc1ba4d8f942a357e525d3a88de9cdb854d720"
+hash = "12c86b9a7321a49063a582b41dea6a918c2216ed7c34a90abb31a16f9c5470ea"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_waltz_curtain.json"
-hash = "28065feae0203f84a2879c99de2819cb4c8ef540a7226f9e9b76c1f5ff5394fd"
+hash = "fb74f47f1b9d3cd27bfd425d7156d79d7b7bf59d4082d1ad55672810eb4b0353"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_waltzes_water_jet.json"
-hash = "e16f4437fed8f45b95f86724d7ab2a8318ba9f66e3b892646724bdecd4bc1ea8"
+hash = "f738b90909b31ebf937a6897cfe34e3ea14dc4ec3a72b57fa114f5beffc82a35"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_water_jet_bloom.json"
-hash = "4c2e9caf9413b397d65293f5688476c257e5fd0563ec0951532d91e253be5046"
-
-[[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_water_jet_cone.json"
-hash = "7d25b72010931820186382ee1b3564d98275d2e49ffcc92d159fb8423e91db83"
+hash = "fff2bc457f21365cacd3aceddd248e214bf117a80cbd79047daff7da7e8f9a2f"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_water_jet_fog.json"
-hash = "93fe7538dabaf22f1c15207bdf46c7824c33574d0e47525a5f282189966a56d5"
+hash = "34842f9ded3edc3373d42b07c329912ee5c028cf65c0a76548c12d7b09c81346"
 
 [[files]]
-file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__water_jet.json"
-hash = "5c2d1c6be6dd1763cf44d50289a10dde8190e33b36b141906ab74cbd58b94ae5"
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__water_jet_cone.json"
+hash = "8a537440dbb2fc2ffec39abe66949fc769197489d8080ee5f1bf7b7c555a9527"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/pack.mcmeta"

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "theatricalextralights:moving_jet_fan"
-  },
-  "result": "theatricalextralights:water_jet",
-  "count": 1
-}

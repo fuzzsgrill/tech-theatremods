@@ -118,10 +118,28 @@ class ExtraLightsTests(unittest.TestCase):
             self.assertTrue(p.exists(), f"no loot table for {b}")
             self.assertEqual(json.loads(p.read_text())["pools"][0]["entries"][0]["name"], b)
 
+    def test_everything_names_registered_items(self):
+        # Lang keys are not proof: water_jet, flame_projector, led_panels, moving_jet_fan have lang keys
+        # but are not registered items, and recipes/loot naming them fail to load on the server.
+        registry = set((HERE / "extralights_registry.txt").read_text().split())
+        for r in self.recipes:
+            names = [output(r)] + [i.get("item", "") for i in ingredients(r)]
+            for n in names:
+                if n.startswith("theatricalextralights:"):
+                    self.assertIn(n, registry, f"recipe names unregistered {n}")
+        for p in (self.root / "data/theatricalextralights/loot_tables/blocks").glob("*.json"):
+            name = json.loads(p.read_text())["pools"][0]["entries"][0]["name"]
+            self.assertIn(name, registry, f"loot table names unregistered {name}")
+
     def test_artnet_recipe_preserved(self):
-        p = HERE.parent.parent / "world/datapacks/theatre-fixes/data/theatrical/recipes/artnet_interface.json"
-        el.generate(HERE.parent.parent / "world/datapacks/theatre-fixes")
-        self.assertTrue(p.exists())
+        import shutil
+        src = HERE.parent.parent / "world/datapacks/theatre-fixes/data/theatrical/recipes/artnet_interface.json"
+        with tempfile.TemporaryDirectory() as d:
+            dst = Path(d) / "data/theatrical/recipes/artnet_interface.json"
+            dst.parent.mkdir(parents=True)
+            shutil.copy(src, dst)
+            el.generate(Path(d))
+            self.assertTrue(dst.exists())
 
 
 if __name__ == "__main__":

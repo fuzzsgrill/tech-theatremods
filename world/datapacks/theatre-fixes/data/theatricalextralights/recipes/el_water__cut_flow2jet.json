@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "theatricalextralights:water_jet"
+    "item": "theatricalextralights:water_jet_cone"
   },
   "result": "theatricalextralights:flow2jet",
   "count": 1

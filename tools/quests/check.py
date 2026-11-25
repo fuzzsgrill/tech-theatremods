@@ -205,6 +205,11 @@ def main(argv):
     jars = [p for d in argv for p in Path(d).glob("*.jar")]
     jars.append(VANILLA_JAR)
     known = load_known_items(jars)
+    # Extra Lights has lang keys for unregistered IDs; use its registry list (see tools/recipes/).
+    el_registry = HERE.parent / "recipes" / "extralights_registry.txt"
+    if el_registry.exists():
+        real = set(el_registry.read_text().split())
+        known = {i for i in known if not i.startswith("theatricalextralights:") or i in real}
     blocks = load_known_items(jars, kind="block")
     uncraftable = load_uncraftable_namespaces(jars, known, PACK_DATAPACKS)
     tags = load_block_tags(jars, PACK_DATAPACKS)

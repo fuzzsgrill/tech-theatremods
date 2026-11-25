@@ -85,7 +85,6 @@ theatricalextralights:firework_white_peony
 theatricalextralights:firework_white_strobe_burst
 theatricalextralights:firework_white_willow
 theatricalextralights:fixture_wrench
-theatricalextralights:flame_projector
 theatricalextralights:flame_thrower
 theatricalextralights:flow2jet
 theatricalextralights:followspot_console
@@ -93,11 +92,9 @@ theatricalextralights:gerb_gold
 theatricalextralights:invisiblelight
 theatricalextralights:iris_700_gobo
 theatricalextralights:led_facade
-theatricalextralights:led_panels
 theatricalextralights:mini_bar
 theatricalextralights:mini_scan_gobo
 theatricalextralights:mini_spot_gobo
-theatricalextralights:moving_jet_fan
 theatricalextralights:moving_mini_bar
 theatricalextralights:moving_scan_beams
 theatricalextralights:moving_vl2c_beams
@@ -113,7 +110,6 @@ theatricalextralights:vase_water_jet
 theatricalextralights:vl6c_gobo
 theatricalextralights:waltz_curtain
 theatricalextralights:waltzes_water_jet
-theatricalextralights:water_jet
 theatricalextralights:water_jet_bloom
 theatricalextralights:water_jet_cone
 theatricalextralights:water_jet_fog

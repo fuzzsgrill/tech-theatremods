@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "theatricalextralights:flame_projector"
+          "name": "theatricalextralights:fan_water_jet"
         }
       ],
       "conditions": [
