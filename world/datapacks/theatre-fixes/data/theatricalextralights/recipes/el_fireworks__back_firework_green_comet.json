@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:firework_green_comet"
+  },
+  "result": "theatricalextralights:firework_rgb_launcher",
+  "count": 1
+}

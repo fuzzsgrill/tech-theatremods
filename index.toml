@@ -3080,8 +3080,1744 @@ file = "world/datapacks/theatre-fixes/data/sef/tags/blocks/theatre_seats.json"
 hash = "2fdd7a13dad6e0cde8fded00a90eb8bc0ee5ef6670e13fcba6c0af67132c1b0d"
 
 [[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/artnet_interface.json"
+hash = "e20935aa9b487af9128c247ad1bd680d638056c4aa45ff493961d58bee4664f0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/basic_lighting_desk.json"
+hash = "f3b0cd7f2107d36d08447d35e9ba47299c187b5899fe272574f845fa740c72b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/led_fresnel.json"
+hash = "d1e92799db2b3d6819e620b58317571c6687d3a9bf40d71516031600ad6ddea6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/led_panel.json"
+hash = "9392f29899a39f28f5318bcc85c9c9f94807160c8064f651bd4c0dc4c828b13b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/moving_light.json"
+hash = "605daf1b00005dd183ad986bd8a9a28365d13524a38180fd5a335816730774d5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/moving_wash.json"
+hash = "41c8417037b03b7506978a581b3c7ddc7afaba166cc4d916e251f6cdede5dddc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/pipe.json"
+hash = "243cf1874361a955c25b8af8a331eb455207b43f5dc3bfa753d783fad93ef47d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/redstone_interface.json"
+hash = "2bf9895d0db0f4f549f8d5c2c399756aa1b8ab30f635bc01aabbdde7da7a2090"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/tank_trap.json"
+hash = "14ee42c80df21e9570fb7164162f4aa7b84043ace26df3d38fdc90db5b41ee8b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatrical/loot_tables/blocks/truss.json"
+hash = "227327f5c720c461e53e3d1155658dddafc3c2950c78cf965239a3db859700f2"
+
+[[files]]
 file = "world/datapacks/theatre-fixes/data/theatrical/recipes/artnet_interface.json"
 hash = "19b8311ac2068139aa018a92cf44d5ba3bb32ad7d242252d55379b1e9e4689b5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a1x1par64.json"
+hash = "d61c447aa569c1130ba4860997bb8612d639a4f484615337c340098ae6e670e1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_blue.json"
+hash = "9ecbcbaafa7e8ffee37a51d59a46eded7f4bb3aa6469b0ed6cd339ee279b6199"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_green.json"
+hash = "32ab51a70aafce594cc8ed5c42ad31c2cee0093880d69315d4f94a4c98acb4a1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_lightblue.json"
+hash = "a6b40f07ecce15a49439e96c547ca24abcf6ea565bc842f1c35e3d104faef713"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_magenta.json"
+hash = "d162aba2b6d31e3358778375579bec4088c29bae6ecdb7c289577685c38b139a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_orange.json"
+hash = "8134e212276eabcfc542eea85acfd734bc0320dc9132e514b6c9b00993226901"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_purple.json"
+hash = "44c557013b745fae3d334bacb473b47749bb0bce4dc267894bf1265626dfbb96"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_red.json"
+hash = "dbb11841f04b404df15608cb9bcd390057a043a4c6dc6dd41b6abe3c684bccbf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_warm.json"
+hash = "d4480c646bcb7b54ae607851ec66fc2b5040d98764854fc263ce80460408ede6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_white.json"
+hash = "2284016195e40fa15d311e59531056419d926e6300d0cea8ebb74051c6ff5dd2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x2par64_yellow.json"
+hash = "008de909112b7d3b22e6500cb2758543aeb36914d57af8f918fa9145688f589a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a2x8par64.json"
+hash = "ad9eb668340efc31352ac65afaeea106c687e844bf8f676c9c345d752fb09586"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/a6x3par64_vertical.json"
+hash = "686ce8bc22874a0616f9d0097b8c440e759ca4bb3c2ed6d646e2ce3e368988ec"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/atomic_strobe.json"
+hash = "f642354b3d4dfb3fa087e75e733862122463c82d7568f27cdff41278b92d36c2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/atomictilt.json"
+hash = "5175e9da4facd2e72d79779ac7c5b812d3be18b53fe5e6ee07a6971139b20acf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/beam_7r.json"
+hash = "5d83c833160d76e57d096aadffb19f2b99901cd7ed8861b281df6ecea09c2817"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/big_panel.json"
+hash = "6aa5d428de363624f31ef376ddc62ce6dd36a8c097ed674baeebb3ce4854935b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/big_panel2.json"
+hash = "cb04da32620fd8a84aadbe1fe4da9f7589c4100ca2a69de3777df029f0941c80"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/bigscroller.json"
+hash = "da6a2cbd62a3316d30240f81f8baccbc0d04b59c00afe79f8a4c2c8fe66f9701"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/blinder.json"
+hash = "3f046240b869f9681be28c92738db74563faef5e1026308548b36d98c09b8275"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/blinder2x2.json"
+hash = "7dd216a86fd1ef04d4daed8641e19ecd71c71ef5372206c760e48f2c333b80c3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/blinder2x2warm.json"
+hash = "7f1ceae199e326c30c4f7a0fb93e80c4e47b15ba126cc9d52660c167a2ce1d12"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/blinder_warm.json"
+hash = "4f110650181f27e041872e50f457c462caf26be4e552da18d8156d3ab938ce0c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/confetti_cannon.json"
+hash = "64634253a6a0ec9960b5ac721f22b6981a1600de0137fc5bf1a9da248334c71f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_amber_aerial_strobe.json"
+hash = "4beb1cb93b841cb8c3867ba2626955d6781d4ed240daecd85b5c4ee32f7add59"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_amber_peony.json"
+hash = "9863c1156206c975f6d3562b74b2ba17068be80298465710d55d075419940ffa"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_amber_willow.json"
+hash = "126aa17fb78b68ea5d6e6bf46e03dc3df716e83162723b6dc8535300f907060c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_blue_aerial_strobe.json"
+hash = "b24dcc9036fddbba4c31bcc4359f9306e39b44be91cb3c7e2edd718332d28c24"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_blue_comet.json"
+hash = "3105aa86b2379d40d55d164de4825e05ebb51276109296e11916077d053d801f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_blue_long_comet.json"
+hash = "aece06e45a9854389f01878402972794e9fb4861f03b681b6eeff341d7a45654"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_blue_peony.json"
+hash = "29aba9c65a80473a6a4a76ca95ba14dd1874732dd7b847d87bde1ab929a1c249"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_blue_willow.json"
+hash = "2e08d76f2782298a31cdfa92f7801465abbd359d15ea982f16ee6f0d0fc93a6c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_amber.json"
+hash = "394c4b2775df1c2254d23f1204580e87dab1c72b022d3754ff9167b238fbe9fb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_blue.json"
+hash = "fdf4d379a8d1356b3521cdb728372cea8c9322b82e5b554d51fbba2103477b5e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_gold.json"
+hash = "826f1a7b2183925152825c5db55d440819043e47d4301fa9afcb67997e81ab88"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_green.json"
+hash = "da88617f37b0d8cc08d1f48112ae45ad137a2c98214c68be3a2b23ff6c9a6607"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_red.json"
+hash = "3640fbd23edc771aef0efd2ee6bbb7b88d1a5dbb50856dbb11385d33c9b09ecc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_violet.json"
+hash = "4a75adb7574d01a5beb74cde1150f2a97d7b76dd45dd8ec41780b90e9adc5ac3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_chrysanthemum_white.json"
+hash = "43bc581c51e5ef51db1f558579809748566b17ed5ec38d62dcf206ef832d2fcc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_amber.json"
+hash = "9dc045470334fbb452cc3819e14d35a404e6ef4ebd7408680d3187a25c240bb3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_blue.json"
+hash = "99eaf3d1821c71d5f312303fce0fe706df1a93e95e75807739f2d2715d113db0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_gold.json"
+hash = "371419c7ec41b5635ca1536913864ebfbf5fbf1c15953fb6996cbe7124c8350d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_green.json"
+hash = "332573379b4bc764907c971e58edb74ea09d78c710ade5d9c66a5de25a903537"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_red.json"
+hash = "0623a01366e9a5c736319af99ae0e11ff350537d0d6508761990d7f29a4ce077"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_violet.json"
+hash = "5518adab8d692cf8ebd491bb3f0d234bb93746ff83ebb598f11c769b066d1859"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_crossette_white.json"
+hash = "80347688c5480726b6e244fd737b29454b1ffab38f04e0ca0e3eab03d42e6f13"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_blue.json"
+hash = "0619fb0c0becd472b2485735c781cf874b359165a430910eb4eab93c129c6208"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_lime.json"
+hash = "867466e288a6decc9698791a39a9017468be21e0bc8d660f45cfb4d2ab55924d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_magenta.json"
+hash = "12b3d8d1cd037ae42d1cc8da75ecf298979cbb263af1b36654f37689d52d1125"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_orange.json"
+hash = "23dc7bce69b964cd00f9b76bcd34f3bec92ebae21f9f4a8cd0d6a246400084f3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_rainbow.json"
+hash = "67952caea946821f853e2ff5295c5f170b526090295d7572c717a751ae54f4ef"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_red.json"
+hash = "7731e37f183533c3a07cb8c2b7a797950879089facc410c3305858d1823eb6f7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_daytime_powder_yellow.json"
+hash = "fd94595f466f0971eef6db20c5356b3c431b511c6fd47919b69074ede4e13299"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_diadem_blue.json"
+hash = "27d84374545fc10a79f4d6ffbdf1db3cc17ce5ff7d6d9ae978536ac5bb10d690"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_double_burst_purple.json"
+hash = "b5e07f1053aa029555436c9e917b6553f0b2e3cd971c500fd9d4519d876ebe47"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_flame_projector.json"
+hash = "59241f64523e6728e5df7b003244e7306da429f6de5b51d1c6b2ab5b0bec61d4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_gold_aerial_strobe.json"
+hash = "b0e4af411934b2d4445705aabad4c2b419e82447c796aad9023a25feadf640f2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_gold_bell_comet.json"
+hash = "5310657b5dfb04fe76b3dcd649d3ee573deb1b39ce70118d8265f151a9a30e49"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_gold_comet.json"
+hash = "3245b6e120bf5254b085d0c895bf851be90724ab9ff9bd795917bc5ecbb82da2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_gold_long_comet.json"
+hash = "063184118335437ac8ff5be584e0a1136db315f1240ba40a69cb2e6f9b084fa4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_gold_peony.json"
+hash = "bca11dad6769ef4f7264f393d5453c03880aec5d868ad22aa0aedcc5acd638ab"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_gold_willow.json"
+hash = "39a806aba5ae97047cb369e5da8b66fa78b0cdf5b0e4dbfe8a7164fa65bfea66"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_green_aerial_strobe.json"
+hash = "d49ec6891be5df3695d681fa28b66a905a1863b81025486b4a15b7903b16770d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_green_comet.json"
+hash = "8fc2c748b5d6a5d51699c262fd58a31d9c57ef85cea74b9a47b52e7782cb0e6c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_green_long_comet.json"
+hash = "4fa01c02645de9cc0e862190df52b4887859a2b9f1200c70927bdf7e69e2d716"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_green_peony.json"
+hash = "2d2a38de3724442234ccc064fdeeee08412a8a531dac7f5c8debf329054dc3ce"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_green_willow.json"
+hash = "73d9d5cc2d0d5090b480d19fd0bc3f7008d7e1aa7a8c3ff3cb6ebcca87f1ad96"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_heart_pink.json"
+hash = "b3b80cdf625fb9964e4b30c851817a828608f797cef75f8eec53cf19c5e5b2eb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_horsetail_silver.json"
+hash = "21eaf661dae8cc210559d9a5943fba78ada1e834f686a72af59109c613a31c89"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_amber.json"
+hash = "038d7135451e14f4eabeaf3a925983284980bcb46846c3cb12d94e01e84fde7b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_blue.json"
+hash = "5dc9f629b57c6169fabc9f3423dbaf653c3c49c3efb372663b8c758743bb056d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_gold.json"
+hash = "5199ee6356dfc6a91f8549d9c9f82ff90d6df0ca32a9e786a0452c120a720d00"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_green.json"
+hash = "ae9b79132bbc8467b11e1579974944d1d1e3380319d09efaa6cf4e4b5ecf5898"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_red.json"
+hash = "c761573eb555a4d8f38ea4f577a89e963e88337df77a8a97f7a21c937579d6b6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_violet.json"
+hash = "1d8edef642a20bcff59293ab87851066a5223695e863fd2c4d509dd7772e2af7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mine_white.json"
+hash = "7e7d0360743a21ee1704788c1c3d6a9980e745aa4a33a396bfcd80fca056bfcd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_mortar_hit.json"
+hash = "b3e92b6e6789dbdb6bed7a01c0164dc348dfed8e31ea3a9dfdd3ac26778921fb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_multicolor_burst.json"
+hash = "3d23e6998ac2ec8bd0882de412ec2ec01ad9113cd4b04f6311cb6b24fe5429b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_palm_gold.json"
+hash = "b979da16bedb8c4eb2c70ab3b4759823fb359b54aa29a7a1bf45ebc85b4740e1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_red_aerial_strobe.json"
+hash = "1b1d70aa4a3ce219a921966e5683d06cd4443a08845524a537dfda4cf2cb782d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_red_comet.json"
+hash = "6f3d0b2ae50aef40f63a2b6a5cf81df88e59cfff8de453b1667a11596190db6e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_red_long_comet.json"
+hash = "3e6f16786be2251780146331ccda08a267a1d8e6a98add317082d103f168c769"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_red_peony.json"
+hash = "bdb897e68d02c41f30e03a0353ce134f2095c7e7f2bb830e95bda855a39bd7ef"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_red_willow.json"
+hash = "20ece77913dc27374220f5184dbe66ac1daf63fa62e9f01133ad85780b049545"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_rgb_launcher.json"
+hash = "18c80b386259b571da5edaa670da7b009cc18a0402ecb54d07afe5e2affeac09"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_ring_red.json"
+hash = "d9864f0398224ccc10c76772ec98b7edcc4dabc27d0ddb600e507c5edbd3d676"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_salute_white.json"
+hash = "8e99f49faefe1ead835a39c9195e037b1ed5c31be2b9092dd9e810dd982632ba"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_silver_aerial_strobe.json"
+hash = "1b96770da1e6b98434fde843d307179f6d8c9c0686b7e2367fcc8b051b2cb6fd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_silver_jet.json"
+hash = "f291f7babf896885eb6092d9b456b8e59cb308966fdb616f8610e7d6f2d6f29c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_silver_long_comet.json"
+hash = "e70379af1a60b87a7fe06defdab2f3cb4e43f20a493cbc7cd340717e74996174"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_spider_white.json"
+hash = "c6eb5a65a368258201a49ea10a63597f8dc19a33becf8d2baf40bb4b5aa72294"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_spinner_gold.json"
+hash = "854f5778b3901596144f9befadc2a57515f98500729ec3d525cf42e6da8e2a9d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_violet_aerial_strobe.json"
+hash = "7ad7bbaaa39aedd7a4c67c31d805d6fb68003b36c0fb8b36a9277f9e6e77c03a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_violet_peony.json"
+hash = "b237a5a034a12203bc321da6d2a732385bcf09927c7ac6b88a84d139e9ffc04d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_violet_willow.json"
+hash = "609ce3574a9760cf7f0abebc4aa84b625415cbdcf502357f81bc9941dc1b3f2c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_whistler_silver.json"
+hash = "aee285fea1909256fa823e9f00b50dbd0633e5d3104f5bce3d3c7639605e3ae8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_white_aerial_strobe.json"
+hash = "5f28712ebe5d60ebfd98b0e299b0c204629f2f2cc5b094ec0ad89a428e5e1d6a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_white_peony.json"
+hash = "75f128ba77f03aafbebd591b1793a9da6bd46628d08a8d5a069d17e4527126e3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_white_strobe_burst.json"
+hash = "c86f6de9dec348399db40d896fd7cc3f34057e75664f837fb31183189f81bd5c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/firework_white_willow.json"
+hash = "ce794f2b86d0eb44dc7ad21b40073564580834ae22c2c886082a36e9b7b10373"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/flame_projector.json"
+hash = "b0bfa9b21f3224dcff4a92b6c0751d957f4d66d6bb14909bf8a2aaef8b7a1181"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/flame_thrower.json"
+hash = "b4fc6381183ca88fe0b40d57dc51ce6aaef4345f267e2c222bc95d08d473a09b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/flow2jet.json"
+hash = "5156371a8d032c60b1c2a0c283b710ca69d2858cd340ee00898d334328b4b283"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/followspot.json"
+hash = "62bee5a5aada8bcf459156d39415750d6f2eecd28283ff55d2a6d2c29f877c7b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/followspot_console.json"
+hash = "73dc46b3e99f554b2afc6c938006a6f31c32607740699d0a0893cf144eb2a11f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/gerb_gold.json"
+hash = "47515d7c6725e941d17bbb9ebf47834b3c585a33365079b6780cfed9c1d0b902"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/horizontalscroller.json"
+hash = "91bb1f170032e273628072fc6a0dfe9813403c5399cfd09fd3709384f233681b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/invisiblelight.json"
+hash = "7b34b3d19635d37c38ca2e37fbf6f43307b0d95dccbf02165b11428caeb97c13"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/iris_700_gobo.json"
+hash = "0e24bfaad3bd3e631f56e387a96002e682885589baeb2c60691314077b5cf740"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/laser.json"
+hash = "ce9945cfc1e2bfe6761027a16916e21f98edfc40aef4fa7d0cc0cef8f11c9d9a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/laser_mirror.json"
+hash = "554297f1b6a04ab7b043be8489ffdd64000c0e246fb3f28372b7af260d103410"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/led_facade.json"
+hash = "1cb5a29e6bfae605e415fd2803a98d2f595838f70317f9e40ada065d01389e98"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/led_fountain.json"
+hash = "117048247e64bb3bb544436386ff5e626569978c8f680c37ad847652fb40e372"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/led_panel_2.json"
+hash = "38099909582f1cde74c68b64abd316725e19de897500e6ce0817a33e5048cb08"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/led_panels.json"
+hash = "06b06145a9881497674eef7ad308cb601a2929e575622d90427cce24c29667b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/mac_vip.json"
+hash = "1cd85ca125573ce1df96e030e078c86ec3a8b0781222ff1463b71e8879e72211"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/mini_bar.json"
+hash = "4e97d0b52172d652774ff77005d46dd281af57c231a117c0454ca7407b00957b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/miniwash.json"
+hash = "a1c43005131f67c5f8bdb269b14b478b81b93e6e5297e46f2963f154044d6602"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving500.json"
+hash = "c3a07eaefea62e55ef5de9a717cb425185801af5f9bc07ca256408a9524a1dbe"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_bar.json"
+hash = "7ad7b89a07b4e51fbff2788f4b116d6366a618d7bbfadee10b443df5bd13420d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_beam.json"
+hash = "ff1dcb3b9c6844e150b21fbd6e1ba25f70a0832847f3a2fc188a5407ee579a44"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_jet.json"
+hash = "32547888741995051f7298bd09183dbffc9b700435a7f0d0c19b0ce963854f9b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_mini_bar.json"
+hash = "3d98f3b6c8ca18a797d0d1f4d1a41672b4975fc2ef28df9957ee95db97415a96"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_scan.json"
+hash = "bf361c43aefaebef4e2cb387a8bf23687a42f3d54dd1c0f7577adcd04ca8899f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_scan_beams.json"
+hash = "689c9d5ece24825fbee3c8d677271db30d7ea2a3e783246a4f5666ee15e5c985"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_vl2c.json"
+hash = "9e3da4c8086367b19435a35ece6e72f10bf25a8224b2081f7738b0c52ad33b47"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_vl2c_beams.json"
+hash = "cef047ac95fb23da639d613438024e3116673205411b483b7a24d9e7fe128237"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/moving_vl6.json"
+hash = "c9aa83b9e367a164c756a8a955368b81d10638f0f3c88a93577cd619cb8b9a33"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/organpipes.json"
+hash = "5da20c6d4c3ef5475bcbf9eb32507c82a51791d05e29245102bd8c3e2d5e25d7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/organpipes_inv.json"
+hash = "20f0a4ac4b9f91fb426b6b21b40f4f6781e50d7b29f848ac559ef4785b834b15"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000.json"
+hash = "5e06bdf8d75eee797a1d2268284394b45942841e940d17fbb9d7f329065edcf5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_amber.json"
+hash = "4878ace0ee7765d3796a18ab9974cbc7f0b5dc346e9fa30f300afa313ebeb317"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_blue.json"
+hash = "bf9a9c177f9bcbeafcaab34b7c2070b21a4228dadae9feb7472b46ccb04c672a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_green.json"
+hash = "9a3beac29a7e6cba4c27700fed678522fc0b443bcff3ef19030ee6d9fe02b939"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_lightblue.json"
+hash = "f7c2338069c54aab94573500627f0dd746bd836f6b9bb233872818a011bf34cb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_magenta.json"
+hash = "8815a8057e4cac47d511aeb70d796ece2b3fc2334ca2694bb8a5848dc0f7d71e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_orange.json"
+hash = "fab8bcb17e7fee95f7a769ab66b7dca7b426c279dbfbaf328d15bd3ffd70f342"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_purple.json"
+hash = "4930dac3263fba0bdc76681f47cc63242e2bf4515159d31d7b1654e21fe0b0c7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_red.json"
+hash = "eac279ae00d37167a4c5a47c36f95c38deb997125822184359e0fc79ba19e015"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par1000_white.json"
+hash = "8c0f5c3a19bac237b0cd641f6660eafc47af329ecd3ee17595372946e2fc5b0c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_blue.json"
+hash = "fff64437860d5b5311480071c754aa95af8fa6c60b1c5666cc3248474370997f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_green.json"
+hash = "a4a98a2f282bad74660167dfbdb42dfc2b7b05140096b1474b99453be405e106"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_lightblue.json"
+hash = "b37117692cef1f0a0bee615dc25fc27f9fa3a1f6254389edb7d4f7919675afdb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_magenta.json"
+hash = "74e1974b5c20efc5c5e45021152a73781538a2b8920991cd774d4b631fab5df6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_orange.json"
+hash = "d14d5410969346cdd8fd38b02003d0e98a79e877213fb3383fed98a8a90cdf7c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_purple.json"
+hash = "8f9634e4f429166975b3d5578e8557ab4976ef90d1d9430f55074133aa65fd1e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_red.json"
+hash = "7306d743faa0b3845512b0775a75eaf655c6e7d70a4719f4767bcd29bc471fbb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_warm.json"
+hash = "7dd2626f10dbe12c43f5532641ee0dbc470d5e19483b4fbed65e262b34fa8f82"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_white.json"
+hash = "f246971df572bfa66a2e2dc5c3a362d6ba001ccaacba946bae873ca1cabe34bb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par56_yellow.json"
+hash = "5141325e3318c81d7572d80fa8758ec1c517dd997eafff7d6412111ad34bf1a0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/par_led.json"
+hash = "1a6f2f781560ca7063aa9cd25173bea37068ed25578769dde3f8c2a4d9ec4c85"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/parscroller.json"
+hash = "d0fca16f3a32cad099a4deecc683011778473b541b104b69d4dabaabf2b5c4b5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/pro_spot_gobo.json"
+hash = "4513e3d1d24c4b6334b2b61d76b09ad8110195d5a3676b209696b86ee5c2bc65"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/pyro_fan.json"
+hash = "11fcd1ab99a4f979ce5a78a7c09e6a634b802a8fd69c5deb21cee6407150f430"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/rgb_bar.json"
+hash = "5bab14313572e2a92a65832d4dcba3f21cf796bd1fb445427611810b69b2a134"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/robitspot.json"
+hash = "4e6a77d5421cd2ea3192ec138073eccba2f9d2f65ac41ae0ef36471aa09e704c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/searchlight.json"
+hash = "b636824386ef72b7d419f9c25acc178f0df5f917fb65b3923900de225a37ecaf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/sharplus.json"
+hash = "a7810a1982ef5e686e979619f22a4aebac686d5dcf1df33ff3cc92ab15cf0c1c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/source_four.json"
+hash = "71fb1ca10cf4eb3c02a84a89104f7e1cd69d7f53c9eeaeeabe28867491a8ce68"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/source_four_warm.json"
+hash = "a07e8ab94e26fd4ddd8cc350c8a900d90f98d61ff2bbb3a1c76be29262408507"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/spinner.json"
+hash = "2c2d4bddbbe6ecca98e7421518dfa39b637a30bcc4a9bd2c5f1d987b022d9b0e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/spot_xtreme_gobo.json"
+hash = "fe69a316bbf3121231898754c167b1be65f7ea7d328b7e4cdf72c5acf4c007f4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/strobe.json"
+hash = "e96aa7bcb35145fe47eddc6552bf56eb334a9978654c8481040b7e78d656720d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/truss.json"
+hash = "a344cef529f0222dd0b4f7451bfb74566190ad20d2f1ea631d3746476fb5fc4d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/truss_3lights.json"
+hash = "f2a91fd73a42800747e7ae526fcd305d1211cc1a98901ca8799d849020930e82"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/truss_corner.json"
+hash = "786361f8364dbb6424d574ffbccd2d99a32eb4c93f88a25342ec8812d90e182c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/truss_corner_t.json"
+hash = "731257581a5aaa27169c47e59bc7d43f30b7b2be5f37b0ea26e9c88261416635"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/truss_joint.json"
+hash = "4d7ed8e67958a7e26a0c53580e77df425cb24831acc5734eb32fd1c10ce87d5e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/vertical_bar.json"
+hash = "e8ab791ebfd046797202fed408ef05f1e5d46d1fe3bc16a3bc985a0dcdaa562d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/verticalscroller.json"
+hash = "20909567028ef85adaf8ed4b2d81f9fabea54a1d667dc7ff060482152eb5c132"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/vervespot.json"
+hash = "bfc238bd9e957414ccd63cf8782736963050fc78c9f1c5663809811c0f500be8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/vl6000.json"
+hash = "4ff578f4308dd404b0114d6aa7925df67b39b64600fc75f78a30f55358be0dd6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/vl6c_gobo.json"
+hash = "d93d7659b7f385c8ce774a956bda55afff031c3f66b378998790db8de1644442"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/washled.json"
+hash = "782075253386d512b8d73488898e9589b72cb39b40d2c5aa78bf2c92ea142e6e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/washlight.json"
+hash = "2713db6364ddf82c67c1a06ee5480c2a2b08850bfa16d5304b6d250774b237cd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet.json"
+hash = "5050e46d9b71c159838d663695e05c42bc0d889c07c2fe496a36cb0d73cce820"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_big.json"
+hash = "db2751866437e3b1c283991d3a7a5c6c635770dec3c9485cea4a7efc1afed79d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_bloom.json"
+hash = "fc3a38c3f2d881d548871e01e99fa564f59ab69685f075aa7dfd1b8cbd60e474"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_central.json"
+hash = "04377d054f50aa66410324582719a616f014a65055b9ec36c5dfd8fb74a4f7f3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_cone.json"
+hash = "15cbe384cebb0d418fbfb8a321fb51b1b97b0be1950f4eff768464da59f2f60f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_fog.json"
+hash = "ea3bb07c25e1bcf132b62ab04c23bf091f7fd24fbf6f611a2f634cfb9702b4ee"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_spread.json"
+hash = "f7ebf82433060a1334a1e1115e6b4f1b8253fcad1adfd928fccb9fdacce2c3e5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/water_jet_thin.json"
+hash = "6f148246849b5eaebf58bcd50d6759c53259f74367ef919851c3036bbef4c7c9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/white_strobe.json"
+hash = "ed5b8ee681c503e3f62dd61115ad03e121b6365fcb5dce471a02da649f357686"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_blue.json"
+hash = "0d60362e69fcf2cf4f313eae5edc65b2792e587d30bdebe6734a6a5de606138d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_green.json"
+hash = "32fd724d9c403c07b76d150bd07ae08a68121d57017cc6fd4e154013f5bc6253"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_lightblue.json"
+hash = "32dd02901ef4d8d9183413ac1e9554efc94f5f7be10c12ae4937cb8aaa5ee3c8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_magenta.json"
+hash = "882f52ebbb98a40dfcbe8fe7cf19062f852ea27d30d74fca93075917215b77e9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_orange.json"
+hash = "6b676aadd6834223a7149dde21346f2f497ede765013306460323ce03a48494f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_purple.json"
+hash = "0d22da34b1d15a04ffc180d63ecc8faf4fa2c66f5670d7befc9edd587fdcf77b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_red.json"
+hash = "b5934129286b786b7aa7c750c3adcc9e4d305671cec4ae5f3518b763f8d76a3f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_warm.json"
+hash = "30b77c2c112dbbbdb6a6b9d2aeefaef97f186be1d558e1c2fde38b826811e43a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_white.json"
+hash = "181b420a40d548e84a79cca3a19143ab3406b59d2ce813b84ee2cc16e61526c2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/loot_tables/blocks/x8par_yellow.json"
+hash = "71e8a1010ac65fbd9f2e19007c104386854a08d080c2ec8e74c95ff56bb4080d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_console__followspot_console.json"
+hash = "6dfb58b413793a39052689a0bec7064bf3ef6a4176957e5524a109c4553353fb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_amber_aerial_strobe.json"
+hash = "5aa0596e8f3ba106bbc509ef846c19f75ee366725fb9b2e1a303b966e3fedc24"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_amber_peony.json"
+hash = "d3097c382338f55387e0ba0b0df0b177f8cfdc8641da558660c633768114552a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_amber_willow.json"
+hash = "fed52a4a817ee4516c018465fd2202da274badd05917c7a81da3e999b53966f8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_blue_aerial_strobe.json"
+hash = "26da9eb2c74b56433111e281d76799b2df12715929964d3ab2b734df52e807b5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_blue_comet.json"
+hash = "dad2a3367f7399421331e4be3a6da4bf4ad4618660fca1eb1a934e969ea7b8d0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_blue_long_comet.json"
+hash = "420c70f6e3363a16188448a80b9c70e4a158761b8f3d3895ab97a0bf66224802"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_blue_peony.json"
+hash = "fdb30cb496c90787184edee1e73e54464c05d3dda727415eb743e1c983d3b8cd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_blue_willow.json"
+hash = "ae4f527752ba790198af24f8d0f1567d7980fad8bc1b2c5fc48282a848abcfb8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_amber.json"
+hash = "dc67cb8dcdd8850eec6886d01428e37cc3458118bba29fc73dfc05782b95b134"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_blue.json"
+hash = "89dd377983c2fe7d8301553cb77074bb40c6b503193a7a5178e4fdef1458d4f4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_gold.json"
+hash = "9bb7ac23802f9ce27399f3f1b13ff874e098934dbb907cfc99d1935a070ef1e3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_green.json"
+hash = "659d6689bfeff15edde5216861eb10381cfb76954b8cd5943110cc4a7657d203"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_red.json"
+hash = "0adb1bf93ada7d6ae15257297d98c01e162e1d7e0bfffd2dca4a0ac6c2b53b4b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_violet.json"
+hash = "9842df7619fb9c3c5a89d60894f72658ffc5fc596b6b941e208e6851bd612903"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_chrysanthemum_white.json"
+hash = "9410aaabb7737d894a4b5c999cb6e443a078eb505d42a7694f82abe5e88451f0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_amber.json"
+hash = "7553b363a9187bd21f01a77be8a7e2c356e732070ee560a04fc31330c122a875"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_blue.json"
+hash = "3e9e682dc83599ec9bc30b8fd019166158f0b2ca51684a93de3b1e755f0cbf7e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_gold.json"
+hash = "3c6da20ed1a31679278a99fbfe20185b595d2a7d4f1cc046635a8bf3dd98a6c4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_green.json"
+hash = "51ec05e424b51a50108b8bd7a722b78639903849da3d02ad627362e8628031f2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_red.json"
+hash = "c7e8ebcf11634be06cf9a2bd87b454cd8eaed5bfc397afab48f009b8b4c7a3a5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_violet.json"
+hash = "45630cc524f99af8680b1ce7db821e325e8ae54351d602e662437b3c5876c77a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_crossette_white.json"
+hash = "86d173f5bb832bceb13fa9b491bbd2a395a159d14e1b440029a4eeda186142d3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_blue.json"
+hash = "cd64cb75f01312af9655f704e5bd05819d0ae1c283b97b299aa3745dbeec58a7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_lime.json"
+hash = "e78402b9fedad1f57e0e42eb9e8b05b6169bfe7240ed393de7b32276ef61c759"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_magenta.json"
+hash = "eed50450bf6823cbd4728686b08060d1c3ec62bba3fab7f3e916a95c21271f72"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_orange.json"
+hash = "0e6d43aaad7fd769478f8efe96b766610cd95c2629fb3b85eebf587e579a045c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_rainbow.json"
+hash = "8086bfca1386282fb917edd3a6668057d27bfc994790e002e1a1cb372514b1cf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_red.json"
+hash = "300f9ad23c095ba58a25504d4cde94a9a93470d0d3321cb858d66dd3648fd6bd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_daytime_powder_yellow.json"
+hash = "52f217c42bce6e71accad0dd5a975f4f3f4c170fd8f6300e7d131f4980b9d611"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_diadem_blue.json"
+hash = "333e86fb32cd86580a061d356d17e01a4d89dc6c5e6f6e24b2c3b86742b14652"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_double_burst_purple.json"
+hash = "9aafc6355216c3db5cf96fd35fc6c3278328a4aaa204d283a1961b2f7010d447"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_flame_projector.json"
+hash = "ca43ee53ffdb0cb4c6a3e9c2e87a9e473651061998239bbe3a7d5392b45606ab"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_gold_aerial_strobe.json"
+hash = "7cadb6934bb0066bf8d027e627dcac7c44e81a14169bcf55cb61e350fe8139cf"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_gold_bell_comet.json"
+hash = "8c0dbf666ff492a224f45989c95e5e919a19b8faa0a7766dc89b36b6e6dc82b8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_gold_comet.json"
+hash = "f1e6ee87ac96218655c5d45ebdaf5cd34e3fbc669f82ebbfc796cdd905b48fe1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_gold_long_comet.json"
+hash = "b0366db78db6f49b1f608572e0e1c3e319fda106a86193bca264f5c5c98b9c93"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_gold_peony.json"
+hash = "0b79e8d63bd6589e6ffec85bfe6c48f31c6f3dce1aedb0b9a924ea710dfdae4f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_gold_willow.json"
+hash = "dc91d7380b34fafc0a8228e81149bdd3c4c1280930f209c56885dc1308c21454"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_green_aerial_strobe.json"
+hash = "4724050cd64a00ae74d390908ba9c88991a40d631fc4bba877ebb85fb9e8e4d8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_green_comet.json"
+hash = "4bcd9be98a1a470247fe8951f770cfe5240a7db46ddde3a413ba46ff838f16c7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_green_long_comet.json"
+hash = "6fec8bcf8a6dcb31771ba64f2eedf2227a3d43777287a4af83503b713aa2dd2a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_green_peony.json"
+hash = "23a703a987fa9365807d095961d90d793738a10c25df99c7bf0ffa7fad41c2c8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_green_willow.json"
+hash = "ea69c33cac82e3e50b1f01ee90279de4e8514fe4b6d8ef73a0082b897a57df7e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_heart_pink.json"
+hash = "a0782619ebd8940ad5d82662324f200462cc1960ad3555e59d7b267fa072049d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_horsetail_silver.json"
+hash = "0ddfc93f5eb4ab33c467aa9acb6cc4179ef8f2f05f1dcc299de0451133fbcf7a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_amber.json"
+hash = "a9f91eeb1eb4ecd8020259233fa7b0aa02d77f3fba1b91169d5311ace1968e54"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_blue.json"
+hash = "e8723a7d48c0d6833d5505c11b4e983b6ea81af874727277cc66efb7d852f7b1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_gold.json"
+hash = "0cdb09f1d93d8f77f6d99fff1e0f584a15cec871ee08120134452c0123934bf4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_green.json"
+hash = "18047f2f51f0552a5c8841d97d8785d3c3ddece08946bcc973b4ac9c7a04d1db"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_red.json"
+hash = "b25293fc5c5c2a8c5b35bd16cd9706e82f00859dd661313a1fab94127636bf47"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_violet.json"
+hash = "a825f62bb3fc756dbb91db52c46431afd4bd8187d3f42626998a7efc4eb14292"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mine_white.json"
+hash = "f811eb2c30c7cf4321126395f5304228fb60c62a59de0c5e431fad946c0560a8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_mortar_hit.json"
+hash = "20806c643dac6a86f011d41b75bd5c0f52bb908a25b0779361fe7c8881620631"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_multicolor_burst.json"
+hash = "569a93bc87dd667b369ad0078e96c5902f1f82510dd28abddd28d11193cf82ed"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_palm_gold.json"
+hash = "6126020ef4a0a9240863c9c2715df74cd59e589048aa829ca09a7e5b83ee0f39"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_red_aerial_strobe.json"
+hash = "7b7282cc1c07f2052a1d92eb0a3832f92014f672ece3c8771f4d92611c5c1f99"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_red_comet.json"
+hash = "5298da4d1103ac9bc37f8d8e43881f022e920f205a63ea4bd0737f2a7b5b7232"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_red_long_comet.json"
+hash = "6bbfe447200c5d6981b2243ba604872d4e7c3ecfa5e92e8115fc71ccecf8a07c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_red_peony.json"
+hash = "f1ab2f1f9859aa52c43c4b7250eb0ce944608dbf49b0ab80215af2d64bf10673"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_red_willow.json"
+hash = "5b547fb3e5d36a375c39342ea1461a8889ed243cef6dc63fe6769bc271a6e4d8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_ring_red.json"
+hash = "b5395a4833fa721cb96ade227b152d43c5c391bb44f1447d88580770f822f4f9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_salute_white.json"
+hash = "9531ce13f1a73f86e953cd67f236e93ef52736a79742c9b3a15ea6ceb23e9bf5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_silver_aerial_strobe.json"
+hash = "0600b54eaf5a8d1056cd2b8bf2a0db242ba043a0663d0b506094d7106aa96d24"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_silver_jet.json"
+hash = "4e5d2db960406efa95def437a9374aafa71d3eacfee59ff38a793f0e861e9f60"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_silver_long_comet.json"
+hash = "c39b68540b4513784d8d41e0e5c239cb81bfac52d30d4dd6efa1c7db2ad1687a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_spider_white.json"
+hash = "9b19255115046de59fa976c8e3f7b8f2f72688ac300b4bef837980fefb38827e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_spinner_gold.json"
+hash = "4e4adbbc715df7f1b6f74e5a8753b407ddc6a2e2faf6a3847838e87362b89897"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_violet_aerial_strobe.json"
+hash = "1443dbe6ac6430bcb6115a07cedc23efa1d0a1b74ffed40482189d82bbe65c2d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_violet_peony.json"
+hash = "d3f38b6fc4b4ca5da5783fa2171ff6943469bac367bc12d56ae1160e6b75f837"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_violet_willow.json"
+hash = "31957cda420af6946c76178e5bd0f740fd0c8dbd9056869a070fdf9c554bc1c5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_whistler_silver.json"
+hash = "a0acf8b283005cc1add459595d584389b20e78fb645fa1c97e30e837927bc18d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_white_aerial_strobe.json"
+hash = "305394d9c926d3061488933bd5faad0b9d6fd2816c9d93d1de85bc27b89c3ac5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_white_peony.json"
+hash = "23479e5e274ba54fb6afa93dd49de57baebe05c6d202f78c382693009d5f2ced"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_white_strobe_burst.json"
+hash = "83f3426b38e9f424ed6f8639e7170f3ce81e98e1d472efc4ae74f2837ded37e5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__back_firework_white_willow.json"
+hash = "5c5e0bc3a00078777ec27663e4980b32d6e2f99e2d856ea3def617858f344fee"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_amber_aerial_strobe.json"
+hash = "2e5747c0df27c2c53fa47bf07270d5cf06233b8265613afe9bddd21ca2e842f3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_amber_peony.json"
+hash = "8e178f5f69a8379d44fd9b805d0abecaebe735ff0f97827256a6694bfc844feb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_amber_willow.json"
+hash = "c1058b41fe0b053815d8fb16a78458a2284ab8b60722a17be574439d97cbc6c4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_blue_aerial_strobe.json"
+hash = "f5ba2cfb6b3ac8a19e4a380a629dde10b9650d844a40b03e8e2fa472ae89d768"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_blue_comet.json"
+hash = "ce74b3eab984cf0e33626ec212a17ac8bb9e01f7b1b7a5418356b94a06f23813"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_blue_long_comet.json"
+hash = "3db47931175b4b0b34b1b4ebe074bc4072ebf1fb679bb76324066a122ced32b2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_blue_peony.json"
+hash = "d2655d8521f7f75d3bfe47d8d2796677369993af3ba7aa1ba5f2b1969e112ddb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_blue_willow.json"
+hash = "e2f63195acac8ae02708dd8e595c018d949aa1338041c44ede129710638f6b9a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_amber.json"
+hash = "e02da1c2935ab20b2c945e5ef43e3fbda1d3a9c8dd9be9e490fcf695a7230b0e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_blue.json"
+hash = "5d477042e37a2efcd45fab9f3d5afbd88a364d0637496d0704e19d66acfc7598"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_gold.json"
+hash = "4e0a1dc480d90d528b422b6fab9eac8a9b722dc24ad456934568cda06ebf130d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_green.json"
+hash = "470ea080ed25e4a2fb73a7f1ea931288e1831a35648fb996038d62155d04dbce"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_red.json"
+hash = "3e9005b69d0667b254ce79b7fc94415bb9739c3ef8f707df9e9857767445e85e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_violet.json"
+hash = "7869541a3a167d58ec55e85120573a5c144d35f130ca8140a9800b822ce93eb4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_chrysanthemum_white.json"
+hash = "e818266ba1a4125549c944d9d809fd715b067847cb7f3f427f3691cc9341895c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_amber.json"
+hash = "7aeaf9a9f59f1a2208080e2452b8789075f2b62fe8e4c6cbce02fb2c5736e3b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_blue.json"
+hash = "9ae4a9135110e6af26a7bb44a74337b056702695043277d0f0030b2a1bd7a40c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_gold.json"
+hash = "f534a346755eda4bd577a37b25a36ffd223fe497862a6927b2bfbb6a12607172"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_green.json"
+hash = "e288a4d6389a60fe46d6ba7ec8f6fce1fc8f167fdb34bbec57ccbc6fefc3fc7b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_red.json"
+hash = "3eda1676bd0ad20ebbec007e0b5fb5bdf11934f00ebdfa0244ef4b9e3c3f0ebb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_violet.json"
+hash = "b67cb0564e3130a3ff96ef9022e7103ec4f0ccddc7e02195e28019865f6c3805"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_crossette_white.json"
+hash = "3d66828a376b66c49e40ffd0fde1a268f4f1410cfddf9bf16e2b57ffa1a9628d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_blue.json"
+hash = "ae42f232b38c125c2626f1494fe3dcb8333e012f53b3bde5d9a7ec928dadbd29"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_lime.json"
+hash = "a61a74b3a55cf51ad743df7fe9950d31340fb3bf37dc3f97a49ec58939295eeb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_magenta.json"
+hash = "fef3b3a5253b47f0c2d9eca989dc24101554cd26282caf05b3e56d06353faea9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_orange.json"
+hash = "1d876fb760c01001591b573b8703de007d8f0f88256ebb13e16bd535f776aea2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_rainbow.json"
+hash = "ed9b55a25313b0700e018f1f2a8d2060698caff42288fedd00a47e47357f22dc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_red.json"
+hash = "89253076d3ab65d20d6e8d12c4925707b3a9eda84be8e1d3d41f5e9c1d07bed9"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_daytime_powder_yellow.json"
+hash = "cf36df7ce2b3e55f93f13b69ce41e6288902f8681b5b715b07e9cc9c659d9599"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_diadem_blue.json"
+hash = "610f7f25f645b7c234394a606f2f966fde6caa818b18e3b687a8974f52b79500"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_double_burst_purple.json"
+hash = "65ecd38f15e50b347f986fb67555ba99f54110ba626fa161ae5a1da9271938c5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_flame_projector.json"
+hash = "f3677094b28a617988eaa1a1d6027092a3b7be8985d9f4a0ef2fbf466e89fddb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_gold_aerial_strobe.json"
+hash = "b107116ad144c4579edcaf7b1db969e08f2eaf681226743b89f9825c7157d613"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_gold_bell_comet.json"
+hash = "a286dd9e4adb52996acc899ecc4d3ef4751b2f37ac201992277cf82e64874a5f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_gold_comet.json"
+hash = "ada2f16e42e7a86ba957e88add8fdbe532a26d5fd809e61cbcf1b7e43b64add7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_gold_long_comet.json"
+hash = "027e2ca0d3919a08b8f746288513ee2a8cda03aa58366ab3c632591ebb2ac1cb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_gold_peony.json"
+hash = "c706e02962cd359aeeeaac37ba743aa0d3445eb67079ad0c65e815c9eae21889"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_gold_willow.json"
+hash = "b61034230e4301becb398b4adca8280bc6d44c9e29de11c6ababc9d188245f35"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_green_aerial_strobe.json"
+hash = "7ee23aaa7924af2185b2c8cfce3bfffcbc7f0b2f86708e00e8aa7ec0d8fa0b44"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_green_comet.json"
+hash = "dc2938fd88ce18073d5d9c9432d2815733d7e1ab726fe6d8d8cd640a86a1e128"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_green_long_comet.json"
+hash = "a3b91d74dbe7de3092462dde01738dbaa057094f6256e319629f729ca2423afe"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_green_peony.json"
+hash = "09e3d281ee5c40f741406b4f1c2b71fe33d4c122af35d3882fe697cb0a1543e2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_green_willow.json"
+hash = "9c4413d853e3e39abd9fe28d3045866c090c7fa1e05954bb7504473027ab3956"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_heart_pink.json"
+hash = "c5264a4663ee30d059ae68d70311dadefb3756781d238425c1f3023662a95b81"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_horsetail_silver.json"
+hash = "59cbecbcb4e738b1f8436120ff213a6f442ecdcd32872624a0c17dc5735b92a4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_amber.json"
+hash = "e57c82c1214dcd786af6c7b03bae1b9cd3b069556a4d70cceb00a304062b6f3a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_blue.json"
+hash = "0afc69d37c551c90f949fa0a9ca0b22774a2a152d0d64a5e1e993335eea63f86"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_gold.json"
+hash = "095c3776862592a06478019fe714a478d235b150cd8bbbf1d76c67bc466f7302"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_green.json"
+hash = "cac4ad9e85c44cd82f4b86e6f8cde548dfb64e37a5a9e92ae8fdd28220bbb1ad"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_red.json"
+hash = "6c834e92e486000d3719a65795952e13499c5a6edeaa68115fa3887f156add59"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_violet.json"
+hash = "097fbf3a3c396a9d7c25eb5865e08550fadfe15773fb37d4dd0ff2ddcc19648f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mine_white.json"
+hash = "3d756cef58ca54726470b93a2690aa03c38bd19bc9b268e64cdca6054c006325"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_mortar_hit.json"
+hash = "46d5ebb295f08d0d8ba1a796e82c17f4f77d41ae19fc937793702ecff1e08d31"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_multicolor_burst.json"
+hash = "d2980d8b560101368292db6110cb0315a187103277b817f2ebf0dfd6a4be20f2"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_palm_gold.json"
+hash = "490e290244da7a970db058379aa72f21a1c8a7edc86065872d304f956c72631d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_red_aerial_strobe.json"
+hash = "2085f3a2769ddced83d35848a2d3d5c5f4e5f0bcfad4350697d3e115e5e9ac5d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_red_comet.json"
+hash = "fc7e9d68213281273610d18b2c80304932d53edae91e64780c221289dda830df"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_red_long_comet.json"
+hash = "7a702483990786f2c934d2dc7f3b1ae331875647b4999fe1cfa5154e3bcddd4b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_red_peony.json"
+hash = "8f62eb2b0acd6ec846aa0bf8f6fbc4834b832a5c71d0019c1ae5970d9efc54d7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_red_willow.json"
+hash = "a786e18ec16cb2ab1765317f04bd0b22daf66aec72f82805d34c5fd22eb77ff1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_ring_red.json"
+hash = "39d27dceb88762d1a0ebe674fe38564d1345394084d6e09ca9462259d499764a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_salute_white.json"
+hash = "c870f64a8f45926c7d9f3fae33e33b8a70186b4e7730599e0cce16ac03509b46"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_silver_aerial_strobe.json"
+hash = "a236c428c0a6636c5fbf92b781ac5c1fee4655171e922fa9a36d6d7ee690c298"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_silver_jet.json"
+hash = "cd913c0ec145e069d06c68f54c409e8169136f352c3d62dabf7f22573afaafd4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_silver_long_comet.json"
+hash = "589436c885f8351f3a86b7744f88f03771ebe2e30de1fd8fd78bce3cb18ca6c5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_spider_white.json"
+hash = "78dae8e28dbb50155a3cd3ee8e8d5cafcf0c1bc7fb8821944a65dd6423a11a29"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_spinner_gold.json"
+hash = "b859b528deb1e33f9bb27053c955623200396ae52b4601c4afbca99fd06f6ac8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_violet_aerial_strobe.json"
+hash = "f40f81021b2a6be6241eaf15ddc1a18d800f0edcc1ef402d011b89c688361214"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_violet_peony.json"
+hash = "01ec6724bb55294967f9e4810aeafe73ec3159d4b454921762b948d8a7c7dd53"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_violet_willow.json"
+hash = "84b504a17b0eeb31c41f1631fc4d6b94ac5d717e2640422ca4a2da8c1c347eed"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_whistler_silver.json"
+hash = "516fadf83a4a46cd6ca5eb550625352a9c1cdbc2a7a7cf8ffbafe6fb13e000cd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_white_aerial_strobe.json"
+hash = "f87fe9e1cdefe3fcbaa56ea0999c494bc97be4bcb2f4871f985011054840122c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_white_peony.json"
+hash = "5744d09a6cc500307afbada68d87af8f4abb324390553d48ccaab4b36398252d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_white_strobe_burst.json"
+hash = "c044903bc2f07a237d7c1837d5a8e0d4b0a37bd2163be681eef1490462aa574e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__cut_firework_white_willow.json"
+hash = "3483365784fffe3ebc7230877b49522932d34608690fcede843221755c6fd51e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fireworks__firework_rgb_launcher.json"
+hash = "ac4a611c4daeb1a20f1991dce4da50bf71d73fb449953cabe2fee1e595b67de7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_a1x1par64.json"
+hash = "5c8f1d4c2c930df189481d7a17ad7cc1e2a4122ebb25b58ce5e33bad020fd5dc"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_a2x8par64.json"
+hash = "d05fd6af23e9ec56159c6fad664ead97273e82954c637f3d659421cb7067e7ca"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_a6x3par64_vertical.json"
+hash = "0704921efdd4d3b15d5e28cd5c2c763694cd536c9e3f5f71c4646487923d617a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_atomic_strobe.json"
+hash = "ac9cb6412a52e65c7de0068a5cbe84589b38cc80b01154dc7681f668bece4e8e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_big_panel.json"
+hash = "427e1ff473a72be3ca0b2b8ce247eb1c13dfc7fdb9de882598c335b7cc0c4e42"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_big_panel2.json"
+hash = "725b45bcf48feeda9f154cfbeaed5e2080284a21b436da91a5aae73b44defd4b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_dwt_panel.json"
+hash = "6afe063ef34e715bf7c8a8213b169ee320b82cc5993749939a08fd71f56dcb56"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_iris_700_gobo.json"
+hash = "65623a32c5b8bb3510b550e057ab4e8c3456e3d56d637bc495d0a26d9ec7768b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_led_facade.json"
+hash = "6ad475c7aef7904c59156f646b9e2e09e02e85db8ae5113279167b20524914ad"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_led_panels.json"
+hash = "40e58d8de6198b20ddeae7c0f909e23df9facc8d39a9501acd5d797ba889b1ef"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_mini_scan_gobo.json"
+hash = "b1a16ca1dcf5624906bf9b240e5d59c12f4129bec065732fb9f9e2e1207e9471"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_mini_spot_gobo.json"
+hash = "b95bf372e45adba15cff31340a0bb7f8b92bc549d3722351c15358fae26a14e7"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_moving_mini_bar.json"
+hash = "950bf35a228bf36ba7dd97377f234b11fc0ac8645c589913209c747c868db7fb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_moving_scan_beams.json"
+hash = "31c9d9a4a2b655526540332b09d2c45fc382f5dfe1c99682c1f1b4c9a3e8d335"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_moving_vl2c_beams.json"
+hash = "cc6c33654840ecdf1eac5408550cd9cf20c243de4f9d7d43ae2919d00f5c75b3"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_pro_spot_gobo.json"
+hash = "50d0ba394311337a51d9216bf4cd75aa760b8077fc9878603f47a83ea9122d9d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_profile3_gobo.json"
+hash = "53447426bbe460af75e6e634e8c964b212165b084dc7d31fb0a15fe31ad21708"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_spot_xtreme_gobo.json"
+hash = "77c0bd998e9d48c9df81b70cb3e12f153d41e9016510cc9350af76a6c167299e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__back_vl6c_gobo.json"
+hash = "4a73799a02c8b2f265eeb7d1f84592e1ef5612182ce5b877e0d6421d3acad64b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_a1x1par64.json"
+hash = "4835a0802a85b9cd3ba730e6d82ef9811661591f9e3942f3b77ec31c5057d97e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_a2x8par64.json"
+hash = "db742cd6c9a44735a0800f6c2d0663edf7c57bab720d16b3a4c939b15c0635a4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_a6x3par64_vertical.json"
+hash = "3f6a7187fb0cfdf09f05c8602073cb1cae4da6251ab5befd46a3aace7e408f8d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_atomic_strobe.json"
+hash = "f6bdb1203b2dbc0845704ad743721af83168736acaf6c14eb5cf3e8add2fe331"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_big_panel.json"
+hash = "0cb7b5cbbc23b32ea1bf27ea6fcc30e481e7c6a8a77b36a71b74c5bec4b95dd4"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_big_panel2.json"
+hash = "4b4645e6ba8d88b6793f1f4ffde834702b391fb04b997291ed8bc4e837cc8b57"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_dwt_panel.json"
+hash = "037dc02a6737803dd5538906daf6aa69f50d021942a117c75a1414c3bcd258e6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_iris_700_gobo.json"
+hash = "313ae0b5f207c0e93b23836b053b4a2e08ff951258fbe6332c565c69cb1b59c6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_led_facade.json"
+hash = "f74b037691402e25ef94d6c95ea01c9d07a69c798bf2f8e88bce6fecc9c9a913"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_led_panels.json"
+hash = "0ddaab353961d027a1722d85fa787a1f1b36a16c6962817c438348d1efef231a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_mini_scan_gobo.json"
+hash = "a1e2772d27dc2c50634cc25a3b8ec01dbe91208b7b332ab62680f23d872f173d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_mini_spot_gobo.json"
+hash = "45baca25aa4845a7ed30d81b0b7ab961c686b42c22aea60e39c7184caacbcd5e"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_moving_mini_bar.json"
+hash = "f6255f7e032acae14f24402e7077eb69556e6b2f04533951162cf3d022c50a64"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_moving_scan_beams.json"
+hash = "4906662cd678f89123d81b05c56be17cf0faf6ddcbc4cb055e4d8a8f55d906b5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_moving_vl2c_beams.json"
+hash = "11684c809c38e26dadaf59c51fd279b690b5578a558164c2179999767b592a40"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_pro_spot_gobo.json"
+hash = "de72cf0a0ad02b124502620d0490c780fe5de805544d5c8bb406aa1f5e3d5fd1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_profile3_gobo.json"
+hash = "49c966246ed29afad56a765ec9e77d7b0f29c2085fed40104651de1997372e2d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_spot_xtreme_gobo.json"
+hash = "f780fb5426d5cde5835736c4aed5aaef9963587039c7e1420ab2860c05941f69"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__cut_vl6c_gobo.json"
+hash = "a9d2d8941b09a37043dead1b8d3b8994bd5da08655a208ebd7feefcd509e0d8a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_fixtures__mini_bar.json"
+hash = "9e7d915fe55db41762a7e893773b93cee1b608fad6d6a0c110e76aae2ffa3a18"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_light__invisiblelight.json"
+hash = "d32d4f0741f93f236341137ec13ce560b94b70832b9e3e2fc813e1c4994b8903"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_confetti_cannon.json"
+hash = "655a81af8225d9872e433eaa93ce9ae7100014d8ff24016ac6b40b21ecb857f6"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_flame_thrower.json"
+hash = "c688f44775b4e173958ce45c5b9ef5c8d679bcab470807fc08ba598292304e5d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_gerb_gold.json"
+hash = "468f98edf20960a179b40ffaf77aac914bd37a4ac09ee2b8d6bb9399b19b594a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__back_pyro_fan.json"
+hash = "b64dd6db1fff177137b4d4cbcad91ed1300867f8fefbb9fcb21084e70c0fbc42"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_confetti_cannon.json"
+hash = "3a733f3964abe38c78d3b83afe028e6a8c5289223a3b4e40852dfa2b5c25da34"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_flame_thrower.json"
+hash = "393efc1108f3bbc1b963659afb4408a9985f142cf79f3909d496469328902523"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_gerb_gold.json"
+hash = "89809cb7b308ee2d1f81b6ec9dd81f2709ac74c1ddaec5562f3e32167a83b804"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__cut_pyro_fan.json"
+hash = "fb66df60bbe9154088a9ffaf459ee5d79214d59394791dedc25ab169756b3390"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_pyro__flame_projector.json"
+hash = "5756e6fc3d376720720da7b4ed1e3e622fb479fcb765e9fcc2845d8566e35c6f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_tools__fixture_wrench.json"
+hash = "2d330d1c182c2464c042e9b7925a57635264eb9da267127c9edda12707e6562b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__back_truss_corner.json"
+hash = "00d269acbbae7337c2a015ea4fe97c564eb26fa650f497a9c84fd814ea4fa3a0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__back_truss_corner_t.json"
+hash = "32c9b438f77112f2fe1b9c12124d4f34ca3e961c2af5ea3c9b0a5313cbf48e2c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__back_truss_joint.json"
+hash = "2c910756becc47872a668b7b245c65ce4deca8a42f20e2420d57255c9a0c60dd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__cut_truss_corner.json"
+hash = "dc2913b5895382757ba276194d13b7411580dd0c4cf66b68181dc241ae47f74c"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__cut_truss_corner_t.json"
+hash = "610f1732c5c5b305bb26512f7ddbef553de9290c656652e7ab9f4109544de3db"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__cut_truss_joint.json"
+hash = "69388019bc39070ffce8751549192257cf3adba9396b07792e4e2e37f01a8423"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_truss__truss.json"
+hash = "0d9f5fe325aa96cd3b750b169858dbfba66d97b0348901e30908e6f3d099490a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_cake_water_jet.json"
+hash = "b5e3a83a96644ab8e33b483200eb93afbb2f17015dda5d7f174868eb2c62c02b"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_fan_water_jet.json"
+hash = "62bcfa00d6984e85ed61cf6a15c619aff684a1d5deb9f60cb0ff9cbfbcbd261d"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_flow2jet.json"
+hash = "7540f79e5c9b2430c47644f16533f394159ed567309f584eb773930cbdc510e0"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_moving_jet_fan.json"
+hash = "84162d304ef8640361b7325713fdc52ef50846683945a24d9330e1ddeb7d53fb"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_vase_water_jet.json"
+hash = "8d4e8ef462013224f4b5768508f6c22b97cdc390fbfb6c4c26dd6e307d05a8ab"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_waltz_curtain.json"
+hash = "a2cb0104b0f20b784f1b4c7806097bc0f600cae6b19ad33ad505bc1d1bc256fe"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_waltzes_water_jet.json"
+hash = "3af2a5324ae5e96476e1cd3c40865a613b6c525ee655e0d12a81735b7474a831"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_water_jet_bloom.json"
+hash = "0c6a3ce0e84c3c27345cadb190852a4b546b7f2781283af0ccd9a061a2fb8076"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_water_jet_cone.json"
+hash = "6e8a91721fda6fee54bcfe22dfb2fc5a57007da20cb5c4f2b30b9dd02cdc31b5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__back_water_jet_fog.json"
+hash = "083798e92340d67c44129a17b11f5d8b0e06d2b3dd5ebe46d32e7ee7cb2c1fe1"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_cake_water_jet.json"
+hash = "015f9971d31e989e7a8ab447a3c38aeecc013fd900ebdefb21939d0463da523a"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_fan_water_jet.json"
+hash = "783e7bc7e0965364e2d06b71cece5041e265740f67873c3b2a55cdc7ad42e78f"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_flow2jet.json"
+hash = "5a64480f620f0f859331251373ae8d667d2eedbc54168a6ccd5dc3b8b5d24a99"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_moving_jet_fan.json"
+hash = "3b03fc4dded14986a23cb8ce84aa45143d3241e76824e0524cba78e69abfd897"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_vase_water_jet.json"
+hash = "7f06fa1815dd07129eacfd0739fc1ba4d8f942a357e525d3a88de9cdb854d720"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_waltz_curtain.json"
+hash = "28065feae0203f84a2879c99de2819cb4c8ef540a7226f9e9b76c1f5ff5394fd"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_waltzes_water_jet.json"
+hash = "e16f4437fed8f45b95f86724d7ab2a8318ba9f66e3b892646724bdecd4bc1ea8"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_water_jet_bloom.json"
+hash = "4c2e9caf9413b397d65293f5688476c257e5fd0563ec0951532d91e253be5046"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_water_jet_cone.json"
+hash = "7d25b72010931820186382ee1b3564d98275d2e49ffcc92d159fb8423e91db83"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__cut_water_jet_fog.json"
+hash = "93fe7538dabaf22f1c15207bdf46c7824c33574d0e47525a5f282189966a56d5"
+
+[[files]]
+file = "world/datapacks/theatre-fixes/data/theatricalextralights/recipes/el_water__water_jet.json"
+hash = "5c2d1c6be6dd1763cf44d50289a10dde8190e33b36b141906ab74cbd58b94ae5"
 
 [[files]]
 file = "world/datapacks/theatre-fixes/pack.mcmeta"

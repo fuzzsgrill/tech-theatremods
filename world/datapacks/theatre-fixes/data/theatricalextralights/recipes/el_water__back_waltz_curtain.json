@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:waltz_curtain"
+  },
+  "result": "theatricalextralights:water_jet",
+  "count": 1
+}

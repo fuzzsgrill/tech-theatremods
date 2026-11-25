@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:mini_bar"
+  },
+  "result": "theatricalextralights:a6x3par64_vertical",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:firework_red_peony"
+  },
+  "result": "theatricalextralights:firework_rgb_launcher",
+  "count": 1
+}

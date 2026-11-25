@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:truss_corner_t"
+  },
+  "result": "theatricalextralights:truss",
+  "count": 1
+}

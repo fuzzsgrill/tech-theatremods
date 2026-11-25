@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:water_jet_bloom"
+  },
+  "result": "theatricalextralights:water_jet",
+  "count": 1
+}

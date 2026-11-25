@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:moving_scan_beams"
+  },
+  "result": "theatricalextralights:mini_bar",
+  "count": 1
+}

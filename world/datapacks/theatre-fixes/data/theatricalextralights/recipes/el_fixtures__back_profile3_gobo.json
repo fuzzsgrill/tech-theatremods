@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:profile3_gobo"
+  },
+  "result": "theatricalextralights:mini_bar",
+  "count": 1
+}

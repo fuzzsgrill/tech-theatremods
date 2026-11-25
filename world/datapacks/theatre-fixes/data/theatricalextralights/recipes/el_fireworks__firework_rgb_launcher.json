@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FRF",
+    "ADA",
+    "SSS"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:firework_rocket"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "theatricalextralights:firework_rgb_launcher",
+    "count": 1
+  }
+}

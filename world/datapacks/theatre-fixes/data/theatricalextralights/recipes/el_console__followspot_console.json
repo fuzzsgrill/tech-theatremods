@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CFC",
+    "PEP"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "F": {
+      "item": "theatricalextralights:followspot"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "theatricalextralights:followspot_console",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "theatricalextralights:pyro_fan"
+  },
+  "result": "theatricalextralights:flame_projector",
+  "count": 1
+}

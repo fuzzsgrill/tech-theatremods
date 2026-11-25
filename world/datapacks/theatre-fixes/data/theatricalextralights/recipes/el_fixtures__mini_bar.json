@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "BMB",
+    "PEP"
+  ],
+  "key": {
+    "L": {
+      "item": "theatricalwb:led_bulb"
+    },
+    "B": {
+      "tag": "forge:plates/brass"
+    },
+    "M": {
+      "item": "theatricalwb:motor"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "theatricalextralights:mini_bar",
+    "count": 1
+  }
+}

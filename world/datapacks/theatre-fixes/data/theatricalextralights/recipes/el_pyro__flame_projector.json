@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "ADA",
+    "SPS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "result": {
+    "item": "theatricalextralights:flame_projector",
+    "count": 1
+  }
+}
