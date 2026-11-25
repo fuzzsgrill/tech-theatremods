@@ -1,0 +1,173 @@
+{
+	id: "648CDE7F2E350379"
+	group: "C28B50177F41DFCD"
+	order_index: 3
+	filename: "act4_dress_rehearsal"
+	title: "Act IV: Dress Rehearsal"
+	icon: "sef:t_acoustics_k_1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "BBDB5F3C76B3246C"
+			title: "Real Power"
+			icon: "powah:reactor_nitro"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Top-tier generation: Powah Nitro reactor blocks."
+			]
+			tasks: [
+				{
+					id: "F59002E675074D9D"
+					type: "item"
+					item: "powah:reactor_nitro"
+					count: 36L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "91794576BAADBB93"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "F64D2C39739169D0"
+			title: "The Matrix"
+			icon: "mekanism:induction_port"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Store it: an Induction Matrix, formed and connected. Look at a port."
+			]
+			tasks: [
+				{
+					id: "39CEFAE60A788335"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:induction_port"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "24C67331BF33B0DC"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "BBACC51C679E6A63"
+			title: "Fly the PA"
+			icon: "sef:chain_hoist"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Fly the PA: a K1 hang on a frame, with chain hoists on the truss."
+			]
+			tasks: [
+				{
+					id: "143ABAD89EBD41DA"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:t_acoustics_k_1"
+					timer: 0L
+				}
+				{
+					id: "25B9B2BB9788726C"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:k1_bump"
+					timer: 0L
+				}
+				{
+					id: "1E450360A71A7430"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:chain_hoist"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "11F4DD50B83F94D6"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			id: "3E708B4AA99F175C"
+			title: "Full Dress"
+			icon: "sef:t_acoustics_k_1"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Run it like the real thing: the flown PA, a chain hoist, a revolve on a Mechanical Bearing, a wagon on a gantry, and the Induction Matrix behind it all. Look at each part."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0CF2D056B81C513A"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:t_acoustics_k_1"
+					timer: 0L
+				}
+				{
+					id: "40B53F1A4E902C35"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:chain_hoist"
+					timer: 0L
+				}
+				{
+					id: "47199EDD2B8892D3"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:mechanical_bearing"
+					timer: 0L
+				}
+				{
+					id: "EA77FCE93EFB1D2E"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:gantry_carriage"
+					timer: 0L
+				}
+				{
+					id: "520DCF1D1B936A2D"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:induction_port"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "2BE98B4FCE77996A"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 16
+				}
+				{
+					id: "32190B4AA619CE91"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 2
+				}
+				{
+					id: "2A6CBA3B3D38F5A2"
+					type: "xp"
+					xp: 1500
+				}
+			]
+		}
+	]
+}

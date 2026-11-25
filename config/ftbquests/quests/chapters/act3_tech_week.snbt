@@ -1,0 +1,145 @@
+{
+	id: "41B0400F82BFA9F9"
+	group: "C28B50177F41DFCD"
+	order_index: 2
+	filename: "act3_tech_week"
+	title: "Act III: Tech Week"
+	icon: "mekanism:ultimate_control_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "809626F9F9CA4CA4"
+			title: "Elite Line"
+			icon: "mekanism:elite_enriching_factory"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Tech week runs on throughput. Get an Elite Enriching Factory running."
+			]
+			tasks: [
+				{
+					id: "2A73541799C8AE0F"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:elite_enriching_factory"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "925FDA66C5160CDD"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			id: "23DBC19FF24DA0FD"
+			title: "It Crafts Itself"
+			icon: "refinedstorage:crafter"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Autocrafting on the network: a Refined Storage Crafter, placed and patterned."
+			]
+			tasks: [
+				{
+					id: "3369703ED8454234"
+					type: "observation"
+					observe_type: 0
+					to_observe: "refinedstorage:crafter"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "4C84022FC400E3D6"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			id: "BAFEF0BD6B071E9E"
+			title: "Assembly Line"
+			icon: "create:precision_mechanism"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"A sequenced assembly line turning out precision mechanisms."
+			]
+			tasks: [
+				{
+					id: "AAFB9069FC9386CC"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "53E090901225D100"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			id: "2EE8D579D470FDB8"
+			title: "All Systems"
+			icon: "mekanism:ultimate_control_circuit"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Three automated lines at once: 16 ultimate control circuits, 32 advanced Refined Storage processors and 32 precision mechanisms. Nobody hand-crafts this much."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "438AD9E23C7CE92F"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "0A4F2ED512440BAC"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+					count: 32L
+					consume_items: false
+				}
+				{
+					id: "65B1B9358A812430"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 32L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "B0BD08D94EFF6F53"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+				{
+					id: "A4FD5D8AB2886D31"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 1
+				}
+				{
+					id: "BFFAA1A5B09D0898"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+	]
+}

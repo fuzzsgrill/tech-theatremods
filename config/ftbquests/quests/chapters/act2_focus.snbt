@@ -1,0 +1,207 @@
+{
+	id: "E0E1F630D7522535"
+	group: "C28B50177F41DFCD"
+	order_index: 1
+	filename: "act2_focus"
+	title: "Act II: Focus"
+	icon: "theatrical:moving_light"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C92D05F4E0CA945E"
+			title: "Patch"
+			icon: "theatrical:basic_lighting_desk"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Every fixture needs an address. Place the desk and get the Configuration Card working."
+			]
+			tasks: [
+				{
+					id: "4CAD6ABA1C156EA2"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:basic_lighting_desk"
+					timer: 0L
+				}
+				{
+					id: "2E7253B1843B5C71"
+					type: "item"
+					item: "theatrical:configuration_card"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "4D6832A6E1CC8E25"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			id: "77867B753DDE1EFD"
+			title: "Movers Up"
+			icon: "theatrical:moving_light"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Hang moving lights and moving washes over the stage and look at them in place."
+			]
+			tasks: [
+				{
+					id: "773C1ADD1AC6CE82"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:moving_light"
+					timer: 0L
+				}
+				{
+					id: "0CB9060F2CF969CB"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:moving_wash"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "342DA9768807C4EA"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			id: "26A53F89CDEDC592"
+			title: "Specials"
+			icon: "theatricalextralights:followspot"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"A follow spot for the lead and a laser for the big moment, rigged and ready."
+			]
+			tasks: [
+				{
+					id: "E44C5C9D5E4322A7"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:followspot"
+					timer: 0L
+				}
+				{
+					id: "FA8D3380F083AF5C"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:laser"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "3587F40C1A1D3D9B"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			id: "0EACF082157F1683"
+			title: "Clean Power"
+			icon: "powah:energy_cell_blazing"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"A rig this size needs steady storage behind it: a blazing-tier Powah energy cell."
+			]
+			tasks: [
+				{
+					id: "324EC799761C79A1"
+					type: "item"
+					item: "powah:energy_cell_blazing"
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "65A59FC99055622B"
+					type: "item"
+					item: "powah:crystal_blazing"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "80183CF12BBFD856"
+			title: "Focus Session"
+			icon: "sef:desk_grand_ta2"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Run a proper focus: a flagship console at the production desk, an Art-Net link for external control, and the rig in place: movers, washes and Source Fours. Look at each."
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7D359A017252C8A7"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:desk_grand_ta2"
+					timer: 0L
+				}
+				{
+					id: "1BE45413F639F112"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:artnet_interface"
+					timer: 0L
+				}
+				{
+					id: "26937EFE9AC8BDF3"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:moving_light"
+					timer: 0L
+				}
+				{
+					id: "E58FA9AA74AD3722"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatrical:moving_wash"
+					timer: 0L
+				}
+				{
+					id: "16EC43F6AD924B53"
+					type: "observation"
+					observe_type: 0
+					to_observe: "theatricalextralights:source_four"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "1B4FA01AE696CE8E"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+				{
+					id: "8B29DE4B495DDC4D"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 1
+				}
+				{
+					id: "F4EC96F6207525F7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+	]
+}

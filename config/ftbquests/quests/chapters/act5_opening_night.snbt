@@ -1,0 +1,151 @@
+{
+	id: "BC094E29DA97BC01"
+	group: "C28B50177F41DFCD"
+	order_index: 4
+	filename: "act5_opening_night"
+	title: "Act V: Opening Night"
+	icon: "mekanism:pellet_antimatter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quest_links: [ ]
+	quests: [
+		{
+			id: "78D3A273EDC8DC49"
+			title: "Phase Shift"
+			icon: "mekanism:sps_casing"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The Supercritical Phase Shifter turns polonium into antimatter. Build it and look at a port."
+			]
+			tasks: [
+				{
+					id: "5766CCFAE808D455"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:sps_port"
+					timer: 0L
+				}
+				{
+					id: "0884FF3000AF3DFE"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 8L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "83FE33F923ACA1F6"
+					type: "xp"
+					xp: 800
+				}
+			]
+		}
+		{
+			id: "E0C0429B3FDAAC00"
+			title: "On Tour"
+			icon: "ad_astra:tier_3_rocket"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Take the show off-world: reach Glacio."
+			]
+			tasks: [
+				{
+					id: "DCEBD97F89ADE862"
+					type: "dimension"
+					dimension: "ad_astra:glacio"
+				}
+			]
+			rewards: [
+				{
+					id: "61D0E597673CE80F"
+					type: "xp"
+					xp: 800
+				}
+			]
+		}
+		{
+			id: "4A24C35B3169EEF7"
+			title: "Opening Night"
+			icon: "mekanism:pellet_antimatter"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Curtain up. Bring an antimatter pellet, have toured to Glacio, and show the finished house: the console, the flown K1, the sound desk, a web screen for projection, and haze. Look at each."
+				"Everything you built gets used tonight."
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "AFA3EAEB3AA15EA0"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7C6AD601DF89F20C"
+					type: "dimension"
+					dimension: "ad_astra:glacio"
+				}
+				{
+					id: "4D0AB4A731DF2766"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:desk_grand_ta2"
+					timer: 0L
+				}
+				{
+					id: "A7BB9A4981D7D4F6"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:t_acoustics_k_1"
+					timer: 0L
+				}
+				{
+					id: "C08186A7CD007C4E"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:mixer_dm3"
+					timer: 0L
+				}
+				{
+					id: "65B53042BFD53364"
+					type: "observation"
+					observe_type: 0
+					to_observe: "webdisplays:screen"
+					timer: 0L
+				}
+				{
+					id: "DBF09400E0957151"
+					type: "observation"
+					observe_type: 0
+					to_observe: "sef:fog_machine"
+					timer: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "E6EF1D54587345A6"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 1
+				}
+				{
+					id: "B2643D8B87075A3C"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 32
+				}
+				{
+					id: "C3F7AD3626664BF6"
+					type: "xp"
+					xp: 5000
+				}
+			]
+		}
+	]
+}

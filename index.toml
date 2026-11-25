@@ -117,6 +117,22 @@ file = "config/ftbquests/quests/chapters/act1_get_in.snbt"
 hash = "e5510849f44175f05eae838c64bb2a99573dcf19fae624d5aa58c709dc479685"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/act2_focus.snbt"
+hash = "dd20e0d7dae370cac603472a46762cd83ebccbbc3f512e3814d430ff3baae999"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act3_tech_week.snbt"
+hash = "061876f36d37a75036b0e1cf82659da87290a25f93156246076094c25de23dfc"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act4_dress_rehearsal.snbt"
+hash = "46bae11e7c19448de75ad65634ade27b80f95077761279f0d473b765fbdb622b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act5_opening_night.snbt"
+hash = "3fb58fa255e50298ac5e0c334b9ec563e3a6d2370f2abfce8d94ef8ed7739217"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "3d75fa487d6f7d71a8ebcb3fcf16fd3fb631cdbbdde57eba990924d95fd584a5"
 

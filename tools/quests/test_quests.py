@@ -222,3 +222,13 @@ class DatapackTests(unittest.TestCase):
             (dp / "data/x/tags/blocks/things.json").write_text('{"values": ["x:thing"]}')
             self.assertEqual(load_uncraftable_namespaces([], {"x:thing"}, datapacks=[dp]), set())
             self.assertIn("x:things", load_block_tags([], datapacks=[dp]))
+
+
+class OpeningNightTests(unittest.TestCase):
+    def test_opening_night_acts(self):
+        from build import load_chapters
+        acts = [c for c in load_chapters() if c.group == "opening_night"]
+        self.assertEqual(sorted(c.order for c in acts), [0, 1, 2, 3, 4], [c.slug for c in acts])
+        for c in acts:
+            caps = [q.slug for q in c.quests if q.shape == "gear"]
+            self.assertEqual(len(caps), 1, f"{c.slug} capstones {caps}")
