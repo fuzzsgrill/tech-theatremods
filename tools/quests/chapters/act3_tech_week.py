@@ -23,11 +23,11 @@ CHAPTER = Chapter(
             slug="all_systems", title="All Systems", icon="mekanism:ultimate_control_circuit", x=2.0, y=0.0,
             shape="gear", size=1.5,
             description=[
-                "Three automated lines at once: 16 ultimate control circuits, 32 advanced Refined Storage processors and 32 precision mechanisms. Nobody hand-crafts this much.",
+                "Production at scale: 16 ultimate control circuits, 32 advanced Refined Storage processors and 32 precision mechanisms, with a 4x Mekanism ore line feeding it. Look at your Chemical Injection Chamber.",
             ],
             tasks=[
                 item("mekanism:ultimate_control_circuit", 16), item("refinedstorage:advanced_processor", 32),
-                item("create:precision_mechanism", 32),
+                item("create:precision_mechanism", 32), observe("mekanism:chemical_injection_chamber"),
             ],
             rewards=[give("minecraft:diamond", 8), give("minecraft:netherite_ingot"), xp(1000)],
         ),

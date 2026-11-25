@@ -52,7 +52,7 @@ def _lang_keys(jar_paths) -> set:
     return keys
 
 
-def _recipe_results(jar_paths) -> set:
+def _recipe_results(jar_paths, datapacks=()) -> set:
     """Every item ID that some recipe outputs (result/results/output/outputs, any shape)."""
     import json
     out = set()
@@ -82,13 +82,12 @@ def _recipe_results(jar_paths) -> set:
             for v in o:
                 walk(v)
 
-    for zf in _iter_zips(jar_paths):
-        for name in zf.namelist():
-            if name.startswith("data/") and "/recipes/" in name and name.endswith(".json"):
-                try:
-                    walk(json.loads(zf.read(name)))
-                except ValueError:
-                    pass
+    for name, read in _iter_data_files(jar_paths, datapacks):
+        if "/recipes/" in name and name.endswith(".json"):
+            try:
+                walk(json.loads(read()))
+            except ValueError:
+                pass
     return out
 
 
@@ -155,7 +154,12 @@ def _ids_in(quest):
     yield quest.icon, "icon"
 
 
-def check(chapters, known_items, known_blocks=None, uncraftable_namespaces=None, known_block_tags=None) -> list:
+# Mods whose items only come from crafting (no world generation or drops): each quest item must be a recipe output.
+CRAFTED_ONLY_NAMESPACES = {"theatrical", "theatricalwb", "theatricalextralights", "sef", "devices", "webdisplays"}
+
+
+def check(chapters, known_items, known_blocks=None, uncraftable_namespaces=None, known_block_tags=None,
+          crafted_only=None) -> list:
     errors = []
     for ch in chapters:
         slugs = [q.slug for q in ch.quests]
@@ -171,6 +175,11 @@ def check(chapters, known_items, known_blocks=None, uncraftable_namespaces=None,
             for item_id, role in _ids_in(q):
                 if uncraftable_namespaces and role != "icon" and item_id.split(":")[0] in uncraftable_namespaces:
                     errors.append(f"{where}: {item_id} comes from a mod with no recipes (creative-only?)")
+            if crafted_only:
+                namespaces, made = crafted_only
+                for item_id, role in _ids_in(q):
+                    if role != "icon" and item_id.split(":")[0] in namespaces and item_id not in made:
+                        errors.append(f"{where}: {item_id} has no recipe, so it cannot be crafted in survival")
             for t in q.tasks:
                 if t.type == "observation" and "tag" in t.fields and known_block_tags is not None \
                         and t.fields["tag"] not in known_block_tags:
@@ -200,7 +209,8 @@ def main(argv):
     uncraftable = load_uncraftable_namespaces(jars, known, PACK_DATAPACKS)
     tags = load_block_tags(jars, PACK_DATAPACKS)
     chapters = load_chapters()
-    errors = check(chapters, known, blocks, uncraftable, tags)
+    made = _recipe_results(jars, PACK_DATAPACKS)
+    errors = check(chapters, known, blocks, uncraftable, tags, (CRAFTED_ONLY_NAMESPACES, made))
     for e in errors:
         print("ERROR", e)
     print(f"checked {len(chapters)} chapters, {sum(len(c.quests) for c in chapters)} quests "

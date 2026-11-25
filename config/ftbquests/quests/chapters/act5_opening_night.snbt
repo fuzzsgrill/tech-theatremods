@@ -45,7 +45,7 @@
 		{
 			id: "E0C0429B3FDAAC00"
 			title: "On Tour"
-			icon: "ad_astra:tier_3_rocket"
+			icon: "ad_astra:tier_4_rocket"
 			x: 0.0d
 			y: 1.5d
 			description: [
@@ -69,11 +69,11 @@
 		{
 			id: "4A24C35B3169EEF7"
 			title: "Opening Night"
-			icon: "mekanism:pellet_antimatter"
+			icon: "mekanism:sps_casing"
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Curtain up. Bring an antimatter pellet, have toured to Glacio, and show the finished house: the console, the flown K1, the sound desk, a web screen for projection, and haze. Look at each."
+				"Curtain up. Have toured to Glacio, and show the finished house: the SPS powering the end-game, the console, the flown K1, the sound desk, the band's keyboard, a web screen for projection, and haze. Look at each."
 				"Everything you built gets used tonight."
 			]
 			shape: "gear"
@@ -81,15 +81,15 @@
 			tasks: [
 				{
 					id: "AFA3EAEB3AA15EA0"
-					type: "item"
-					item: "mekanism:pellet_antimatter"
-					count: 1L
-					consume_items: false
+					type: "dimension"
+					dimension: "ad_astra:glacio"
 				}
 				{
 					id: "7C6AD601DF89F20C"
-					type: "dimension"
-					dimension: "ad_astra:glacio"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:sps_port"
+					timer: 0L
 				}
 				{
 					id: "4D0AB4A731DF2766"
@@ -102,25 +102,32 @@
 					id: "A7BB9A4981D7D4F6"
 					type: "observation"
 					observe_type: 0
-					to_observe: "sef:t_acoustics_k_1"
+					to_observe: "evenmoreinstruments:keyboard"
 					timer: 0L
 				}
 				{
 					id: "C08186A7CD007C4E"
 					type: "observation"
 					observe_type: 0
-					to_observe: "sef:mixer_dm3"
+					to_observe: "sef:t_acoustics_k_1"
 					timer: 0L
 				}
 				{
 					id: "65B53042BFD53364"
 					type: "observation"
 					observe_type: 0
-					to_observe: "webdisplays:screen"
+					to_observe: "sef:mixer_dm3"
 					timer: 0L
 				}
 				{
 					id: "DBF09400E0957151"
+					type: "observation"
+					observe_type: 0
+					to_observe: "webdisplays:screen"
+					timer: 0L
+				}
+				{
+					id: "8E9A9CA031F84F02"
 					type: "observation"
 					observe_type: 0
 					to_observe: "sef:fog_machine"

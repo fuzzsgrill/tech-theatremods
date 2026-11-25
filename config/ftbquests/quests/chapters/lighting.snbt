@@ -316,20 +316,13 @@
 			x: 4.5d
 			y: -2.5d
 			description: [
-				"A follow spot and its console, for an operator to track the performer by hand."
+				"A follow spot, for an operator to track the performer by hand."
 			]
 			tasks: [
 				{
 					id: "98D1D091ADF61283"
 					type: "item"
 					item: "theatricalextralights:followspot"
-					count: 1L
-					consume_items: false
-				}
-				{
-					id: "035A61D5BECA1FE4"
-					type: "item"
-					item: "theatricalextralights:followspot_console"
 					count: 1L
 					consume_items: false
 				}
@@ -448,11 +441,11 @@
 		{
 			id: "7603B975BEE851DB"
 			title: "The Big Finish"
-			icon: "theatricalextralights:flame_projector"
+			icon: "theatricalextralights:water_jet_big"
 			x: 8.0d
 			y: -2.5d
 			description: [
-				"Stadium effects, placed and ready: a flame projector, a water jet, a laser and an RGB firework launcher. Look at each one."
+				"Stadium effects, placed and ready: a big water jet, a laser, a searchlight and an LED fountain. Look at each one."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -461,28 +454,28 @@
 					id: "FACB18CE16C90760"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:flame_projector"
+					to_observe: "theatricalextralights:water_jet_big"
 					timer: 0L
 				}
 				{
 					id: "46BF1B5060BBE6FE"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:water_jet"
+					to_observe: "theatricalextralights:laser"
 					timer: 0L
 				}
 				{
 					id: "5BE86B036208BC0D"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:laser"
+					to_observe: "theatricalextralights:searchlight"
 					timer: 0L
 				}
 				{
 					id: "AC10356902C9C013"
 					type: "observation"
 					observe_type: 0
-					to_observe: "theatricalextralights:firework_rgb_launcher"
+					to_observe: "theatricalextralights:led_fountain"
 					timer: 0L
 				}
 			]

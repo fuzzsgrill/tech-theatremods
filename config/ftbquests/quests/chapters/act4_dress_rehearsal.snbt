@@ -16,15 +16,15 @@
 			x: 0.0d
 			y: -1.5d
 			description: [
-				"Top-tier generation: Powah Nitro reactor blocks."
+				"Top-tier generation: a Nitro-tier Powah Reactor, built and running. Look at it."
 			]
 			tasks: [
 				{
 					id: "F59002E675074D9D"
-					type: "item"
-					item: "powah:reactor_nitro"
-					count: 36L
-					consume_items: false
+					type: "observation"
+					observe_type: 0
+					to_observe: "powah:reactor_nitro"
+					timer: 0L
 				}
 			]
 			rewards: [
@@ -108,7 +108,7 @@
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Run it like the real thing: the flown PA, a chain hoist, a revolve on a Mechanical Bearing, a wagon on a gantry, and the Induction Matrix behind it all. Look at each part."
+				"Run it like the real thing: the flown PA, a chain hoist, a revolve on a Mechanical Bearing, a wagon on a gantry, the mechanical crafters that built the set, and the Induction Matrix behind it all. Look at each part."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -143,6 +143,13 @@
 				}
 				{
 					id: "520DCF1D1B936A2D"
+					type: "observation"
+					observe_type: 0
+					to_observe: "create:mechanical_crafter"
+					timer: 0L
+				}
+				{
+					id: "038799BFF2E52270"
 					type: "observation"
 					observe_type: 0
 					to_observe: "mekanism:induction_port"

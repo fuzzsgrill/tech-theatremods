@@ -62,8 +62,8 @@ CHAPTER = Chapter(
         ),
         Quest(
             slug="follow_spot", title="Follow Spot", icon=EL + "followspot", x=4.5, y=-2.5,
-            description=["A follow spot and its console, for an operator to track the performer by hand."],
-            tasks=[item(EL + "followspot"), item(EL + "followspot_console")], rewards=[xp(100)],
+            description=["A follow spot, for an operator to track the performer by hand."],
+            tasks=[item(EL + "followspot")], rewards=[xp(100)],
         ),
         Quest(
             slug="punch", title="Punch", icon=EL + "white_strobe", x=6.0, y=-2.5,
@@ -84,12 +84,12 @@ CHAPTER = Chapter(
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),
         Quest(
-            slug="big_finish", title="The Big Finish", icon=EL + "flame_projector", x=8.0, y=-2.5,
+            slug="big_finish", title="The Big Finish", icon=EL + "water_jet_big", x=8.0, y=-2.5,
             shape="gear", size=1.5,
-            description=["Stadium effects, placed and ready: a flame projector, a water jet, a laser and an RGB firework launcher. Look at each one."],
+            description=["Stadium effects, placed and ready: a big water jet, a laser, a searchlight and an LED fountain. Look at each one."],
             tasks=[
-                observe(EL + "flame_projector"), observe(EL + "water_jet"),
-                observe(EL + "laser"), observe(EL + "firework_rgb_launcher"),
+                observe(EL + "water_jet_big"), observe(EL + "laser"),
+                observe(EL + "searchlight"), observe(EL + "led_fountain"),
             ],
             rewards=[give("minecraft:diamond", 4), xp(500)],
         ),

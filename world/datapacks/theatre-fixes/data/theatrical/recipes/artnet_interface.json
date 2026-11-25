@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CEC",
+    "TRT"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "R": {
+      "item": "theatrical:redstone_interface"
+    }
+  },
+  "result": {
+    "item": "theatrical:artnet_interface",
+    "count": 1
+  }
+}

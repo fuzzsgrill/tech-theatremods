@@ -232,3 +232,45 @@ class OpeningNightTests(unittest.TestCase):
         for c in acts:
             caps = [q.slug for q in c.quests if q.shape == "gear"]
             self.assertEqual(len(caps), 1, f"{c.slug} capstones {caps}")
+
+
+class Phase3FixTests(unittest.TestCase):
+    def test_crafted_only_items_need_a_recipe(self):
+        ch = chapter(quests=[quest(slug="net", tasks=[item("theatrical:artnet_interface")])])
+        errors = check([ch], known_items={"theatrical:artnet_interface", "minecraft:book"},
+                       crafted_only=({"theatrical"}, {"theatrical:moving_light"}))
+        self.assertTrue(any("net" in e and "artnet_interface" in e and "recipe" in e for e in errors))
+
+    def test_artnet_interface_has_pack_recipe(self):
+        import json as _j
+        p = Path(__file__).resolve().parent.parent.parent / "world/datapacks/theatre-fixes/data/theatrical/recipes/artnet_interface.json"
+        self.assertTrue(p.exists())
+        self.assertEqual(_j.loads(p.read_text())["result"]["item"], "theatrical:artnet_interface")
+
+    def act(self, slug):
+        return chapter_by_slug(slug)
+
+    def capstone(self, slug):
+        return next(q for q in self.act(slug).quests if q.shape == "gear")
+
+    def ids(self, q):
+        return {t.fields.get("item") or t.fields.get("block") for t in q.tasks}
+
+    def test_no_antimatter_grind(self):
+        for q in self.act("act5_opening_night").quests:
+            self.assertNotIn("mekanism:pellet_antimatter", self.ids(q), q.slug)
+        self.assertIn("mekanism:sps_port", self.ids(self.capstone("act5_opening_night")))
+
+    def test_nitro_reactor_observed_not_held(self):
+        q = next(q for q in self.act("act4_dress_rehearsal").quests if q.slug == "nitro_reactor")
+        self.assertEqual([t.type for t in q.tasks], ["observation"])
+
+    def test_acts_cover_spec(self):
+        self.assertIn("create:mechanical_crafter", self.ids(self.capstone("act4_dress_rehearsal")))
+        self.assertIn("mekanism:chemical_injection_chamber", self.ids(self.capstone("act3_tech_week")))
+        self.assertIn("evenmoreinstruments:keyboard", self.ids(self.capstone("act5_opening_night")))
+
+    def test_glacio_icon_and_automation_claim(self):
+        q = next(q for q in self.act("act5_opening_night").quests if q.slug == "touring")
+        self.assertEqual(q.icon, "ad_astra:tier_4_rocket")
+        self.assertNotIn("Nobody hand-crafts", quest_text("act3_tech_week", "all_systems"))

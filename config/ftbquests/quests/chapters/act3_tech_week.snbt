@@ -94,7 +94,7 @@
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Three automated lines at once: 16 ultimate control circuits, 32 advanced Refined Storage processors and 32 precision mechanisms. Nobody hand-crafts this much."
+				"Production at scale: 16 ultimate control circuits, 32 advanced Refined Storage processors and 32 precision mechanisms, with a 4x Mekanism ore line feeding it. Look at your Chemical Injection Chamber."
 			]
 			shape: "gear"
 			size: 1.5d
@@ -119,6 +119,13 @@
 					item: "create:precision_mechanism"
 					count: 32L
 					consume_items: false
+				}
+				{
+					id: "BE18179CE55DB5AE"
+					type: "observation"
+					observe_type: 0
+					to_observe: "mekanism:chemical_injection_chamber"
+					timer: 0L
 				}
 			]
 			rewards: [
