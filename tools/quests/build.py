@@ -46,6 +46,11 @@ def _snbt(value, indent=0):
     raise TypeError(f"cannot write {type(value).__name__} as SNBT")
 
 
+def text(s: str) -> str:
+    """FTB Quests treats & as a formatting code; write a literal & as \\& (the SNBT writer doubles the backslash)."""
+    return s.replace("&", "\\&")
+
+
 def group_id(group: str) -> str:
     return stable_id("group", group)
 
@@ -87,11 +92,11 @@ def chapter_snbt(ch: Chapter) -> dict:
     for q in ch.quests:
         qd = {
             "id": stable_id(ch.slug, q.slug),
-            "title": q.title,
+            "title": text(q.title),
             "icon": q.icon,
             "x": Double(q.x),
             "y": Double(q.y),
-            "description": list(q.description),
+            "description": [text(d) for d in q.description],
         }
         if q.shape:
             qd["shape"] = q.shape
@@ -108,7 +113,7 @@ def chapter_snbt(ch: Chapter) -> dict:
         "group": group_id(ch.group),
         "order_index": ch.order,
         "filename": ch.slug,
-        "title": ch.title,
+        "title": text(ch.title),
         "icon": ch.icon,
         "default_quest_shape": "",
         "default_hide_dependency_lines": False,
@@ -141,7 +146,7 @@ def build(chapters, out_dir: Path) -> None:
         shutil.rmtree(out_dir)
     (out_dir / "chapters").mkdir(parents=True)
     (out_dir / "data.snbt").write_text(_snbt(DATA) + "\n")
-    groups = {"chapter_groups": [{"id": group_id(g), "title": t} for g, t in GROUPS]}
+    groups = {"chapter_groups": [{"id": group_id(g), "title": text(t)} for g, t in GROUPS]}
     (out_dir / "chapter_groups.snbt").write_text(_snbt(groups) + "\n")
     for ch in chapters:
         (out_dir / "chapters" / f"{ch.slug}.snbt").write_text(_snbt(chapter_snbt(ch)) + "\n")

@@ -3,7 +3,7 @@
 	group: "1C43C1CF239BCC21"
 	order_index: 11
 	filename: "useful_items"
-	title: "Useful Items & Tips"
+	title: "Useful Items \\& Tips"
 	icon: "justdirethings:eclipsealloy_pickaxe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

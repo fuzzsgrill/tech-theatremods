@@ -3,7 +3,7 @@
 	group: "1C43C1CF239BCC21"
 	order_index: 1
 	filename: "sound_music"
-	title: "Sound & Music"
+	title: "Sound \\& Music"
 	icon: "evenmoreinstruments:keyboard"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

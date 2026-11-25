@@ -3,7 +3,7 @@
 	group: "1C43C1CF239BCC21"
 	order_index: 2
 	filename: "stage_set"
-	title: "Stage & Set"
+	title: "Stage \\& Set"
 	icon: "create:mechanical_bearing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

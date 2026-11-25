@@ -282,3 +282,16 @@ class BigFinishTests(unittest.TestCase):
         observed = {t.fields.get("block") for t in q.tasks if t.type == "observation"}
         self.assertIn("theatricalextralights:flame_thrower", observed)
         self.assertIn("theatricalextralights:firework_rgb_launcher", observed)
+
+
+class FormattingTests(unittest.TestCase):
+    def test_ampersand_escaped_in_text(self):
+        # FTB Quests reads & as a formatting code; a literal & must be written \& (\\& inside SNBT).
+        ch = Chapter(slug="amp", title="Sound & Music", group="departments", icon="minecraft:book", order=0,
+                     quests=[Quest(slug="q", title="Q & A", description=["Lights & sound."], icon="minecraft:book",
+                                   x=0.0, y=0.0, tasks=[item("minecraft:stone")])])
+        text = built_text(ch)
+        self.assertIn('title: "Sound \\\\& Music"', text)
+        self.assertIn('title: "Q \\\\& A"', text)
+        self.assertIn('"Lights \\\\& sound."', text)
+        self.assertNotRegex(text, r'[^\\]& ')

@@ -3,7 +3,7 @@
 	group: "1C43C1CF239BCC21"
 	order_index: 3
 	filename: "projection_control"
-	title: "Projection & Control"
+	title: "Projection \\& Control"
 	icon: "webdisplays:screen"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

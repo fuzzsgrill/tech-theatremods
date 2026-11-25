@@ -3,7 +3,7 @@
 	group: "1C43C1CF239BCC21"
 	order_index: 10
 	filename: "exploration_gear"
-	title: "Exploration & Gear"
+	title: "Exploration \\& Gear"
 	icon: "ad_astra:tier_1_rocket"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
